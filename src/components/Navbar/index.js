@@ -42,7 +42,7 @@ return(
             <li><NavLink to = "/About" className={"navlinks nav-link "} >ABOUT </NavLink></li>            
             <li><NavLink to = "/Cakes" className={"navlinks nav-link "}>CAKES </NavLink></li>
             <li><NavLink to = "/Viennoiseries" className={"navlinks nav-link "}>VIENNOISERIES </NavLink></li>
-            <li><NavLink to = "/PoundCakes" className={"navlinks nav-link "}>TRAVEL CAKES </NavLink></li>
+            <li><NavLink to = "/PoundCakes" className={"navlinks nav-link "}>TRAVELCAKES </NavLink></li>
             <li><NavLink to = "/Drinks" className={"navlinks nav-link "}>DRINKS </NavLink></li>
             <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATIONS </NavLink></li>
             </ul>

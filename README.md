@@ -41,42 +41,33 @@ Official Duo Patisserie & Cafe website (pending custom domain name)
 
 ![](screenshot/6.png)   
 
-
-![](screenshot/7.png)   
-
-
-![](screenshot/8.png)   
-
 --- 
 
 ### Features
 
 --- 
- Upon clicking the 'Apply Here' icon
+ Upon clicking the 'Apply Here' icon, the user's default email application will open to display the following email.
 
-![](screenshot/9.png)   
 
-The user's default email application will open to display the following email.
+![](screenshot/7.png)   
 
-![](screenshot/9.png)  
-![](screenshot/9-2.png)  
-![](screenshot/9-3.png)  
-
+--- 
 
 The following icons redirects to the business' corresponding social media account.
 
-![](screenshot/10.png)   
+![](screenshot/8.png)   
 
+--- 
 
 Upon clicking/tapping the phone number, the user's device will automatically be redirected so the user may make a phone call. 
 
-![](screenshot/11.png)   
-![](screenshot/11-2.png)   
+![](screenshot/9.png)   
 
+--- 
 
 Upon clicking/tapping the 'Directions' link, the user's device will automatically be redirected to Google Maps for navigation. 
 
-![](screenshot/12.png)   
+![](screenshot/10.png)   
 
 ---
 ## Authors
