@@ -22,7 +22,7 @@ function App() {
     <div className="App"> 
       <BrowserRouter>        
           <div className="justify-content-md-center">
-            <Route exact path="/" component={Splash} />
+            <Route exact path="/duo" component={Splash} />
             <Navbar />
             <ScrollToTop>
             <Route exact path="/About" component={About} />

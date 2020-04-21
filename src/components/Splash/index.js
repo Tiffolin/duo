@@ -16,7 +16,7 @@ function Splash() {
         <div id="splashpage" class="justify-content-center container-fluid">
             <Row>
                 <Col lg={8}>
-                    <NavLink to = "/">
+                    <NavLink to = "/duo">
                         <div id="logo" class="justify-content-center">
                             <img id="logoimg" alt="logo" src={logo2} className="img-fluid"/>
                         </div>
