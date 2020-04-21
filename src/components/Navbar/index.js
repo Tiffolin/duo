@@ -31,7 +31,7 @@ return(
 
 <div className={this.state.scrolled ? "nav scrolled" : "nav"}>
     <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
-        <NavLink to = "/" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink>
+        <NavLink to = "/duo" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>

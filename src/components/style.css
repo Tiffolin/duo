@@ -30,6 +30,7 @@ a:hover {
     flex-direction: column; 
     height: 100%;
     width:100vw;
+    padding:0;
     text-align:center;
     background:white;   
     overflow:hidden;
@@ -47,6 +48,7 @@ a:hover {
     transition:0.25s;
     background:white;
     text-align: left;
+    margin-bottom:25px;
 }
 #logoimg{
     padding-top:20px;
@@ -72,7 +74,7 @@ a:hover {
     margin:-20px;
 }
 #magicCarousel{
-    margin-top:20px !important;
+    margin:0 !important;
     /* margin-bottom:0px !important;
     margin-left:0px !important;
     margin-right:0px !important; */
@@ -154,6 +156,9 @@ a:hover {
     padding-bottom:20px;
     display:block;
     width:100%;
+}
+div{
+    padding:0;
 }
 /*NAVIGATION
 /////////////////////////////////////////////////////////*/
@@ -635,29 +640,74 @@ iframe{
 
 #splashpage{ 
     width:100%;
+    height:100vh;
 }
 #logo{
+    position:relative;
+    top:-150px;
     text-align: center;
+    margin-bottom:25px;
 }
 #logoimg{
     margin-left:0;
 }
 #splashNum{
+    position:relative;
+    top:-130px;
     font-size:18px;
 }
+#magicCarousel{
+    position:absolute;
+    bottom:0;
+}
+.slides{  /*Slide Images*/
+    /* height:30vh; */
+    width:180%;
+}
 .carousel-caption { /*View the Products buttom*/
-    bottom:37%;
-    padding: 10px;
+    bottom:75%;
+    z-index:5;
+    padding-top:20px;
+    padding-bottom:25px;
     width:45%;
+    height:20%;
     font-size:2.2vh;
 }
 /***********Universal styling*********/
 .pageTitle{ 
     margin-top:15%;
 }
+.nav{ /*Navigation bar*/
+    width:100vw;
+    transition:0.25s;
+    z-index:10;
+    background:transparent;
+    color: black;
+    text-align: center;
+    font-family:font1;
+    font-size: 14px;
+    height: 60px;
+    box-shadow: none;
+}
+.scrolled{  /*ensures the navigation bar stays fixed upon scrolling*/
+    position:fixed;
+    top:0px;
+    z-index:20;
+    padding:20px;
+    box-shadow: 0 0 5px grey;
+}
 /***********About*********/
+#about{
+    padding:25px;
+    margin-left:35px;
+    margin-right:35px;
+    text-align:left;
+}
+.aboutinfo{
+    text-align:left;
+}
 .quotes{
-    margin-top:0;
+    margin-top:60px;
 }
 /***********Product containers*********/
 .menuBox{
