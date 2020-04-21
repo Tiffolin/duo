@@ -16,13 +16,13 @@ import chestnut from "./poundCakeImg/chestnut.png";
 import fruit from "./poundCakeImg/fruit.png";
 
 
-function Whole() {
+function PoundCake() {
     return (
         <div>
             <Order />
 
-        <div id="whole" className=" row sections justify-content-md-center">
-        <p className="pageTitle">Travel Cake</p>
+        <div id="poundCake" className="row sections justify-content-md-center">
+        <p className="pageTitle">Travel Cakes</p>
   
         <div className="pCakeContainer">
                 <img src={peacan} className="cakeImg img-fluid" alt="..."></img>
@@ -180,4 +180,4 @@ function Whole() {
     )
 }
 
-export default Whole;
+export default PoundCake;
