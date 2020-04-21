@@ -1,0 +1,722 @@
+@font-face {
+    font-family: 'font1';
+    src: local('font1'), url(../fonts/NoahLight.ttf) format('truetype');
+  }
+@font-face {
+    font-family: 'font2';
+    src: local('font2'), url(../fonts/gabrielastencil-light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'font2Bold';
+    src: local('font2Bold'), url(../fonts/latinotype-gabriela-stencil-bold.ttf) format('truetype');
+  }
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0px;
+    border:0px;
+} 
+html,body{
+    height:100%; 
+    /* overflow-x: hidden; */
+}
+a:hover {
+    text-decoration:none;
+}
+/*SPLASH PAGE
+/////////////////////////////////////////////////////////*/
+#splashpage{ 
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    width:100vw;
+    text-align:center;
+    background:white;   
+    overflow:hidden;
+    }
+/*#logo{ /*div wrapped around the logo's image
+    height:10vh;
+    margin:0;
+}
+#logoimg{ /*Large logo on top of the page
+    padding-top:30px;
+    height:100%;
+}*/
+#logo{
+    height:15vh;
+    transition:0.25s;
+    background:white;
+    text-align: left;
+}
+#logoimg{
+    padding-top:20px;
+    padding-bottom:0;
+    margin-left:16%;
+    height:100%;
+}
+#splashNum{
+    padding:40px;
+    padding-bottom:0;
+    font-family:font1;
+    font-size:20px;
+}
+#splashNum a{
+    color:grey;
+}
+#splashNum:hover{
+    color:black;
+    transform: scale(1.1);
+}
+.carousel { /*carousel wrapper*/
+    overflow:hidden; 
+    margin:-20px;
+}
+#magicCarousel{
+    margin-top:20px !important;
+    /* margin-bottom:0px !important;
+    margin-left:0px !important;
+    margin-right:0px !important; */
+}
+.slides{  /*Slide Images*/
+    width:100vw;
+    overflow: hidden;
+}
+.carousel-inner{ /*carousel slider*/
+    flex: 1; 
+}
+.carousel-caption { /*View the Products buttom*/
+    position: absolute;
+    bottom:50%;
+    background:white;
+    border:2px solid rgba(0,0,0,0.3);
+    color:rgba(0,0,0,0.4);
+    box-shadow:  0 0 8px  grey;
+    padding: auto;
+    width:20%;
+    text-align:center;
+    font-family:font2;
+    font-size:3.1vh;
+    z-index:3;
+}
+.carousel-caption:hover{ /*View the Products buttom hover effect*/
+    background: rgba(0,0,0,0.3);
+    border:2px solid white;
+    color:white;
+    box-shadow:  0 0 5px  white;
+}
+.carousel-control-prev,   /*the front & back arrows of the slideshow*/
+    .carousel-control-next {
+    width: 8%;
+}
+.captionInverted { /*View the Products buttom : INVERTED*/
+    padding: 15px 10px;
+    width:200px;
+    text-decoration:bold;
+    background:white;
+    border:2px solid rgba(0,0,0,0.3);
+    color:rgba(0,0,0,0.4);
+    box-shadow:  0 0 8px  grey;
+}
+.captionInverted:hover{ /*View the Products buttom hover effect : INVERTED*/
+    background: rgba(0,0,0,0.3);
+    border:2px solid white;
+    color:white;
+    box-shadow:  0 0 5px  white;
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/*UNIVERSAL STYLING
+/////////////////////////////////////////////////////////*/
+.sections{  /*wrapper around all the component contents */
+    margin-top:5%;
+    padding-top:3%;
+    margin-bottom:10%;
+    text-align:center;
+}
+.pageTitle{ 
+    color:grey;
+    text-align: center;
+    font-family: font1;
+    font-size: 25px;
+    padding-bottom:20px;
+    display:block;
+    width:100%;
+}
+/*NAVIGATION
+/////////////////////////////////////////////////////////*/
+.scrolled{  /*ensures the navigation bar stays fixed upon scrolling*/
+    position:fixed;
+    top:0px;
+    z-index:20;
+}
+.nav{ /*Navigation bar*/
+    width:100vw;
+    transition:0.25s;
+    z-index:10;
+    background:white;
+    color: black;
+    text-align: center;
+    font-family:font1;
+    font-size: 14px;
+    height: 60px;
+    box-shadow: 0 0 5px grey;
+}
+.navbar{
+    width:100%;
+    text-align:center;
+    box-shadow: 0 0 5px grey;
+    z-index: 10;
+}
+.navlinks{ /*navigation link texts*/
+    color:grey;
+    padding-right:20px;
+}
+.navlinks:hover{
+    color:black;
+    transform: scale(1.1);
+}
+.nav-link{ /*navigation link texts in Hamburger bar (responsive)*/
+    text-align:justify;
+    margin-left:5%;
+}
+.navbar-brand{
+    margin-left:10%;
+    margin-right:20%;
+}
+#logo2{ /*logo on navigation bar*/
+    height:50px;
+    position:relative;
+}
+#logo2:hover{
+    transform: scale(1.1);
+}
+/*ABOUT PAGE
+/////////////////////////////////////////////////////////*/
+#about{
+    padding:25px;
+    margin-left:35px;
+    margin-right:35px;
+    text-align:justify;
+}
+.aboutinfo{
+    color:darkgrey;
+    text-align:justify;
+    font-family:font1;
+    font-size:18px;
+    padding:0;
+}
+.info{
+    margin-top:10%;
+}
+.quotes{
+    margin-top:45%;
+   font-style: italic;
+   font-family:font1;
+   font-size:14px;
+   padding:0;
+}
+/*ORDERS
+/////////////////////////////////////////////////////////*/
+#order{
+    text-align:center;
+    margin:0;
+    margin-top:5%;
+    border:0;
+    padding:20px;
+    width:100vw;
+}
+#placeOrder{
+    padding-bottom:0;
+    color:black;
+    font-size:16px;
+    font-family:font1;
+}
+.orderSub{
+    margin:0;
+    border:0;
+    padding:0;
+    color:grey;
+    font-size:12px;
+    font-family:font1;
+}
+/*BACK BUTTON TO MAIN MENU
+/////////////////////////////////////////////////////////*/
+#backBtnWrapper{
+    margin-bottom:5%;
+}
+#backBtn{
+    text-align: center;
+    font-family: font2;
+    font-size: 18px;
+    width:200px;
+    padding:5px;
+    text-decoration:bold;
+    z-index:1;
+    background:white;
+    /* color:rgba(0,0,0,0.4); */
+    color:grey;
+    box-shadow:  0 0 8px  grey;
+}
+#backBtn:hover{
+    background: rgba(0,0,0,0.3);
+    border:2px solid white;
+    color:white;
+    box-shadow:  0 0 5px  white;
+}
+/*LOCATION & HOURS
+/////////////////////////////////////////////////////////*/
+#location{
+    width:100%;
+    font-family:font1;
+}
+#hoursMapWrapper{
+    float:left;
+    padding:auto;
+    border:auto;
+    color:grey;
+}
+.mapWrapper{
+    height:30vw;
+}
+.days{
+    margin-bottom:10%;
+    padding:40px;
+}
+.hours{
+    padding:40px;
+}
+.days p{
+    margin:0;
+    margin-left:25%;
+    text-align:left;
+    color:grey;
+}
+.hours p{
+    margin:0;
+    margin-left:20%;
+    text-align:justify;
+    color:grey;
+}
+iframe{
+    width:100%;
+    height:100%;
+}
+/*FOOTER
+/////////////////////////////////////////////////////////*/
+#footer{
+    float:left;
+    width:100vw;
+    z-index: 1;
+    padding:auto;
+    /* border-top:solid 1px rgba(0,0,0,0.4); */
+    /* box-shadow: 0 0 5px #F9F0EC; */  
+}
+#footer a{
+    color:grey;
+}
+.footerDivider{
+    padding:20px;
+    border-top:solid 1px rgba(0,0,0,0.2);
+}
+.footerSub{
+    color:grey;
+    padding:5px;
+    margin:auto;
+    font-family:font1;
+    font-size:14px;
+}
+.nosolicitations{
+    font-style:italic;
+    font-family:font1;
+    padding:20px;
+    text-align:center;
+}
+.emailImg{
+    height:70px;
+    padding:5px;
+    /* box-shadow:  0 0 0.5px grey; */
+    transition: transform 0.5s; /* Animation */
+}
+.emailImg:hover{
+    opacity:0.6;
+    transform: scale(1.1);
+}
+#snsContainer{
+    text-align:center;
+    margin-bottom:5%;
+}
+.snsImg{
+    height:60px;
+    padding:5px;
+    transition: transform 0.5s; /* Animation */
+}
+.snsImg:hover{
+    opacity:0.6;
+    transform: scale(1.2);
+}
+#footerAddress{
+    color:darkgrey;
+    font-size:14px;
+    font-family:font1;
+}
+.footerAddressSub{
+    margin-top:0;
+    margin-bottom:0;
+}
+#copyright{ /*Wrapper for Duo copyright & developer link*/
+    margin-top:10%;
+    padding:auto;
+    font-size:14px;
+    font-family:font1;
+}
+#developer{ /*Developer link*/
+    margin:0;
+    font-size:12px;
+    font-family:font1;
+}
+#paymenImg{
+    margin-top:2%;
+    margin-bottom:2%;
+    height:35px;
+    text-align:left;
+}
+/*MAIN MENU
+/////////////////////////////////////////////////////////*/
+#main{
+    float:none;
+    padding:5px;
+    text-align:center;
+}
+.menuBox{
+    float:left;
+    margin:1%;
+}
+.menuContainer{
+    text-align:center;
+    height:400px;
+    width:320px;
+    box-shadow:  0 0 1px  darkgrey;
+    overflow:hidden;
+}
+.menuImg {
+    width: 100%;
+    height: 100%;
+    border:1px solid #F9F0EC;
+    transition: transform 3s; /* Animation */
+}
+.menuImg:hover{
+    transform: scale(1.2);
+    opacity:0.2;
+}
+.menuHover{ /*the div under the img, which will show when img turns opague (on:hover). Wraps around proudctName, cakeDescription & allergy*/
+    position:relative;
+    top:-95%;
+    padding:auto;
+    margin:auto;
+    border:auto;
+    font-family: font1;
+    font-size: 16px;
+    z-index:-5;
+}
+.menuHover:hover{ /*shows cake info upon hover*/
+    z-index:5;
+    opacity:1
+}
+.menuName{
+    text-align:center;
+    font-family:font1;
+    font-size: 18px;
+    color:black
+}
+/*CAKES & TRAVEL CAKES
+/////////////////////////////////////////////////////////*/
+#single{
+    float:none;
+    padding:5px;
+    text-align:center;
+}
+#whole{
+    float:none;
+    padding:5px;
+    text-align:center;
+}
+.cakeContainer{
+    float:left;
+    margin:1%;
+    text-align:center;
+    height:380px;
+    width:300px;
+    box-shadow:  0 0 1px  darkgrey;
+    overflow:hidden;
+}
+.pCakeContainer{
+    float:left;
+    margin:1%;
+    text-align:center;
+    height:350px;
+    width:270px;
+    box-shadow:  0 0 1px  darkgrey;
+    overflow:hidden;
+}
+.cakeImg {
+    width: 100%;
+    height: 100%;
+    border:1px solid #F9F0EC;
+    transition: transform 3s; /* Animation */
+}
+.cakeImg:hover{
+    transform: scale(1.2);
+    opacity:0.2;
+}
+.cakeHover{ /*the div under the img, which will show when img turns opague (on:hover). Wraps around proudctName, cakeDescription & allergy*/
+    position:relative;
+    top:-95%;
+    padding:auto;
+    margin:auto;
+    border:auto;
+    font-family: font1;
+    font-size: 16px;
+    z-index:-5;
+}
+.cakeHover:hover{ /*shows cake info upon hover*/
+    z-index:5;
+    opacity:1
+}
+.productName{
+    width:40%;
+    padding-left:10px;
+    font-family:font1;
+    font-size:18px;
+    margin-bottom:30px;
+}
+.productName p{
+    margin:0;
+}
+.cakeSize{
+    font-size:10px;
+}
+
+.cakeDescription{ /*individual, whole & poundcakes: div wrapped around ingredients*/
+    float:right;
+    width:55%;
+    padding-right:10px;
+    text-align:right;
+    color:black;
+    font-family: font1;
+    font-size: 11px;
+}
+.cakeDescription p{ /*individual, whole & poundcakes: the ingredients*/
+    margin:0;
+    padding:0;
+}
+.allergy{ /*individual, whole & poundcakes: container of allergent icon*/
+    position:relative;
+    width:50%;
+    margin:0;
+    margin-top:-5%;
+    border:0;
+    padding:0;
+}
+.allergents{ /*individual, whole & poundcakes:allerget icons*/
+    /* height:50px; */
+    border:0;
+    padding:2px;
+    padding-top:12px;
+    margin:0;
+}
+
+/*VIENNOISERIES 
+/////////////////////////////////////////////////////////*/
+#viennoiseries{
+    float:none;
+}
+.pastryContainer{
+    float:left;
+    margin:1%;
+    text-align:center;
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    box-shadow:  0 0 1px  grey;
+}
+.pastryImg {
+    width: 100%;
+    height: 100%;
+    border:1px solid #F9F0EC;
+    transition: transform 3s; /* Animation */
+    /* box-shadow:  0 0 5px  grey; */
+}
+.pastryImg:hover{
+    transform: scale(1.2);
+    opacity:0.2;
+}
+.pastryHover{
+    position:relative;
+    top:-90%;
+    padding:auto;
+    margin:auto;
+    border:auto;
+    font-family: font1;
+    font-size: 12px;
+    z-index:-5;
+    /* border:1px solid #F9F0EC; */
+    transition: transform 3s; /* Animation */
+}
+.pastryHover:hover{
+    transform: scale(1.2);
+    z-index:5;
+    opacity:0.8;
+}
+.pastryName{
+    width:40%;
+    padding-left:10px;
+    font-family:font1;
+    font-size:14px;
+    /* margin-bottom:30px; */
+}
+.pastryDescription{
+    color:black;
+    font-family: font1;
+    font-size: 10px;
+    width:100%;
+}
+
+/*DRINKS
+/////////////////////////////////////////////////////////*/
+#drinks{
+    width:100%;
+    font-family:font1;
+
+}
+.drinksContainer{
+    float:left;
+    padding:auto;
+    width:40%;
+}
+.linedown{
+    border-right:solid 0.2px darkgrey;
+}
+.drinkName{
+    margin-bottom:10%;
+}
+.drinkName p{
+    margin:0;
+    margin-left:25%;
+    text-align:left;
+}
+.drinkName span{
+    margin:0;
+}
+.temp p{
+    margin:0;
+    margin-left:20%;
+    text-align:justify;
+}
+.caffeineFree{
+    height:20px;
+    margin-left:10px;
+}
+
+@media only screen and (max-width: 768px) { 
+/***********Splash Page*********/
+
+#splashpage{ 
+    width:100%;
+}
+#logo{
+    text-align: center;
+}
+#logoimg{
+    margin-left:0;
+}
+#splashNum{
+    font-size:18px;
+}
+.carousel-caption { /*View the Products buttom*/
+    bottom:37%;
+    padding: 10px;
+    width:45%;
+    font-size:2.2vh;
+}
+/***********Universal styling*********/
+.pageTitle{ 
+    margin-top:15%;
+}
+/***********About*********/
+.quotes{
+    margin-top:0;
+}
+/***********Product containers*********/
+.menuBox{
+    float:left;
+    margin:auto;
+    margin-bottom:20px;
+}
+.cakeContainer{
+    float:left;
+    margin:auto;
+    margin-bottom:20px;
+}
+/***********Drinks*********/
+.drinksContainer{
+    float:left;
+    padding:auto;
+    width:100%;
+}
+.linedown{
+    border-right:solid 0.2px white;
+}
+.drinkName{
+    width:80%;
+}
+.drinkName p{
+    margin:0;
+    margin-left:20%;
+    text-align:left;
+}
+.drinkName span{
+    margin:0;
+}
+.temp{
+    width:10%;
+    padding-left:0;
+    padding-right:25px;
+}
+.temp p{
+    margin-left:0%;
+    text-align:left;
+}
+/***********Location&Hours*********/
+.days{
+    margin-bottom:10%;
+    width:50%;
+}
+.hours{
+    width:50%;
+
+}
+.days p{
+    margin:0;
+    text-align:justify;
+}
+.hours p{
+    margin:0;
+    text-align:justify;
+}
+.mapWrapper{
+    height:90vw;
+}
+}

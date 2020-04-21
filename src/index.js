@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './fonts/latinotype-gabriela-stencil-bold.ttf';
+import './fonts/gabrielastencil-light.ttf';
+import './fonts/NoahLight.ttf';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
