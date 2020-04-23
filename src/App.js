@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import {BrowserRouter, Route} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop"; 
 import Splash from "./components/Splash";
@@ -17,8 +17,10 @@ import Footer from "./components/Footer";
 
 import './App.css';
 
-function App() {
-  return (
+class App extends Component { 
+
+  render() {
+    return (
     <div className="App"> 
       <BrowserRouter>        
           <div className="justify-content-md-center">
@@ -43,6 +45,7 @@ function App() {
 
     </div>
   );
+}
 }
 
 

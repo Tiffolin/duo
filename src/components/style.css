@@ -23,8 +23,13 @@ html,body
 a:hover {
     text-decoration:none;
 }
+
+
 /*SPLASH PAGE
 /////////////////////////////////////////////////////////*/
+.alert{
+    font-size:14px;
+}
 #splashpage{ 
     display: flex;
     flex-direction: column; 

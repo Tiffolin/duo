@@ -1,4 +1,5 @@
-import React from "react";
+import React, {Component}  from "react";
+import {Alert} from 'reactstrap';
 import {NavLink} from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -10,10 +11,26 @@ import slide3 from "./3.png";
 import slide4 from "./4.png";
 import "../style.css";
 
-function Splash() {
+class Splash extends Component { 
+    state = {
+      visible:true
+    }
+    toggle(){
+      this.setState({
+        visible:!this.state.visible
+      });
+    }
+    
+render() {
     return (
         <div >
+        <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}>
+            <span className="alert">Due to the COVID-19 outbreak, Duo has implemented a "Take-out only" model.</span><br></br>
+            <span className="alert">We request customers with reservations to pick up their orders prior to 4pm. Operational hours may be reduced as we continue to monitor the situation</span><br></br>
+
+        </Alert>
         <div id="splashpage" class="justify-content-center container-fluid">
+
             <Row>
                 <Col lg={8}>
                     <NavLink to = "/duo">
@@ -30,7 +47,7 @@ function Splash() {
             
             {/* <!--    Carousel Slider    --> */}
                 <div className="carousel-inner" role="listbox">
-                    
+
                         <NavLink to = "/Main"  className="carousel-caption container-fluid fade-in">
                             <span>VIEW PRODUCTS</span>
                         </NavLink>
@@ -67,6 +84,7 @@ function Splash() {
         
         </div>
     )
+}
 }
 
 export default Splash;
