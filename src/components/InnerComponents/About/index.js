@@ -17,7 +17,7 @@ function About() {
                         <p className="info col-12 aboutinfo">
                             <p>Duo pâtisserie is a French inspired café with a Japanese twist that specializes in viennoiseries, cakes and chocolates</p>
                             <br></br>
-                            <p>The business aims to serve decadent French classics satisfy all your sweet cravings.</p>
+                            <p>The business aims to serve decadent French classics to satisfy all your sweet cravings.</p>
        
  
                            <div className="quotes">

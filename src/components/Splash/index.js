@@ -30,8 +30,9 @@ function Splash() {
             
             {/* <!--    Carousel Slider    --> */}
                 <div className="carousel-inner" role="listbox">
-                        <NavLink to = "/Main" >
-                            <div className="carousel-caption container-fluid fade-in">VIEW PRODUCTS </div>
+                    
+                        <NavLink to = "/Main"  className="carousel-caption container-fluid fade-in">
+                            <span>VIEW PRODUCTS</span>
                         </NavLink>
 
                     <div className="carousel-item active">

@@ -79,9 +79,9 @@ function Whole() {
                     </div>                  
                     <div className="cakeDescription">
                         <p>Toasted white chocolate</p>
-                        <p>Expreso mousse</p>
+                        <p>Espresso mousse</p>
                         <p>White chocolate supreme</p>
-                        <p>Chocolate flourless biscuit</p>
+                        <p>Chocolate flour-less biscuit</p>
                     </div>
                     <div className="allergy">
                         <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>

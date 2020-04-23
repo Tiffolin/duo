@@ -10,15 +10,15 @@
     font-family: 'font2Bold';
     src: local('font2Bold'), url(../fonts/latinotype-gabriela-stencil-bold.ttf) format('truetype');
   }
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0px;
+
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     border:0px;
-} 
-html,body{
-    height:100%; 
-    /* overflow-x: hidden; */
+    overflow-x: hidden; 
 }
 a:hover {
     text-decoration:none;
@@ -35,14 +35,6 @@ a:hover {
     background:white;   
     overflow:hidden;
     }
-/*#logo{ /*div wrapped around the logo's image
-    height:10vh;
-    margin:0;
-}
-#logoimg{ /*Large logo on top of the page
-    padding-top:30px;
-    height:100%;
-}*/
 #logo{
     height:15vh;
     transition:0.25s;
@@ -75,9 +67,6 @@ a:hover {
 }
 #magicCarousel{
     margin:0 !important;
-    /* margin-bottom:0px !important;
-    margin-left:0px !important;
-    margin-right:0px !important; */
 }
 .slides{  /*Slide Images*/
     width:100vw;
@@ -86,7 +75,7 @@ a:hover {
 .carousel-inner{ /*carousel slider*/
     flex: 1; 
 }
-.carousel-caption { /*View the Products buttom*/
+.carousel-caption { /*View the Products button*/
     position: absolute;
     bottom:50%;
     background:white;
@@ -94,13 +83,14 @@ a:hover {
     color:rgba(0,0,0,0.4);
     box-shadow:  0 0 8px  grey;
     padding: auto;
-    width:20%;
     text-align:center;
     font-family:font2;
-    font-size:3.1vh;
+    font-size:20px;
+    width:300px;
     z-index:3;
 }
-.carousel-caption:hover{ /*View the Products buttom hover effect*/
+
+.carousel-caption:hover{ /*View the Products button hover effect*/
     background: rgba(0,0,0,0.3);
     border:2px solid white;
     color:white;
@@ -110,7 +100,7 @@ a:hover {
     .carousel-control-next {
     width: 8%;
 }
-.captionInverted { /*View the Products buttom : INVERTED*/
+.captionInverted { /*View the Products button : INVERTED*/
     padding: 15px 10px;
     width:200px;
     text-decoration:bold;
@@ -171,13 +161,12 @@ div{
     width:100vw;
     transition:0.25s;
     z-index:10;
-    background:white;
     color: black;
     text-align: center;
     font-family:font1;
     font-size: 14px;
     height: 60px;
-    box-shadow: 0 0 5px grey;
+
 }
 .navbar{
     width:100%;
@@ -352,7 +341,6 @@ iframe{
 .emailImg{
     height:70px;
     padding:5px;
-    /* box-shadow:  0 0 0.5px grey; */
     transition: transform 0.5s; /* Animation */
 }
 .emailImg:hover{
@@ -426,7 +414,7 @@ iframe{
     transform: scale(1.2);
     opacity:0.2;
 }
-.menuHover{ /*the div under the img, which will show when img turns opague (on:hover). Wraps around proudctName, cakeDescription & allergy*/
+.menuHover{ /*the div under the img, which will show when img turns opaque (on:hover). Wraps around proudctName, cakeDescription & allergy*/
     position:relative;
     top:-95%;
     padding:auto;
@@ -491,7 +479,7 @@ iframe{
     transform: scale(1.2);
     opacity:0.2;
 }
-.cakeHover{ /*the div under the img, which will show when img turns opague (on:hover). Wraps around proudctName, cakeDescription & allergy*/
+.cakeHover{ /*the div under the img, which will show when img turns opaque (on:hover). Wraps around proudctName, cakeDescription & allergy*/
     position:relative;
     top:-95%;
     padding:auto;
@@ -595,7 +583,6 @@ iframe{
     padding-left:10px;
     font-family:font1;
     font-size:14px;
-    /* margin-bottom:30px; */
 }
 .pastryDescription{
     color:black;
@@ -644,11 +631,10 @@ iframe{
 @media only screen and (max-width: 1366px) { 
 
 }
-/*MOBILE
+/*MOBILE (Portrait)
 /////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 768px) { 
 /***********Splash Page*********/
-
 #splashpage{ 
     width:100%;
     height:100vh;
@@ -657,10 +643,11 @@ iframe{
     position:relative;
     top:-150px;
     text-align: center;
-    margin-bottom:25px;
+    margin-bottom:10%;
 }
 #logoimg{
     margin-left:0;
+    padding:auto;
 }
 #splashNum{
     position:relative;
@@ -672,17 +659,14 @@ iframe{
     bottom:0;
 }
 .slides{  /*Slide Images*/
-    /* height:30vh; */
     width:180%;
 }
-.carousel-caption { /*View the Products buttom*/
+.carousel-caption { /*View the Products button*/
     bottom:75%;
     z-index:5;
-    padding-top:20px;
-    padding-bottom:25px;
-    width:45%;
-    height:20%;
-    font-size:2.2vh;
+    padding: auto;
+    font-size:16px;
+    width:200px;
 }
 /***********Universal styling*********/
 .pageTitle{ 
@@ -729,6 +713,10 @@ iframe{
     float:left;
     margin:auto;
     margin-bottom:20px;
+}
+.pastryContainer{
+    height:350px;
+    width:350px;
 }
 .pCakeContainer{
     float:left;
@@ -787,3 +775,26 @@ iframe{
     height:90vw;
 }
 }
+
+/*MOBILE (Landscape)
+/////////////////////////////////////////////////////////*/
+@media only screen and (max-height: 414px) { 
+    /***********Splash Page*********/
+    #logo{
+        top:-75px;
+        height:18vh;
+    }
+    #splashNum{
+        top:-165px;
+    }
+    #magicCarousel{
+        height: 60vh ;
+    }
+    .slides{  /*Slide Images*/
+        width:100%;
+    }
+    .carousel-caption { /*View the Products button*/
+        font-size:14px;
+        width:180px;
+    }
+    }
