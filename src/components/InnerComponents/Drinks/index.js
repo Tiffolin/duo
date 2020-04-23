@@ -19,7 +19,7 @@ function Drinks() {
             <Row>
             <p className="pageTitle col-12">ESPRESSO</p>
                 <Col lg={6} className="drinkName">
-                    <p>Esspresso</p>
+                    <p>Espresso</p>
                     <p>Latte</p>
                     <p>Cappucino</p>
                     <p>Flat White</p>

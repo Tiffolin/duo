@@ -234,7 +234,7 @@ function Viennoiseries() {
                 <img src={frangipane} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
                      <span className="productName ">Frangipane</span><br></br>
-                     <span className="pastryDescription ">almond cream,cassis jam, apple compote</span>
+                     <span className="pastryDescription ">almond cream, cassis jam, apple compote</span>
                 </div>
             </div>
             <div className="pastryContainer">

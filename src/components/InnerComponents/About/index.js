@@ -15,9 +15,9 @@ function About() {
                         <br></br><br></br>
                         <p className="pageTitle col-12">ABOUT US</p>
                         <p className="info col-12 aboutinfo">
-                            <p>Voted the #1 patisserie for Croissants by the CBC, Duo Pâtisserie is a Markham-based pâtisserie that specialises in croissants, cakes and chocolates. </p>
+                            <p>Duo pâtisserie is a French inspired café with a Japanese twist that specializes in viennoiseries, cakes and chocolates</p>
                             <br></br>
-                            <p>The aims is to introduce French classics (with a hint of Japanese flavour) for people to enjoy.</p>
+                            <p>The business aims to serve decadent French classics satisfy all your sweet cravings.</p>
        
  
                            <div className="quotes">
