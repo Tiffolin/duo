@@ -37,7 +37,7 @@ function Single() {
             <div className="cakeHover row">
                 <p className="productName">MONT BLANC</p>
                 <div className="cakeDescription">
-                    <p>Chestnut vermicele with rum</p>
+                    <p>Chestnut vermicelli with rum</p>
                     <p>Vanilla Macepone</p>
                     <p>Chestnut soaked in aged rum</p>
                     <p>Almond cream</p>
@@ -73,7 +73,7 @@ function Single() {
                 <p className="productName">VIRGO</p>
                 <div className="cakeDescription">
                     <p>Honey marshmallow</p>
-                    <p>Expresso mousse</p>
+                    <p>Expreso mousse</p>
                     <p>White chocolate cream</p>
                     <p>Chocolate flourless biscuit</p>
                     <p>Coffee crème brûlée</p>
@@ -97,7 +97,7 @@ function Single() {
                 <div className="cakeDescription">
                     <p>Raspberry cream</p>
                     <p>Lychee gelee</p>
-                    <p>Lychee saoked in Soho</p>
+                    <p>Lychee soaked in Soho</p>
                     <p>Light lychee cream</p>
                     <p>shortbread crust</p>
                 </div>
@@ -156,12 +156,12 @@ function Single() {
             <img src={mixberries} className="cakeImg img-fluid" alt="..."></img>
             <div className="cakeHover row">
                 <div className="productName">
-                    <p>MIX BERRIES</p>
+                    <p>MIXED BERRIES</p>
                     <p className="cakeSize">Available as a whole cake</p>  
                 </div> 
                 <div className="cakeDescription">
                     <p>Vanilla cream</p>
-                    <p>Strawberry mamalade</p>
+                    <p>Strawberry marmalade</p>
                     <p>Almond cream</p>
                     <p>Puff pastry</p>
                 </div>
@@ -276,7 +276,7 @@ function Single() {
                     <p className="cakeSize">Available as a whole cake</p>  
                 </div> 
                 <div className="cakeDescription">
-                    <p>Chocolate mouse</p>
+                    <p>Chocolate mousse</p>
                     <p>Chocolate sponge soaked in kirsch</p>
                     <p>Cherry compote</p>
                     <p>Kirsch chantilly</p>
@@ -351,7 +351,7 @@ function Single() {
                 <p className="productName ">BABA</p>
                 <div className="cakeDescription ">
                     <p>Congnac crème brûlée</p>
-                    <p>Pouched pear</p>
+                    <p>Poached pear</p>
                     <p>Vanilla cream</p>
                     <p>Rhum Baba</p>
                     <p>Almond crumble</p>

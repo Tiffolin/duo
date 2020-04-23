@@ -74,12 +74,12 @@ function Whole() {
                 <img src={cadaeu} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
                     <div className="productName">
-                        <p>CADAUE</p>
+                        <p>CADEAU</p> 
                         <p className="cakeSize">4 serving | 8 serving</p>  
                     </div>                  
                     <div className="cakeDescription">
                         <p>Toasted white chocolate</p>
-                        <p>Expresso mousse</p>
+                        <p>Expreso mousse</p>
                         <p>White chocolate supreme</p>
                         <p>Chocolate flourless biscuit</p>
                     </div>
@@ -97,7 +97,7 @@ function Whole() {
                         <p className="cakeSize">4 serving</p>  
                     </div> 
                     <div className="cakeDescription">
-                        <p>Chocolate mouse</p>
+                        <p>Chocolate mousse</p>
                         <p>Chocolate sponge soaked in kirsch</p>
                         <p>Cherry compote</p>
                         <p>Kirsch chantilly</p>
@@ -165,7 +165,7 @@ function Whole() {
                     <div className="cakeDescription">
                         <p>Dark chocolate mousse 66%</p>
                         <p>Orange yuzu marmalade</p>
-                        <p>Mandarin Yuu creameux</p>
+                        <p>Mandarin yuzu creameux</p>
                         <p>Praline crispy</p>
                         <p>Almond sponge</p>
                     </div>
@@ -210,7 +210,7 @@ function Whole() {
                     <div className="cakeDescription">
                         <p>Raspberry cream</p>
                         <p>Lychee gelee</p>
-                        <p>Lychee saoked in Soho</p>
+                        <p>Lychee soaked in Soho</p>
                         <p>Light lychee cream</p>
                         <p>shortbread crust</p>
                     </div>
@@ -267,12 +267,12 @@ function Whole() {
                 <img src={mixberries} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
                     <div className="productName">
-                        <p>mix berries</p>
+                        <p>Mixed berries</p>
                         <p className="cakeSize">4 serving | 8 serving</p>  
                     </div> 
                     <div className="cakeDescription">
                         <p>Vanilla cream</p>
-                        <p>Strawberry mamalade</p>
+                        <p>Strawberry marmalade</p>
                         <p>Almond cream</p>
                         <p>Puff pastry</p>
                     </div>

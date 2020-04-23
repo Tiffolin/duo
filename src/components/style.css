@@ -639,7 +639,13 @@ iframe{
     height:20px;
     margin-left:10px;
 }
+/*TABLETS
+/////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 1366px) { 
 
+}
+/*MOBILE
+/////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 768px) { 
 /***********Splash Page*********/
 
@@ -692,14 +698,13 @@ iframe{
     font-family:font1;
     font-size: 14px;
     height: 60px;
-    box-shadow: none;
+
 }
 .scrolled{  /*ensures the navigation bar stays fixed upon scrolling*/
     position:fixed;
     top:0px;
     z-index:20;
     padding:20px;
-    box-shadow: 0 0 5px grey;
 }
 /***********About*********/
 #about{

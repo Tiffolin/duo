@@ -67,124 +67,6 @@ function Viennoiseries() {
     <Order />
         <div id="viennoiseries" className="sections  row justify-content-center">
         <p class="pageTitle col-12">VIENNOISERIES</p>
-{/* 
-
-        <div className="pastryContainer">
-                <img src={plaincroissant} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={plaincroissant2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={panauchocolat} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={panauchocolat2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={almondcroissant} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={almondcroissant2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={roastbeef} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={roastbeef2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={hamandcheese} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={hamandcheese2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={salamiandcheese} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={salamiandcheese2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={polonaise} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={polonaise2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={chocoalmond} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={chocoalmond2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={vanillacustard} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={vanillacustard2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={raspberryrose} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={raspberryrose2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={honeytwist} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={honeytwist2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={applecroissant} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={applecroissant2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={citrusbrioche} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={citrusbrioche2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={cinnamonrasonbrioche} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={cinnamonrasonbrioche2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={blacksesamebrioche} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={blacksesamebrioche2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={pistachiobrioche} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={pistachiobrioche2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={cheddargreyure} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={cheddargreyure2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={briochetete} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={briochetete2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={briocheloaf} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={briocheloaf2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={canele} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={canele2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={chestnut} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={chestnut2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={banane} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={banane2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={bichon} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={bichon2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={frangipane} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={frangipane2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={gb} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={gb2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={chocobook} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={chocobook2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={matchabook} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={matchabook2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={tropezienne} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={tropezienne2} className="pastryHover img-fluid"alt="..."></img>
-        </div>
-        <div className="pastryContainer">
-                <img src={quiche} className="pastryImg img-fluid" alt="..."></img>          
-                <img src={quiche2} className="pastryHover img-fluid"alt="..."></img>
-        </div> */}
 
             <div className="pastryContainer">
                 <img src={plaincroissant} className="pastryImg img-fluid" alt="..."></img>
@@ -352,7 +234,7 @@ function Viennoiseries() {
                 <img src={frangipane} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
                      <span className="productName ">Frangipane</span><br></br>
-                     <span className="pastryDescription ">almond cream,casis jam, apple compote</span>
+                     <span className="pastryDescription ">almond cream,cassis jam, apple compote</span>
                 </div>
             </div>
             <div className="pastryContainer">

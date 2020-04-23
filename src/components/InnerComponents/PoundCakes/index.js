@@ -28,11 +28,11 @@ function PoundCake() {
                 <img src={peacan} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
                     <div className="productName">
-                        <p>PEACAN</p>                        
+                        <p>PECAN</p>                        
                         <p className="cakeSize">Pound Cake</p>  
                     </div>
                     <div className="cakeDescription">
-                        <p>Peacan</p>
+                        <p>Pecan</p>
                     </div>
                     <div className="allergy">
                         <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
@@ -112,7 +112,6 @@ function PoundCake() {
                         <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
                         <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
                         <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
         </div>       

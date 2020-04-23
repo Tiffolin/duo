@@ -17,7 +17,7 @@ function Drinks() {
         
         <div className="drinksContainer linedown">
             <Row>
-            <p className="pageTitle col-12">ESSPRESSO</p>
+            <p className="pageTitle col-12">ESPRESSO</p>
                 <Col lg={6} className="drinkName">
                     <p>Esspresso</p>
                     <p>Latte</p>
@@ -78,7 +78,7 @@ function Drinks() {
                     </p>
                     <p>Jasmine</p>
                     <p>Japanese Sencha</p>
-                    <p><span>Cammomile</span>
+                    <p><span>Chamomile</span>
                     <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
                 </Col>
