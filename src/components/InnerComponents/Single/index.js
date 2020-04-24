@@ -37,8 +37,8 @@ function Single() {
             <div className="cakeHover row">
                 <p className="productName">MONT BLANC</p>
                 <div className="cakeDescription">
-                    <p>Chestnut vermicelli with rum</p>
-                    <p>Vanilla Macepone</p>
+                    <p>Chestnut verimcele  with rum</p>
+                    <p>Vanilla macepone</p>
                     <p>Chestnut soaked in aged rum</p>
                     <p>Almond cream</p>
                     <p>Shortbread crust</p>
@@ -351,7 +351,7 @@ function Single() {
                 <p className="productName ">BABA</p>
                 <div className="cakeDescription ">
                     <p>Congnac crème brûlée</p>
-                    <p>Poached pear</p>
+                    <p>Pouched pear</p>
                     <p>Vanilla cream</p>
                     <p>Rhum Baba</p>
                     <p>Almond crumble</p>
