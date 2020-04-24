@@ -33,7 +33,7 @@ a:hover {
 #splashpage{ 
     display: flex;
     flex-direction: column; 
-    height: 100%;
+    height: 100vh;
     width:100vw;
     padding:0;
     text-align:center;
@@ -41,7 +41,7 @@ a:hover {
     overflow:hidden;
     }
 #logo{
-    height:15vh;
+    height:18vh;
     transition:0.25s;
     background:white;
     text-align: left;
@@ -56,8 +56,9 @@ a:hover {
 #splashNum{
     padding:auto;
     margin:auto;
+    margin-top:10%;
     font-family:font1;
-    font-size:20px;
+    font-size:4vh;
 }
 #splashNum a{
     color:grey;
@@ -635,38 +636,7 @@ iframe{
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 *********         RESPONSIVENESS              *********         
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-@media only screen and (max-width: 1366px) { /*TABLETS : Ipad Pro Landscape*/ 
-    #splashpage{ 
-        width:100%;
-        height:100vh;
-    }
-    #logo{
-        position:relative;
-        top:-300px;
-        text-align: center;
-        margin-bottom:10%;
-        margin-top:20%;
-    }
-    #logoimg{
-        height:18vh;
-        margin-left:0;
-        padding:auto;
-    }
-    #splashNum{
-        position:absolute;
-        top:-12%;
-        font-size:4vh;
-        text-align: center;
-        padding:auto;
-    }
-    #magicCarousel{
-        position:absolute;
-        bottom:0;
-        height: 50vh ;
-    }
-}
-@media screen and (min-width:814px) and (max-width:1025) { /*TABLETS : Ipad Pro Portrait & Ipad Landscape*/
+@media screen and (min-width:814px) and (max-width:1024) { /*TABLETS : Ipad Pro Portrait & Ipad Landscape*/
     #splashpage{ 
         width:100%;
         height:100vh;
@@ -686,7 +656,7 @@ iframe{
     #splashNum{
         position:absolute;
         top:-230px;
-        font-size:20px;
+        font-size:4vh;
         text-align: center;
     }
     #magicCarousel{
@@ -697,7 +667,9 @@ iframe{
 }
 @media only screen and (max-width: 823px) { /*TABLETS : Ipad & other Tablet Portraits, Iphone X Landscape*/
     #logo{
-        top:-200px;
+        position:relative;
+        top:-800px;
+        text-align:center;
         margin-bottom:10%;
         margin-top:20%;
     }
@@ -709,7 +681,7 @@ iframe{
     #splashNum{
         position:relative;
         top:0;
-        font-size:20px;
+        font-size:4vh;
     }
     #magicCarousel{
         position:absolute;
@@ -866,7 +838,7 @@ iframe{
     #logo{
         top:50;
         text-align: center;
-        margin-top:40%;
+        margin-top:43%;
     }
     #logoimg{
         height:25vh;
@@ -875,7 +847,7 @@ iframe{
     }
     #splashNum{
         font-size:13px;
-        margin-top:4%;
+        margin-top:2%;
         margin-bottom:20%;
     }
     #magicCarousel{
@@ -891,12 +863,30 @@ iframe{
         padding:15px;
     }
     }
-@media only screen and (max-height: 411px) { /*MOBILE : Pixel 2 XL Landscape*/
+/* BUG,  UNABLE TO FIGURE OUT HOW TO FIT PIXEL 2XL LANDSCAPE. LOGO & PHONE NUMBER WON'T BUDGE     */
+@media screen and (min-height:411px) and (max-height: 413px) and (min-width:738) and (max-width:823){ /*MOBILE : Pixel 2 XL Landscape*/
     /***********Splash Page*********/
+    #logo{
+        position:relative;
+        top:800px;
+        text-align: center;
+        margin-top:0;
+    }
+    #logoimg{
+        height:20vh;
+        padding:auto;
+    }
     #splashNum{
+        position:relative;
+        top:200px;
+        font-size:13px;
+        margin-top:1%;
+        margin-bottom:20%;
+    }
+    /* #splashNum{
         top:-220px;
         font-size:20px;
-    }
+    } */
     }
 @media only screen and (max-height: 320px) {  /*MOBILE : Iphone SE Landscape*/
     #logo{

@@ -32,14 +32,14 @@ render() {
         <div id="splashpage" class="justify-content-center container-fluid">
 
             <Row>
-                <Col lg={8}>
+                <Col lg={6} >
                     <NavLink to = "/duo">
                         <div id="logo" class="justify-content-center">
                             <img id="logoimg" alt="logo" src={logo2} className="img-fluid"/>
                         </div>
                     </NavLink>
                 </Col>
-                <Col lg={4}>            
+                <Col lg={6} >            
                     <p id="splashNum"class="justify-content-center container-fluid"><a href="tel:+19057632232">(905) 763-2232</a></p>   
                 </Col>
             </Row>
