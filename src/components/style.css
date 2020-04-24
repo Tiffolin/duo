@@ -54,8 +54,8 @@ a:hover {
     height:100%;
 }
 #splashNum{
-    padding:40px;
-    padding-bottom:0;
+    padding:auto;
+    margin:auto;
     font-family:font1;
     font-size:20px;
 }
@@ -631,40 +631,121 @@ iframe{
     height:20px;
     margin-left:10px;
 }
-/*TABLETS
-/////////////////////////////////////////////////////////*/
-@media only screen and (max-width: 1366px) { 
 
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*********         RESPONSIVENESS              *********         
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 1366px) { /*TABLETS : Ipad Pro Landscape*/ 
+    #splashpage{ 
+        width:100%;
+        height:100vh;
+    }
+    #logo{
+        position:relative;
+        top:-300px;
+        text-align: center;
+        margin-bottom:10%;
+        margin-top:20%;
+    }
+    #logoimg{
+        height:18vh;
+        margin-left:0;
+        padding:auto;
+    }
+    #splashNum{
+        position:absolute;
+        top:-12%;
+        font-size:4vh;
+        text-align: center;
+        padding:auto;
+    }
+    #magicCarousel{
+        position:absolute;
+        bottom:0;
+        height: 50vh ;
+    }
 }
-/*MOBILE (Portrait)
-/////////////////////////////////////////////////////////*/
-@media only screen and (max-width: 768px) { 
-/***********Splash Page*********/
+@media screen and (min-width:814px) and (max-width:1025) { /*TABLETS : Ipad Pro Portrait & Ipad Landscape*/
+    #splashpage{ 
+        width:100%;
+        height:100vh;
+    }
+    #logo{
+        position:absolute;
+        top:50;
+        text-align: center;
+        margin-bottom:10%;
+        margin-top:20%;
+    }
+    #logoimg{
+        height:8vh;
+        margin-left:0;
+        padding:auto;
+    }
+    #splashNum{
+        position:absolute;
+        top:-230px;
+        font-size:20px;
+        text-align: center;
+    }
+    #magicCarousel{
+        position:absolute;
+        bottom:0;
+        height: 50vh ;
+    }
+}
+@media only screen and (max-width: 823px) { /*TABLETS : Ipad & other Tablet Portraits, Iphone X Landscape*/
+    #logo{
+        top:-200px;
+        margin-bottom:10%;
+        margin-top:20%;
+    }
+    #logoimg{
+        height:10vh;
+        margin-left:0;
+        padding:auto;
+    }
+    #splashNum{
+        position:relative;
+        top:0;
+        font-size:20px;
+    }
+    #magicCarousel{
+        position:absolute;
+        bottom:0;
+        height: 50vh ;
+    }
+}
+@media only screen and (max-width: 812px) {  /*MOBILE : Most smartphone Portraits*/
+/***Splash Page*****/
+.alertBox{
+    position:absolute;
+    z-index:20;
+}
 #splashpage{ 
     width:100%;
     height:100vh;
 }
 #logo{
-    position:relative;
-    top:-150px;
-    text-align: center;
-    margin-bottom:10%;
+    top:-250px;
 }
 #logoimg{
-    margin-left:0;
-    padding:auto;
+    height:15vh;
+    margin-top:12%;
 }
 #splashNum{
     position:relative;
-    top:-130px;
+    top:-200px;
     font-size:18px;
+    margin-top:1%;
+    margin-bottom:10%;
 }
 #magicCarousel{
-    position:absolute;
-    bottom:0;
+    height: 50vh ;
 }
 .slides{  /*Slide Images*/
-    width:180%;
+    width:200%;
 }
 .carousel-caption { /*View the Products button*/
     bottom:75%;
@@ -780,26 +861,45 @@ iframe{
     height:90vw;
 }
 }
-
-/*MOBILE (Landscape)
-/////////////////////////////////////////////////////////*/
-@media only screen and (max-height: 414px) { 
+@media only screen and (max-height: 414px) { /*MOBILE : Most smartphone Landscape*/
     /***********Splash Page*********/
     #logo{
-        top:-75px;
-        height:18vh;
+        top:50;
+        text-align: center;
+        margin-top:40%;
+    }
+    #logoimg{
+        height:25vh;
+        margin-left:0;
+        padding:auto;
     }
     #splashNum{
-        top:-165px;
+        font-size:13px;
+        margin-top:4%;
+        margin-bottom:20%;
     }
     #magicCarousel{
-        height: 60vh ;
+        margin-top:10%;
+        height: 55vh ;
     }
     .slides{  /*Slide Images*/
         width:100%;
     }
     .carousel-caption { /*View the Products button*/
-        font-size:14px;
-        width:180px;
+        font-size:13px;
+        width:160px;
+        padding:15px;
+    }
+    }
+@media only screen and (max-height: 411px) { /*MOBILE : Pixel 2 XL Landscape*/
+    /***********Splash Page*********/
+    #splashNum{
+        top:-220px;
+        font-size:20px;
+    }
+    }
+@media only screen and (max-height: 320px) {  /*MOBILE : Iphone SE Landscape*/
+    #logo{
+        margin-top:50%;
     }
     }
