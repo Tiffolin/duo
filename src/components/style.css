@@ -178,7 +178,11 @@ div{
     width:100%;
     text-align:center;
     box-shadow: 0 0 5px grey;
+    background-color:white;
     z-index: 10;
+}
+.navbar-nav{
+    background-color:white;
 }
 .navlinks{ /*navigation link texts*/
     color:grey;
