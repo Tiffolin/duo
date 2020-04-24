@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a1844fcffea74d737046592fd392c13",
+    "revision": "6aa0c3e46d685f9eadde8f2f6d81c00f",
     "url": "/duo/index.html"
   },
   {
-    "revision": "051c7dc0799d28f43620",
+    "revision": "30408b350ccb30c4975f",
     "url": "/duo/static/css/main.63b8d17e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/js/2.48066b29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "051c7dc0799d28f43620",
-    "url": "/duo/static/js/main.20e4ebcd.chunk.js"
+    "revision": "30408b350ccb30c4975f",
+    "url": "/duo/static/js/main.22fd871f.chunk.js"
   },
   {
     "revision": "fe53ed61304db21e9e90",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/almondcroissant.fc42db02.png"
   },
   {
-    "revision": "063b230df45f05e4a36c6816a7facd8b",
-    "url": "/duo/static/media/apple.063b230d.png"
+    "revision": "5c306af639e424ccfb64846043e69b54",
+    "url": "/duo/static/media/apple.5c306af6.png"
   },
   {
     "revision": "0d08d93401a58df63978df41775d00bb",
@@ -168,16 +168,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/chestnut.64342393.png"
   },
   {
-    "revision": "7a9842d1295261e0ba1941bd07f6b749",
-    "url": "/duo/static/media/chestnut.7a9842d1.png"
+    "revision": "8061f93499db1403cbf29c00ce64106a",
+    "url": "/duo/static/media/chestnut.8061f934.png"
   },
   {
     "revision": "f3878dcc3b95c73fe8cc991b0430ba1a",
     "url": "/duo/static/media/chestnut.f3878dcc.png"
   },
   {
-    "revision": "30b8009724c2b4a53fc230e3c8e87eeb",
-    "url": "/duo/static/media/choco.30b80097.png"
+    "revision": "63762c2fd4671d3116a9a11f66937e28",
+    "url": "/duo/static/media/choco.63762c2f.png"
   },
   {
     "revision": "4e52b3690599ecc2e407c027de70e1ed",
@@ -204,8 +204,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/cinnamonrasonbrioche.a57d4e06.png"
   },
   {
-    "revision": "a33d7505997effe7676be1a47727d7ac",
-    "url": "/duo/static/media/citrus.a33d7505.png"
+    "revision": "65f113bf0eccd53499134a9abcce1c7d",
+    "url": "/duo/static/media/citrus.65f113bf.png"
   },
   {
     "revision": "2c6611f97e193621b50689b695d15aa1",
@@ -240,8 +240,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/frangipane.ff9e2403.png"
   },
   {
-    "revision": "4a073a91de1af51321c59b954eb67d97",
-    "url": "/duo/static/media/fruit.4a073a91.png"
+    "revision": "9cbc85b4a9e5c9ae82a934d66afcd794",
+    "url": "/duo/static/media/fruit.9cbc85b4.png"
   },
   {
     "revision": "3c26b49fd2ec1b9ed3eb81852e61310a",
@@ -292,8 +292,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/logo2.f13b7f2b.png"
   },
   {
-    "revision": "305778fc196c8b278ac9557b41af4838",
-    "url": "/duo/static/media/matcha.305778fc.png"
+    "revision": "b45ddf8c660e2e1297a21e9271c30a5c",
+    "url": "/duo/static/media/matcha.b45ddf8c.png"
   },
   {
     "revision": "798f98913de2edfa6e0f4ac18218228f",
@@ -336,8 +336,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/payment.294f6fb4.png"
   },
   {
-    "revision": "3558fffe7221c2ce7b5f6c2d85863463",
-    "url": "/duo/static/media/peacan.3558fffe.png"
+    "revision": "a037978cb6e2af7186e6f69528ec36b2",
+    "url": "/duo/static/media/peacan.a037978c.png"
   },
   {
     "revision": "93ea4c416b8dab75ae541cbd43e4b356",
@@ -386,6 +386,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8f183ab76d53d1c271d937d4909283b2",
     "url": "/duo/static/media/rasp.8f183ab7.png"
+  },
+  {
+    "revision": "a587c478d4882231b04316f6a97817f0",
+    "url": "/duo/static/media/rasp.a587c478.png"
   },
   {
     "revision": "2527e26fc7d02f048e99f494057318ec",
