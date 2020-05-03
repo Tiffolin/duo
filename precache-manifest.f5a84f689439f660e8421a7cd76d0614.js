@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6aa0c3e46d685f9eadde8f2f6d81c00f",
+    "revision": "3efa029a66ed0645bf20ee00a6eb18bd",
     "url": "/duo/index.html"
   },
   {
-    "revision": "30408b350ccb30c4975f",
+    "revision": "6bf69c96f554b7ab43e3",
     "url": "/duo/static/css/main.63b8d17e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/js/2.48066b29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30408b350ccb30c4975f",
-    "url": "/duo/static/js/main.22fd871f.chunk.js"
+    "revision": "6bf69c96f554b7ab43e3",
+    "url": "/duo/static/js/main.a7a643d3.chunk.js"
   },
   {
     "revision": "fe53ed61304db21e9e90",
@@ -284,8 +284,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/latinotype-gabriela-stencil-bold.21c051b8.ttf"
   },
   {
-    "revision": "5ab8d006c4879a90e419d746b4577edf",
-    "url": "/duo/static/media/lemontart.5ab8d006.png"
+    "revision": "7dd1e594b0c13ba77bdbfd5069674c60",
+    "url": "/duo/static/media/lemontart.7dd1e594.png"
   },
   {
     "revision": "f13b7f2babd64dbd43ba1d040ac826fd",
