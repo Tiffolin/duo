@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 import Order from "../Order";
 import Back from "../Back";
 import blackforest from "./blackforest.png";
-import wholeblackforest from "./wholeblackforest.png";
+import wholeblackforest from "./wholeblackforest1.png";
 
 function Cakes() {
     return (
@@ -14,9 +14,10 @@ function Cakes() {
         <div className="menuBox">        
             <NavLink to = "/Whole" className={"navlinks"}> 
             <div className="menuContainer">
+            <p className="menuName">WHOLE CAKE</p>
                 <img src={wholeblackforest} className="cakeImg img-fluid" alt="..."></img>
                 <div className="menuHover">
-                    <p className="menuName">WHOLE CAKE</p>
+
                 </div>
             </div>
             </NavLink>
@@ -24,9 +25,10 @@ function Cakes() {
         <div className="menuBox">        
             <NavLink to = "/Single" className={"navlinks"}> 
             <div className="menuContainer">
+            <p className="menuName">SINGLE CAKE</p>
                 <img src={blackforest} className="cakeImg img-fluid" alt="..."></img>
                 <div className="menuHover">
-                    <p className="menuName">SINGLE CAKE</p>
+
                 </div>
             </div>
             </NavLink>

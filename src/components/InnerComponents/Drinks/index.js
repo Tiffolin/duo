@@ -15,20 +15,20 @@ function Drinks() {
 
         <p className="pageTitle col-12">Drinks</p>
         
-        <div className="drinksContainer linedown">
+        <div className="sectionContainer linedown">
             <Row>
             <p className="pageTitle col-12">ESPRESSO</p>
-                <Col lg={6} className="drinkName">
+                <Col lg={7} className="productName2 drinkName">
                     <p>Espresso</p>
                     <p>Latte</p>
                     <p>Cappucino</p>
                     <p>Flat White</p>
-                    <p>Cafe Au Le</p>
+                    <p>Café au lait</p>
                     <p>Americano</p>
                     <p>Caramel Latte</p>
                     <p>Mocha</p>
                 </Col>
-                <Col lg={6} className="temp">
+                <Col lg={5} className="temp">
                     <p>Hot</p>
                     <p>Hot/Ice</p>
                     <p>Hot/Ice</p>
@@ -40,12 +40,12 @@ function Drinks() {
                 </Col>
             </Row>
         </div>
-        <div className="drinksContainer">
+        <div className="sectionContainer">
             <Row>
             <p className="pageTitle col-12">SPECIALTY</p>
-                <Col lg={6} className="drinkName">
+                <Col lg={7} className="productName2 drinkName">
                     <p><span>Matcha Latte</span>
-                    <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
+                    
                     </p>
                     <p><span>Black Sesame Latte</span>
                     <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
@@ -59,7 +59,7 @@ function Drinks() {
                     <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
                 </Col>
-                <Col lg={6} className="temp">
+                <Col lg={5} className="temp">
                     <p>Hot</p>
                     <p>Hot</p>
                     <p>Hot/Ice</p>
@@ -68,7 +68,7 @@ function Drinks() {
                     <p>Hot/Ice</p>
                 </Col>
                 <p className="pageTitle col-12">TEA</p>
-                <Col lg={6} className="drinkName">
+                <Col lg={7} className="productName2 drinkName">
                     <p>English Breakfast</p>
                     <p>Early Grey</p>
                     <p>Oolong Rose</p>
@@ -82,7 +82,7 @@ function Drinks() {
                     <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
                 </Col>
-                <Col lg={6} className="temp">
+                <Col lg={5} className="temp">
                     <p>Hot</p>
                     <p>Hot</p>
                     <p>Hot</p>

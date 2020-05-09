@@ -16,9 +16,10 @@ function Footer() {
                 <Col lg={1} md={1} sm={0}></Col>
                     <Col  lg={4} md={4} sm={12} className="footerDivider ">
                         <p className="pageTitle">JOIN OUR TEAM</p>
-                        <p className="footerSub justify-content-center">We are always looking for enthusiastic individuals to join our team.
-                        If interested, click on the link below.
-                        Please note that only selected candidates will be contacted.</p>
+                        <p className="footerSub justify-content-center">
+                        We are always looking for enthusiastic individuals to join our team.  
+                        Please click on the link below to apply for a position that is right for you.  
+                        Only selected candidates will be contacted.</p>
                       
                         <p className="orderSub nosolicitations">*No orders or solicitations please</p>
                         <div id="email" className="justify-content-center">
@@ -37,9 +38,9 @@ function Footer() {
                             <a href="https://www.facebook.com/duopattiseriecafe/">
                                 <span id="facebook"><img src={fb} className="snsImg img-fluid" alt="..."></img></span>
                             </a>
-                            <a href="https://www.linkedin.com/company/duopatisserie/">
+                            {/* <a href="https://www.linkedin.com/company/duopatisserie/">
                                 <span id="linkedIn"><img src={linkedIn} className="snsImg img-fluid" alt="..."></img></span>
-                            </a>
+                            </a> */}
                         </div>            
                         <div id="footerAddress">
                             <p className="footerAddressSub">ADDRESS</p>
@@ -49,7 +50,7 @@ function Footer() {
                     </Col>
                     <Col lg={1}md={1} sm={0}></Col>
                     <Col lg={12}className="container-fluid">
-                        <div id="copyright"><a href="http://www.duopatisserie.com">© 2020, Duo Patisserie & Cafe </a></div>
+                        <div id="copyright"><a href="http://www.duopatisserie.com">© 2020, Duo Pâtisserie & Café </a></div>
                         <a href="http://www.tiffolin.com"><div id="developer">developer : TiffoLin</div></a>
                         <img src={payment} id="paymenImg" className="img-fluid"alt="..."></img>
                         

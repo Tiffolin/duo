@@ -1,6 +1,8 @@
 import React from "react";
+// other components
 import Order from "../Order";
 import Back from "../Back";
+// product Image
 import almondcroissant from "./viennoiseriesImage/almondcroissant.png";
 import applecroissant from "./viennoiseriesImage/applecroissant.png";
 import banane from "./viennoiseriesImage/banane.png";
@@ -30,7 +32,6 @@ import roastbeef from "./viennoiseriesImage/roastbeef.png";
 import salamiandcheese from "./viennoiseriesImage/salamiandcheese.png";
 import tropezienne from "./viennoiseriesImage/tropezienne.png";
 import vanillacustard from "./viennoiseriesImage/vanillacustard.png";
-
 import almondcroissant2 from "./viennoiseriesImageTo/almondcroissant.png";
 import applecroissant2 from "./viennoiseriesImageTo/applecroissant.png";
 import banane2 from "./viennoiseriesImageTo/banane.png";

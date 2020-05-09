@@ -1,11 +1,8 @@
 import React from "react";
+// other components
 import Order from "../Order";
 import Back from "../Back";
-import dairy from "../Single/allergens/dairy.png";
-import wheat from "../Single/allergens/wheat.png";
-import egg from "../Single/allergens/egg.png";
-import nuts from "../Single/allergens/nuts.png";
-import alcohol from "../Single/allergens/alcohol.PNG";
+//product Image
 import peacan from "./poundCakeImg/peacan.png";
 import rasp from "./poundCakeImg/rasp.png";
 import citrus from "./poundCakeImg/citrus.png";
@@ -14,7 +11,12 @@ import apple from "./poundCakeImg/apple.png";
 import matcha from "./poundCakeImg/matcha.png";
 import chestnut from "./poundCakeImg/chestnut.png";
 import fruit from "./poundCakeImg/fruit.png";
-
+// allergens
+import dairy from "../Allergens/dairy.png";
+import wheat from "../Allergens/wheat.png";
+import egg from "../Allergens/egg.png";
+import nuts from "../Allergens/nuts.png";
+import alcohol from "../Allergens/alcohol.PNG";
 
 function PoundCake() {
     return (

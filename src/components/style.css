@@ -181,10 +181,12 @@ div{
     background-color:white;
     z-index: 10;
 }
-
 .navlinks{ /*navigation link texts*/
     color:grey;
     padding-right:20px;
+}
+.navbar li { 
+    white-space: nowrap; 
 }
 .navlinks:hover{
     color:black;
@@ -240,10 +242,10 @@ div{
     padding:20px;
     width:100vw;
 }
-#placeOrder{
-    padding-bottom:0;
+.placeOrder{
+    margin:auto;
     color:black;
-    font-size:16px;
+    font-size:15px;
     font-family:font1;
 }
 .orderSub{
@@ -251,7 +253,7 @@ div{
     border:0;
     padding:0;
     color:grey;
-    font-size:12px;
+    font-size:13px;
     font-family:font1;
 }
 /*BACK BUTTON TO MAIN MENU
@@ -272,12 +274,16 @@ div{
     color:grey;
     box-shadow:  0 0 8px  grey;
 }
-#backBtn:hover{
-    background: rgba(0,0,0,0.3);
-    border:2px solid white;
-    color:white;
-    box-shadow:  0 0 5px  white;
+#backBtn p{
+    margin:5%;
 }
+#backBtn:hover{
+    background: rgba(0,0,0,0.4);
+    border:1px solid grey;
+    color:white;
+    box-shadow:  0 0 0.5px  grey;
+}
+
 /*LOCATION & HOURS
 /////////////////////////////////////////////////////////*/
 #location{
@@ -440,7 +446,8 @@ iframe{
     text-align:center;
     font-family:font1;
     font-size: 18px;
-    color:black
+    color:black;
+    margin-top:10%;
 }
 /*CAKES & TRAVEL CAKES
 /////////////////////////////////////////////////////////*/
@@ -480,7 +487,7 @@ iframe{
 .cakeImg {
     width: 100%;
     height: 100%;
-    border:1px solid #F9F0EC;
+    /* border:1px solid #F9F0EC; */
     transition: transform 3s; /* Animation */
 }
 .cakeImg:hover{
@@ -528,7 +535,7 @@ iframe{
     margin:0;
     padding:0;
 }
-.allergy{ /*individual, whole & poundcakes: container of allergent icon*/
+.allergy{ /*individual, whole & poundcakes: container of allergen icon*/
     position:relative;
     width:50%;
     margin:0;
@@ -536,7 +543,7 @@ iframe{
     border:0;
     padding:0;
 }
-.allergents{ /*individual, whole & poundcakes:allerget icons*/
+.allergen{ /*individual, whole & poundcakes:allergen icons*/
     /* height:50px; */
     border:0;
     padding:2px;
@@ -544,6 +551,34 @@ iframe{
     margin:0;
 }
 
+/*ALLERGENS 
+/////////////////////////////////////////////////////////*/
+#allergensLegend{
+    text-align:center;
+    margin-bottom:5%;
+}
+.allergenIndex{
+    color:darkgrey;
+    text-align:center;
+    font-family:font1;
+    font-size:12px;
+}
+.allergenContainer{
+    padding:auto;
+    margin:auto;
+}
+.allergenContainer img{
+    height:20px;
+    padding:auto;
+    margin:auto;
+}
+.allergenContainer span{
+    color:black;
+    text-align:justify;
+    font-family:font1;
+    font-size:15px;
+    padding:5px;
+}
 /*VIENNOISERIES 
 /////////////////////////////////////////////////////////*/
 #viennoiseries{
@@ -599,41 +634,55 @@ iframe{
     width:100%;
 }
 
-/*DRINKS
+/*DRINKS, BonBon & Retail
 /////////////////////////////////////////////////////////*/
 #drinks{
     width:100%;
     font-family:font1;
 
 }
-.drinksContainer{
+.sectionContainer{
     float:left;
     padding:auto;
     width:40%;
 }
+.sectionContainer img{
+    padding:auto;
+    position:relative;
+    left:-10%;
+}
 .linedown{
     border-right:solid 0.2px darkgrey;
 }
-.drinkName{
+.productName2{
     margin-bottom:10%;
-}
-.drinkName p{
-    margin:0;
-    margin-left:25%;
     text-align:left;
+
 }
-.drinkName span{
+.description2{
+    padding:50px;
+    margin:0;
+    padding-bottom:0;
+}
+
+.drinkName p{
+    padding-left:25%;
+    margin:0;
+}
+.productName2 span{
     margin:0;
 }
 .temp p{
     margin:0;
-    margin-left:20%;
+    margin-left:30%;
     text-align:justify;
 }
 .caffeineFree{
     height:20px;
-    margin-left:10px;
+    margin-left:12%;
 }
+
+
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 *********         RESPONSIVENESS              *********         
@@ -665,6 +714,9 @@ iframe{
         position:absolute;
         bottom:0;
         height: 50vh ;
+    }
+    .drinkName p{
+        padding-left:0;
     }
 }
 @media only screen and (max-width: 823px) { /*TABLETS : Ipad & other Tablet Portraits, Iphone X Landscape*/
@@ -786,7 +838,7 @@ iframe{
     width:300px;
 }
 /***********Drinks*********/
-.drinksContainer{
+.sectionContainer{
     float:left;
     padding:auto;
     width:100%;
@@ -794,15 +846,15 @@ iframe{
 .linedown{
     border-right:solid 0.2px white;
 }
-.drinkName{
+.productName2{
     width:80%;
 }
-.drinkName p{
+.productName2 p{
     margin:0;
-    margin-left:20%;
+    margin-left:0;
     text-align:left;
 }
-.drinkName span{
+.productName2 span{
     margin:0;
 }
 .temp{

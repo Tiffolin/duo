@@ -1,7 +1,9 @@
 import React from "react";
-// import {NavLink} from "react-router-dom";
+// other components
 import Order from "../Order";
+import Allergens from "../Allergens";
 import Back from "../Back";
+// cakes images
 import avery from "./singleImage/avery.png";
 import baba from "./singleImage/baba.png";
 import blackforest from "./singleImage/blackforest.png";
@@ -19,10 +21,13 @@ import sthonore from "./singleImage/sthonore.png";
 import tatin from "./singleImage/tatin.png";
 import virgo from "./singleImage/virgo.png";
 import yuco from "./singleImage/yuco.png";
-import dairy from "./allergens/dairy.png";
-import wheat from "./allergens/wheat.png";
-import egg from "./allergens/egg.png";
-import nuts from "./allergens/nuts.png"
+// allergens
+import dairy from "../Allergens/dairy.png";
+import wheat from "../Allergens/wheat.png";
+import egg from "../Allergens/egg.png";
+import nuts from "../Allergens/nuts.png";
+// import alcohol from "../Allergens/alcohol.PNG";
+
 
 function Single() {
     return (
@@ -30,24 +35,25 @@ function Single() {
     <Order />
 
         <div id="single" className="row sections justify-content-md-center">
-            
+         
         <p className="pageTitle col-12">INDIVIDUAL CAKES</p>
+    <Allergens />
         <div className="cakeContainer">
             <img src={montblanc} className="cakeImg img-fluid" alt="..."></img>
             <div className="cakeHover row">
                 <p className="productName">MONT BLANC</p>
                 <div className="cakeDescription">
                     <p>Chestnut verimcele  with rum</p>
-                    <p>Vanilla macepone</p>
+                    <p>Vanilla mascarpone</p>
                     <p>Chestnut soaked in aged rum</p>
                     <p>Almond cream</p>
                     <p>Shortbread crust</p>
                 </div>     
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div>
             </div>
         </div>
@@ -61,9 +67,9 @@ function Single() {
                     <p>Almond shortbread crust</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -73,17 +79,17 @@ function Single() {
                 <p className="productName">VIRGO</p>
                 <div className="cakeDescription">
                     <p>Honey marshmallow</p>
-                    <p>Expreso mousse</p>
+                    <p>Espresso mousse</p>
                     <p>White chocolate cream</p>
                     <p>Chocolate flourless biscuit</p>
                     <p>Coffee crème brûlée</p>
                     <p>Almond shortbread</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -102,9 +108,9 @@ function Single() {
                     <p>shortbread crust</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                 </div> 
             </div>
         </div>
@@ -124,10 +130,10 @@ function Single() {
                     <p>Chocolate sable</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
 
                 {/* <NavLink to = "/Whole"><p className="cakeSize linktoWhole">| Available as a Whole Cake |</p></NavLink> */}
@@ -145,10 +151,10 @@ function Single() {
                     <p>Short crust</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>       
@@ -166,10 +172,10 @@ function Single() {
                     <p>Puff pastry</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -184,9 +190,9 @@ function Single() {
                     <p>Mango crémeux</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                 </div> 
             </div>
         </div>
@@ -205,10 +211,10 @@ function Single() {
                     <p>Puff Pastry</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -223,10 +229,10 @@ function Single() {
                     <p>Crispy crust</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div>
             </div>
         </div>
@@ -244,10 +250,10 @@ function Single() {
                     <p>Almond crispy crust</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -261,10 +267,10 @@ function Single() {
                     <p>Almond sponge enrobed with toasted sesame</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>    
@@ -283,10 +289,10 @@ function Single() {
                     <p>Chocolate sable</p>
                 </div>
                 <div className="allergy">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -303,10 +309,10 @@ function Single() {
                     <p>Chocolate sable</p>
                 </div>
                 <div className="allergy ">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -324,10 +330,10 @@ function Single() {
                     <p>Almond shortbread crust</p>
                 </div>
                 <div className="allergy ">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
         </div>
@@ -340,8 +346,8 @@ function Single() {
                     <p>Egg</p>
                 </div> 
                 <div className="allergy ">
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                 </div>                 
             </div>
         </div>
@@ -357,10 +363,10 @@ function Single() {
                     <p>Almond crumble</p>
                 </div>
                 <div className="allergy ">
-                    <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
 
             </div>

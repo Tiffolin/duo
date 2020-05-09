@@ -1,6 +1,9 @@
 import React from "react";
+// other components
 import Order from "../Order";
+import Allergens from "../Allergens";
 import Back from "../Back";
+//product Image
 import garden from "./wholeImage/garden.png";
 import sicily from "./wholeImage/sicily.png";
 import c4 from "./wholeImage/c4.png";
@@ -13,11 +16,12 @@ import supernova from "./wholeImage/supernova.png";
 import mona from "./wholeImage/mona.png";
 import pistache from "./wholeImage/pistache.png";
 import fei from "./wholeImage/fei.png";
-import dairy from "../Single/allergens/dairy.png";
-import wheat from "../Single/allergens/wheat.png";
-import egg from "../Single/allergens/egg.png";
-import nuts from "../Single/allergens/nuts.png"
-
+// allergens
+import dairy from "../Allergens/dairy.png";
+import wheat from "../Allergens/wheat.png";
+import egg from "../Allergens/egg.png";
+import nuts from "../Allergens/nuts.png";
+import alcohol from "../Allergens/alcohol.PNG";
 
 function Whole() {
     return (
@@ -26,7 +30,7 @@ function Whole() {
 
         <div id="whole" className=" row sections justify-content-md-center">
         <p className="pageTitle">WHOLE CAKES</p>
-  
+        <Allergens />
         <div className="cakeContainer">
                 <img src={garden} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
@@ -41,10 +45,10 @@ function Whole() {
                         <p>White sponge perfumed in raspberry & strawberry</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -63,10 +67,10 @@ function Whole() {
                         <p>Mango crémeux </p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -84,8 +88,8 @@ function Whole() {
                         <p>Chocolate flour-less biscuit</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                     </div> 
                 </div>
             </div>
@@ -104,10 +108,10 @@ function Whole() {
                         <p>Chocolate sable</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -125,10 +129,10 @@ function Whole() {
                         <p>Almond crispy crust</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -148,10 +152,10 @@ function Whole() {
                         <p>Chocolate sable</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -170,10 +174,10 @@ function Whole() {
                         <p>Almond sponge</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -193,10 +197,10 @@ function Whole() {
                         <p>Chocolate sable</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -215,10 +219,10 @@ function Whole() {
                         <p>shortbread crust</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -235,10 +239,10 @@ function Whole() {
                         <p>Chocolate cake</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -256,10 +260,10 @@ function Whole() {
                         <p>Fresh figs and raspberry</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>
@@ -277,10 +281,10 @@ function Whole() {
                         <p>Puff pastry</p>
                     </div>
                     <div className="allergy">
-                        <span> <img className="allergents col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergents col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergents col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergents col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                     </div> 
                 </div>
             </div>

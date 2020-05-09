@@ -10,8 +10,9 @@ import Whole from "./components/InnerComponents/Whole";
 import Single from "./components/InnerComponents/Single";
 import Viennoiseries from "./components/InnerComponents/Viennoiseries";
 import PoundCakes from "./components/InnerComponents/PoundCakes";
+import BonBons from "./components/InnerComponents/BonBons";
+import Retail from "./components/InnerComponents/Retail";
 import Drinks from "./components/InnerComponents/Drinks";
-// import Retail from "./components/InnerComponents/Retail";
 import LocationHours from "./components/InnerComponents/LocationHours";
 import Footer from "./components/Footer";
 
@@ -34,8 +35,9 @@ class App extends Component {
             <Route exact path="/Single" component={Single} />
             <Route exact path="/Viennoiseries" component={Viennoiseries} />
             <Route exact path="/PoundCakes" component={PoundCakes} />
+            <Route exact path="/BonBons" component={BonBons} />
+            <Route exact path="/Retail" component={Retail} />
             <Route exact path="/Drinks" component={Drinks} />
-            {/* <Route exact path="/Retail" component={Retail} /> */}
             <Route exact path="/LocationHours" component={LocationHours} />
             </ScrollToTop>
             <Footer/>
