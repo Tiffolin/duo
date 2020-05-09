@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/duo/static/css/main.df2683c3.chunk.css",
-    "main.js": "/duo/static/js/main.dd32f718.chunk.js",
-    "main.js.map": "/duo/static/js/main.dd32f718.chunk.js.map",
+    "main.css": "/duo/static/css/main.33c359a1.chunk.css",
+    "main.js": "/duo/static/js/main.e6d29cf5.chunk.js",
+    "main.js.map": "/duo/static/js/main.e6d29cf5.chunk.js.map",
     "runtime-main.js": "/duo/static/js/runtime-main.390787f0.js",
     "runtime-main.js.map": "/duo/static/js/runtime-main.390787f0.js.map",
     "static/js/2.0a8da672.chunk.js": "/duo/static/js/2.0a8da672.chunk.js",
     "static/js/2.0a8da672.chunk.js.map": "/duo/static/js/2.0a8da672.chunk.js.map",
     "index.html": "/duo/index.html",
-    "precache-manifest.308623f700d28e0c797c545b8257d5a6.js": "/duo/precache-manifest.308623f700d28e0c797c545b8257d5a6.js",
+    "precache-manifest.d9ff26929ab5823cd15caf79f2f814a8.js": "/duo/precache-manifest.d9ff26929ab5823cd15caf79f2f814a8.js",
     "service-worker.js": "/duo/service-worker.js",
-    "static/css/main.df2683c3.chunk.css.map": "/duo/static/css/main.df2683c3.chunk.css.map",
+    "static/css/main.33c359a1.chunk.css.map": "/duo/static/css/main.33c359a1.chunk.css.map",
     "static/js/2.0a8da672.chunk.js.LICENSE.txt": "/duo/static/js/2.0a8da672.chunk.js.LICENSE.txt",
     "static/media/1.png": "/duo/static/media/1.09b95724.png",
     "static/media/2.png": "/duo/static/media/2.a2b3d2f8.png",
@@ -56,7 +56,7 @@
     "static/media/honeytwist.png": "/duo/static/media/honeytwist.cb3c9053.png",
     "static/media/latinotype-gabriela-stencil-bold.ttf": "/duo/static/media/latinotype-gabriela-stencil-bold.21c051b8.ttf",
     "static/media/lemontart.png": "/duo/static/media/lemontart.7dd1e594.png",
-    "static/media/logo2.png": "/duo/static/media/logo2.f13b7f2b.png",
+    "static/media/logo1.png": "/duo/static/media/logo1.ae62ff6b.png",
     "static/media/matcha.png": "/duo/static/media/matcha.b45ddf8c.png",
     "static/media/matchabook.png": "/duo/static/media/matchabook.cafd2d57.png",
     "static/media/mb.png": "/duo/static/media/mb.4e768829.png",
@@ -94,7 +94,7 @@
   "entrypoints": [
     "static/js/runtime-main.390787f0.js",
     "static/js/2.0a8da672.chunk.js",
-    "static/css/main.df2683c3.chunk.css",
-    "static/js/main.dd32f718.chunk.js"
+    "static/css/main.33c359a1.chunk.css",
+    "static/js/main.e6d29cf5.chunk.js"
   ]
 }

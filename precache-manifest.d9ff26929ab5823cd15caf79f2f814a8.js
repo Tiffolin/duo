@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8125cdfd3ebe103b5b7f055d821f8dd",
+    "revision": "4e89531c088b0e5f901851bd2965b796",
     "url": "/duo/index.html"
   },
   {
-    "revision": "c93a14394ff8112571b2",
-    "url": "/duo/static/css/main.df2683c3.chunk.css"
+    "revision": "6f49fb74a5885834d555",
+    "url": "/duo/static/css/main.33c359a1.chunk.css"
   },
   {
     "revision": "a98578f6c0e6b747c3ec",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/js/2.0a8da672.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c93a14394ff8112571b2",
-    "url": "/duo/static/js/main.dd32f718.chunk.js"
+    "revision": "6f49fb74a5885834d555",
+    "url": "/duo/static/js/main.e6d29cf5.chunk.js"
   },
   {
     "revision": "fe53ed61304db21e9e90",
@@ -300,8 +300,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/duo/static/media/lemontart.7dd1e594.png"
   },
   {
-    "revision": "f13b7f2babd64dbd43ba1d040ac826fd",
-    "url": "/duo/static/media/logo2.f13b7f2b.png"
+    "revision": "ae62ff6ba7cfeb6d52c393296db67eed",
+    "url": "/duo/static/media/logo1.ae62ff6b.png"
   },
   {
     "revision": "b45ddf8c660e2e1297a21e9271c30a5c",
