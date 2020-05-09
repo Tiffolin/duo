@@ -82,7 +82,7 @@ function Main() {
             </NavLink>
         </div>
         <div className="menuBox">        
-            <NavLink to = "/Retails" className={"navlinks"}> 
+            <NavLink to = "/Retail" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">Retails</p>
                 <img src={retail} className="cakeImg img-fluid" alt="..."></img>
