@@ -636,17 +636,12 @@ iframe{
 
 /*DRINKS, BonBon & Retail
 /////////////////////////////////////////////////////////*/
-#drinks{
-    width:100%;
-    font-family:font1;
-
-}
 .sectionContainer{
     float:left;
     padding:auto;
     width:40%;
 }
-.sectionContainer img{
+.sectionContainer img{ /*BonBon & Retail image*/
     padding:auto;
     position:relative;
     left:-10%;
@@ -654,36 +649,35 @@ iframe{
 .linedown{
     border-right:solid 0.2px darkgrey;
 }
-.productName2{
+.productName2{ /*BonBon & Retail name containers*/
     margin-bottom:10%;
     text-align:left;
-
 }
-.description2{
+.productName2 span{  /*BonBon & Retail product name*/
+    margin:0;
+}
+.description2{ /*BonBon & Retail description*/
     padding:50px;
     margin:0;
     padding-bottom:0;
 }
-
+#drinks{
+    width:100%;
+    font-family:font1;
+}
 .drinkName p{
     padding-left:25%;
     margin:0;
 }
-.productName2 span{
-    margin:0;
-}
-.temp p{
+.temp p{ /*Drink temperature (Hot|Cold)*/
     margin:0;
     margin-left:30%;
     text-align:justify;
 }
-.caffeineFree{
+.caffeineFree{ /*Caffeine free logo for drinks*/
     height:20px;
     margin-left:12%;
 }
-
-
-
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 *********         RESPONSIVENESS              *********         
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -794,7 +788,6 @@ iframe{
     font-family:font1;
     font-size: 14px;
     height: 60px;
-
 }
 .scrolled{  /*ensures the navigation bar stays fixed upon scrolling*/
     position:fixed;
@@ -842,6 +835,15 @@ iframe{
     float:left;
     padding:auto;
     width:100%;
+}
+.sectionContainer img{ /*BonBon & Retail image*/
+    left: 0;
+}
+.description2{
+    left:15%;
+}
+.flavour{
+    width:60%;
 }
 .linedown{
     border-right:solid 0.2px white;

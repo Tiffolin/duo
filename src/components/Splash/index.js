@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import About from "../InnerComponents/About";
-import logo2 from "./logo2.png";
+import logo2 from "./logo1.png";
 import slide1 from "./1.png";
 import slide2 from "./2.png";
 import slide3 from "./3.png";

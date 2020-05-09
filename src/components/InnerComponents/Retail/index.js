@@ -12,10 +12,7 @@ function Retail() {
             <div id="drinks" className="row sections justify-content-sm-center">       
             <p className="pageTitle col-12">Retail</p>               
                 <div className="sectionContainer linedown ">
-                <p className="pageTitle col-12"></p>
-                <p className="pageTitle col-12"></p>
-                <p className="pageTitle col-12"></p>
-                        <Col lg={12} className="productName2 ">
+                        <Col lg={12} sm={12} className="productName2 description2">
                             <img src={retail} className="img-fluid" alt="retail"></img>
                         </Col>                   
                 </div>
