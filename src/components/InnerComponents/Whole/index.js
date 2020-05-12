@@ -42,7 +42,7 @@ function Whole() {
                         <p>Red berries</p>
                         <p>Vanilla cream</p>
                         <p>Strawberry bavarian cream</p>
-                        <p>White sponge perfumed in raspberry & strawberry</p>
+                        <p>White sponge perfumed in Raspberry & strawberry</p>
                     </div>
                     <div className="allergy">
                         <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
@@ -61,9 +61,9 @@ function Whole() {
                     </div>
                     <div className="cakeDescription">
                         <p>Mint cream</p>
-                        <p>Fresh mango and grapefruit compote</p>
+                        <p>Fresh mango and grapefruit Compote</p>
                         <p>Mango cream</p>
-                        <p>White sponge perfumed in mango & passionfruit</p>
+                        <p>White sponge perfumed in Mango & passionfruit</p>
                         <p>Mango crémeux </p>
                     </div>
                     <div className="allergy">
@@ -102,7 +102,7 @@ function Whole() {
                     </div> 
                     <div className="cakeDescription">
                         <p>Chocolate mousse</p>
-                        <p>Chocolate sponge soaked in kirsch</p>
+                        <p>Chocolate sponge soaked in Kirsch</p>
                         <p>Cherry compote</p>
                         <p>Kirsch chantilly</p>
                         <p>Chocolate sable</p>
@@ -216,7 +216,7 @@ function Whole() {
                         <p>Lychee gelee</p>
                         <p>Lychee soaked in Soho</p>
                         <p>Light lychee cream</p>
-                        <p>shortbread crust</p>
+                        <p>Shortbread crust</p>
                     </div>
                     <div className="allergy">
                         <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
@@ -255,7 +255,7 @@ function Whole() {
                     </div> 
                     <div className="cakeDescription">
                         <p>Almond cream</p>
-                        <p>Vanilla cream encrusted in pistachio</p>
+                        <p>Vanilla cream encrusted in Pistachio</p>
                         <p>Elder flower gelée</p>
                         <p>Fresh figs and raspberry</p>
                     </div>

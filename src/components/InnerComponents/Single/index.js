@@ -105,7 +105,7 @@ function Single() {
                     <p>Lychee gelee</p>
                     <p>Lychee soaked in Soho</p>
                     <p>Light lychee cream</p>
-                    <p>shortbread crust</p>
+                    <p>Shortbread crust</p>
                 </div>
                 <div className="allergy">
                     <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
@@ -224,7 +224,7 @@ function Single() {
                 <p className="productName">AVERY</p>
                 <div className="cakeDescription">
                     <p>Rose cheesecake</p>
-                    <p>Vanilla sponge perfumed w/t strawberry</p>
+                    <p>Vanilla sponge perfumed w/t Strawberry</p>
                     <p>Raspberry cream</p>
                     <p>Crispy crust</p>
                 </div>
@@ -264,7 +264,7 @@ function Single() {
                 <div className="cakeDescription">
                     <p>Dark chocolate mousse 66%</p>
                     <p>Hazelnut praline crispy</p>
-                    <p>Almond sponge enrobed with toasted sesame</p>
+                    <p>Almond sponge enrobed with Toasted sesame</p>
                 </div>
                 <div className="allergy">
                     <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
@@ -283,7 +283,7 @@ function Single() {
                 </div> 
                 <div className="cakeDescription">
                     <p>Chocolate mousse</p>
-                    <p>Chocolate sponge soaked in kirsch</p>
+                    <p>Chocolate sponge soaked in Kirsch</p>
                     <p>Cherry compote</p>
                     <p>Kirsch chantilly</p>
                     <p>Chocolate sable</p>
@@ -324,7 +324,7 @@ function Single() {
                     <p className="cakeSize">Available as a whole cake</p>  
                 </div> 
                 <div className="cakeDescription ">
-                    <p>Fresh raspberry filled with raspberry jam</p>
+                    <p>Fresh raspberry filled with Raspberry jam</p>
                     <p>Pistachio cream</p>
                     <p>Raspberry jelly</p>
                     <p>Almond shortbread crust</p>
