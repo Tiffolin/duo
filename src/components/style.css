@@ -643,12 +643,12 @@ iframe{
 .sectionContainer{
     float:left;
     padding:auto;
-    width:40%;
+    width:50%;
 }
 .sectionContainer img{ /*BonBon & Retail image*/
     padding:auto;
     position:relative;
-    left:-10%;
+    left:0%;
 }
 .linedown{
     border-right:solid 0.2px darkgrey;
@@ -691,4 +691,36 @@ iframe{
 .caffeineFree{ /*Caffeine free logo for drinks*/
     height:20px;
     margin-left:12%;
+}
+
+#retail{
+    width:100%;
+    font-family:font1; 
+}
+.retailProducts{
+    width:100%;
+    text-align:justify;
+}
+.retailProducts p{
+    float:left;
+    width:30%;
+    padding:auto;
+    margin-left:15%;
+}
+#bonBon{
+    width:100%;
+    font-family:font1; 
+}
+.bonBonDesctiption{
+    margin-bottom:10%;
+}
+.bonBonProducts{
+    width:100%;
+    text-align:justify;
+}
+.bonBonProducts p{
+    float:left;
+    width:30%;
+    padding:auto;
+    margin-left:15%;
 }

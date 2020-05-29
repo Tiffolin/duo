@@ -43,7 +43,7 @@ RESPONSIVENESS
         margin-top:15%;
     }
     .nav{ /*Navigation bar*/
-        width:100vw;
+        width:100%;
         transition:0.25s;
         z-index:10;
         background:transparent;
@@ -133,6 +133,40 @@ RESPONSIVENESS
         margin-left:0%;
         text-align:left;
     }
+    /***********Bonbon*********/
+    #bonBon{
+      width:100%;
+      padding-left:10%;
+      font-family:font1; 
+      text-align:center;
+  }
+    .bonBonProducts{
+      width:100%;
+      text-align:center;
+    }
+    .bonBonProducts p{
+      float:left;
+      width:50%;
+      padding:auto;
+      margin-left:0%;
+  }
+    /***********Retail*********/
+    #retail{
+      width:100%;
+      padding-left:18%;
+      font-family:font1; 
+      text-align:center;
+  }
+    .retailProducts{
+      width:100%;
+      text-align:center;
+  }
+    .retailProducts p{
+      float:none;
+      width:100%;
+      padding:auto;
+      margin-left:0%;
+  }
     /***********Location&Hours*********/
     .days{
         margin-bottom:10%;
@@ -270,6 +304,26 @@ TABLETS
     .slides{
         width:180%;
     }
+  .navbar-brand{
+    margin-left:5%;
+    margin-right:5%;
+}
+    #retail{
+      width:100%;
+      padding-left:0%;
+      font-family:font1; 
+      text-align:justify;
+  }
+    .retailProducts{
+      width:100%;
+      text-align:justify;
+  }
+    .retailProducts p{
+      float:left;
+      width:30%;
+      padding:auto;
+      margin-left:19%;
+  }
 }
 
 /* ----------- iPad Pro 10.5" ----------- */
@@ -310,7 +364,22 @@ TABLETS
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-
+    #retail{
+      width:100%;
+      padding-left:3%;
+      font-family:font1; 
+      text-align:justify;
+  }
+    .retailProducts{
+      width:100%;
+      text-align:justify;
+  }
+    .retailProducts p{
+      float:left;
+      width:32%;
+      padding:auto;
+      margin-left:16%;
+  }
 }
 
 /* Portrait */
@@ -326,6 +395,7 @@ TABLETS
     .carousel-caption span{
         font-size:3vh;
     }
+    
 }
 
 /* Landscape */
@@ -334,6 +404,10 @@ TABLETS
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar-brand{
+      margin-left:10%;
+      margin-right:5%;
+  }
 }
 
 /* Landscape */
@@ -371,7 +445,10 @@ TABLETS
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
+    .navbar-brand{
+      margin-left:5%;
+      margin-right:5%;
+  }
 }
 
 /*///          GALAXY TABLETS         ///*/

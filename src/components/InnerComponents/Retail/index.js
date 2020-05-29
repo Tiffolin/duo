@@ -9,32 +9,28 @@ import Back from "../Back";
 function Retail() {
     return (
         <div>        
-            <div id="drinks" className="row sections justify-content-sm-center">       
-            <p className="pageTitle col-12">Retail</p>               
-                <div className="sectionContainer linedown ">
-                        <Col lg={12} sm={12} className="productName2 description2">
-                            <img src={retail} className="img-fluid" alt="retail"></img>
-                        </Col>     
-
-                        <p className="productTitle col-12">Chocolate Bars</p>       
-                        <Col lg={6} className="productName2 description2 ">                           
+            <div id="retail" className="row sections justify-content-sm-center">       
+            <p className="pageTitle col-12">Retail</p>      
+                <div className="sectionContainer row linedown">
+                    <div className="retailProducts container-fluid col-10">
+                        <img src={retail} className="img-fluid" alt="retail"></img>
+                    </div>
+                    <p className="productTitle col-12">Chocolate Bars</p>          
+                        <div className="retailProducts">   
                             <p>Taïnori 64% Chocolate Bar</p>
                             <p>Fraise Chocolate Bar</p>
-                            <p>Z-Caramel 43%</p>                            
-                        </Col>
-                        <p className="productTitle col-12">Tea Bottles</p>
-                        <Col lg={6} className="productName2 description2"> 
+                            <p>Z-Caramel 43%</p>   
+                        </div>
+                    <p className="productTitle col-12">Tea Bottles</p>          
+                        <div className="retailProducts">   
                             <p>Oolong Rose Tea</p>
-                            <p>Oolong Lavender Tea</p>
-                        </Col>         
+                            <p>Oolong Lavender Tea</p> 
+                        </div>
                 </div>
-                <div className="sectionContainer">
-                    <Row>                        
-                        <Col lg={12} className="productName2 description2">
-                        <p>Labore velit labore cillum ad deserunt officia exercitation adipisicing do qui nis cillum exercitation adipisicing do qui nisi. </p>
-                        </Col>
-                
-                        <Col lg={6} className="productName2 description2 ">
+
+                <div className="sectionContainer row">              
+                    <p className="productTitle col-12">Other</p>          
+                        <div className="retailProducts">                            
                             <p>Madeleine</p>
                             <p>Chocolate Financier</p>
                             <p>Pistachio Financiers</p>
@@ -46,8 +42,6 @@ function Retail() {
                             <p>Langues De Chat</p>
                             <p>Galette </p>
                             <p>Curry Allumette </p>
-                        </Col>
-                        <Col lg={6} className="productName2 description2 ">
                             <p>Candied Orange</p>
                             <p>Chocolate Mendiants</p>
                             <p>Pecan Breton</p>
@@ -58,21 +52,18 @@ function Retail() {
                             <p>Pecan Chocolate</p>
                             <p>Margherita</p>
                             <p>Multi-Grain</p>
-                        </Col>
+                        </div>
 
-                        <p className="productTitle col-12">Jam Bottles</p>
-                        <Col lg={6} className="productName2 description2"> 
+                        <p className="productTitle col-12">Jam Bottles</p>       
+                        <div className="retailProducts"> 
                             <p>Raspberry Jam</p>
                             <p>Tea infused Blueberry Jam</p>
                             <p>Kiwi Orange Jam</p>
                             <p>Strawberry Oolong Jam</p>
-                        </Col>
-                        <Col lg={6} className="productName2 description2"> 
                             <p>Mango Grapefruit Jam</p>
                             <p>Pineapple Vanilla Jam</p>
                             <p>Vanilla Sugar</p>
-                        </Col>   
-                    </Row>
+                        </div>                  
                 </div>  
             </div>
             <Back />
