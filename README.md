@@ -3,7 +3,7 @@
 ReactJS website made for Duo Patisserie & Cafe. 
 
 ## Live Site
-https://tiffolin.github.io/duo/
+http://duopatisserie.com
 
 *Pending custom domain name*
 ## Technologies and Libraries
