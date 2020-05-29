@@ -26,14 +26,14 @@ class Splash extends Component {
 render() {
     return (
         <div >
-        {/* <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
-            <span className="alert">Due to the COVID-19 outbreak, Duo has implemented a "Take-out only" model.</span><br></br>
-            <span className="alert">We request customers with reservations to pick up their orders prior to 4pm. Operational hours may be reduced as we continue to monitor the situation.</span><br></br>
-        </Alert> */}
+        <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
+            <span className="alert">Due to the COVID-19 outbreak, Duo has implemented a "Take-out only" model</span><br></br>
+            <span className="alert">Operational hours will be reduced to comply with social distancing (please see Locations & hours page for details)</span><br></br>
+        </Alert>
         <div id="splashpage" class="justify-content-center container-fluid">
      
         <div className="desktopView navbar navbar-expand-lg navbar-light bg-light justify-content-center contain-fluid">
-            <NavLink to = "/duo" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink>
+            <NavLink to = "/" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -46,7 +46,7 @@ render() {
                 <li><NavLink to = "/BonBons" className={"navlinks nav-link "}>BON BONS </NavLink></li>
                 <li><NavLink to = "/Drinks" className={"navlinks nav-link "}>DRINKS </NavLink></li>
                 <li><NavLink to = "/Retail" className={"navlinks nav-link "}>RETAIL </NavLink></li>
-                <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATIONS </NavLink></li>
+                <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATIONS/HOURS </NavLink></li>
                 <li><NavLink to = "/About" className={"navlinks nav-link "} >ABOUT </NavLink></li>    
                 </ul>
             </div>  

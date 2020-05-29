@@ -33,7 +33,7 @@ return(
 <div className={this.state.scrolled ? "nav scrolled" : "nav"}>
     
     <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
-        <NavLink to = "/duo" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink>
+        <NavLink to = "/" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@ return(
             <li><NavLink to = "/BonBons" className={"navlinks nav-link "}>BON BONS </NavLink></li>
             <li><NavLink to = "/Drinks" className={"navlinks nav-link "}>DRINKS </NavLink></li>
             <li><NavLink to = "/Retail" className={"navlinks nav-link "}>RETAIL </NavLink></li>
-            <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATIONS </NavLink></li>
+            <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATIONS/HOURS </NavLink></li>
             <li><NavLink to = "/About" className={"navlinks nav-link "} >ABOUT </NavLink></li>    
             </ul>
         </div>

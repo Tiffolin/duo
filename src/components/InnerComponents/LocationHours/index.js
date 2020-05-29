@@ -6,7 +6,15 @@ import Col from "react-bootstrap/Col";
 function LocationHours() {
     return (
 <div id="location" className="col-12  justify-content-md-center sections">
+
     <p class="pageTitle col-12">LOCATION & HOURS</p>
+    <div className="notice col-12  justify-content-md-center">
+        Due to COVID-19, we are faced with the challenge of both shortage of supplies and staff.  
+        As a result, our store hours, products, and availability may change at anytime.  
+        We advise customers to call us in advance to place your order (1 business day required), 
+        check product availability and confirm store hours.  
+        We apologize in advance for any inconvenience we may have caused, and we are trying our best to serve you better.
+    </div>
     <Row>
         <Col lg={6} sm={12}>        
         <div className="hoursMapWrapper justify-content-md-center">
@@ -22,12 +30,12 @@ function LocationHours() {
                 </Col>
                 <Col lg={6} className="hours">
                     <p>Closed</p>
-                    <p>10am - 7pm</p>
-                    <p>10am - 7pm</p>
-                    <p>10am - 7pm</p>
-                    <p>10am - 7pm</p>
-                    <p>10am - 6pm</p>
-                    <p>11am -  6pm</p> 
+                    <p>Closed</p>
+                    <p>10am - 3pm</p>
+                    <p>10am - 3pm</p>
+                    <p>10am - 3pm</p>
+                    <p>10am - 3pm</p>
+                    <p>11am -  3pm</p> 
                 </Col>
             </Row>
         </div></Col>
