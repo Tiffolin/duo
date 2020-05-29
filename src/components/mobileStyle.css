@@ -42,23 +42,35 @@ RESPONSIVENESS
     .pageTitle{ 
         margin-top:15%;
     }
+    .scrolled{  /*ensures the navigation bar stays fixed upon scrolling*/
+      position:fixed;
+      top:0px;
+      z-index:20;
+      padding:20px;
+  }
     .nav{ /*Navigation bar*/
         width:100%;
         transition:0.25s;
         z-index:10;
         background:transparent;
-        color: black;
+        color: transparent;
         text-align: center;
         font-family:font1;
         font-size: 14px;
         height: 60px;
     }
-    .scrolled{  /*ensures the navigation bar stays fixed upon scrolling*/
-        position:fixed;
-        top:0px;
-        z-index:20;
-        padding:20px;
-    }
+    .navbar{
+      width:100%;
+      text-align:center;
+      box-shadow: 0 0 5px grey;
+      background-color:white;
+      z-index: 10;
+  }
+  .navlinks{ /*navigation link texts*/
+      color:grey;
+      padding-right:20px;
+  }
+
     /***********About*********/
     #about{
         padding:25px;
