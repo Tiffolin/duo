@@ -61,6 +61,7 @@ RESPONSIVENESS
     }
     .navbar{
       width:100%;
+      height: 60px;
       text-align:center;
       box-shadow: 0 0 5px grey;
       background-color:white;
