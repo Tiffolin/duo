@@ -64,9 +64,9 @@ import vanillacustard2 from "./viennoiseriesImageTo/vanillacustard.png";
 
 function Viennoiseries() {
     return (
-<div>
+<div className="sections">
     <Order />
-        <div id="viennoiseries" className="sections  row justify-content-center">
+        <div id="viennoiseries" className="row justify-content-center">
         <p class="pageTitle col-12">VIENNOISERIES</p>
 
             <div className="pastryContainer">

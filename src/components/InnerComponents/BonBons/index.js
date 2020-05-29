@@ -12,9 +12,9 @@ function BonBons() {
             <div id="drinks" className="row sections justify-content-sm-center">       
             <p className="pageTitle col-12">Bon Bons</p>               
                 <div className="sectionContainer linedown ">
-                        <Col lg={12} className="productName2 description2">
-                            <img src={Bonbon} className="img-fluid" alt="bonbon"></img>
-                        </Col>                   
+                    <Col lg={12} className="productName2 description2">
+                        <img src={Bonbon} className="img-fluid" alt="bonbon"></img>
+                    </Col>                   
                 </div>
                 <div className="sectionContainer">
                     <Row>
@@ -23,7 +23,7 @@ function BonBons() {
                         </Col>
                         <p className="pageTitle col-12">FLAVOURS</p>
                         
-                        <Col lg={6} sm={6} className="productName2 description2 ">
+                        <Col lg={6} sm={6} className="bonbonNames productName2 description2 ">
                             <p>Venezuela</p>
                             <p>Japanese Whiskey</p>
                             <p>Banana Almond</p>
@@ -31,7 +31,7 @@ function BonBons() {
                             <p>Coconut Lime</p>
                             <p>Berry Tea</p>
                         </Col>
-                        <Col lg={6} sm={6} className="productName2 description2">
+                        <Col lg={6} sm={6} className="bonbonNames productName2 description2">
                             <p>Blueberry Cassis</p>
                             <p>Hibiki Pecan</p>
                             <p>Vanilla Caramel</p>

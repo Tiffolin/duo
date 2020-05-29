@@ -1,4 +1,6 @@
 import React from 'react';
+import '../style.css';
+import'../mobileStyle.css';
 import {NavLink} from "react-router-dom";
 import whole from "./wholeblackforest.png";
 import single from "./blackforest.png";

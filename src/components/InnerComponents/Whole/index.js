@@ -25,10 +25,10 @@ import alcohol from "../Allergens/alcohol.PNG";
 
 function Whole() {
     return (
-        <div>
+        <div className="sections">
             <Order />
 
-        <div id="whole" className=" row sections justify-content-md-center">
+        <div id="whole" className=" row justify-content-md-center">
         <p className="pageTitle">WHOLE CAKES</p>
         <Allergens />
         <div className="cakeContainer">

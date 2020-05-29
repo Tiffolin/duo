@@ -31,10 +31,10 @@ import nuts from "../Allergens/nuts.png";
 
 function Single() {
     return (
-<div  className="justify-content-md-center">
+<div  className="sections justify-content-md-center">
     <Order />
 
-        <div id="single" className="row sections justify-content-md-center">
+        <div id="single" className="row  justify-content-md-center">
          
         <p className="pageTitle col-12">INDIVIDUAL CAKES</p>
     <Allergens />

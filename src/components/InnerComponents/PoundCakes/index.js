@@ -20,10 +20,10 @@ import alcohol from "../Allergens/alcohol.PNG";
 
 function PoundCake() {
     return (
-        <div>
+        <div className="sections">
             <Order />
 
-        <div id="poundCake" className="row sections justify-content-md-center">
+        <div id="poundCake" className="row justify-content-md-center">
         <p className="pageTitle">Travel Cakes</p>
   
         <div className="pCakeContainer">

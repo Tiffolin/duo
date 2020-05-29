@@ -7,10 +7,10 @@ import wholeblackforest from "./wholeblackforest1.png";
 
 function Cakes() {
     return (
-<div>
+<div className="sections"> 
     <Order />
-        <div id="cakes" className="row sections justify-content-sm-center">
-
+        <div id="cakes" className="row justify-content-sm-center">
+        <p className="pageTitle col-12">Cakes</p>       
         <div className="menuBox">        
             <NavLink to = "/Whole" className={"navlinks"}> 
             <div className="menuContainer">
