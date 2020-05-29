@@ -26,7 +26,7 @@ class App extends Component {
     <div className="App"> 
       <BrowserRouter>        
           <div className="justify-content-md-center">
-            <Route exact path="/duo" component={Splash} />
+            <Route exact path="/" component={Splash} />
             <Navbar />
             <ScrollToTop>
             <Route exact path="/About" component={About} />
