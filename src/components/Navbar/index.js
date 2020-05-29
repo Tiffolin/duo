@@ -31,6 +31,7 @@ render() {
 return(
 
 <div className={this.state.scrolled ? "nav scrolled" : "nav"}>
+
     
     <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
         <NavLink to = "/" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink>
@@ -39,16 +40,16 @@ return(
         </button>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0 navbar-light bg-light">
             <li className="nav-item active"></li>      
-            <li><NavLink to = "/Cakes" className={"navlinks nav-link "}>CAKES </NavLink></li>
-            <li><NavLink to = "/Viennoiseries" className={"navlinks nav-link "}>VIENNOISERIES </NavLink></li>
-            <li><NavLink to = "/PoundCakes" className={"navlinks nav-link "}>TRAVEL CAKES </NavLink></li>
-            <li><NavLink to = "/BonBons" className={"navlinks nav-link "}>BON BONS </NavLink></li>
-            <li><NavLink to = "/Drinks" className={"navlinks nav-link "}>DRINKS </NavLink></li>
-            <li><NavLink to = "/Retail" className={"navlinks nav-link "}>RETAIL </NavLink></li>
-            <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATIONS/HOURS </NavLink></li>
-            <li><NavLink to = "/About" className={"navlinks nav-link "} >ABOUT </NavLink></li>    
+            <li><NavLink to = "/Cakes" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show" >CAKES </NavLink></li>
+            <li><NavLink to = "/Viennoiseries" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show" >VIENNOISERIES </NavLink></li>
+            <li><NavLink to = "/PoundCakes" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show" >TRAVEL CAKES </NavLink></li>
+            <li><NavLink to = "/BonBons" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show" >BON BONS </NavLink></li>
+            <li><NavLink to = "/Drinks" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show" >DRINKS </NavLink></li>
+            <li><NavLink to = "/Retail" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show" >RETAIL </NavLink></li>
+            <li><NavLink to = "/LocationHours" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show" >LOCATIONS/HOURS </NavLink></li>
+            <li><NavLink to = "/About" className={"navlinks nav-link "} data-toggle="collapse" data-target=".navbar-collapse.show"  >ABOUT </NavLink></li>    
             </ul>
         </div>
     </nav>
