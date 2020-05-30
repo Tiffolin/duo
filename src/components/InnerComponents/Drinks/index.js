@@ -48,12 +48,6 @@ function Drinks() {
                     <p><span>Oolong Rose</span></p>
                     <p><span>Oolong Lavender</span></p>
                     <p><span>White Moonlight Tea</span></p>
-                    <p><span>Simply Mango White</span>
-                    <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
-                    </p>
-                    <p><span>Lemon Fresh</span>
-                    <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
-                    </p>
                     <p><span>Genmaicha</span></p>
                     <p><span>Jasmine</span></p>
                     <p><span>English Breakfast</span></p>
@@ -61,6 +55,9 @@ function Drinks() {
                     <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
                     <p><span>Chamomile</span>
+                    <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
+                    </p>
+                    <p><span>Simply Mango White</span>
                     <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
                 </Col>
@@ -121,12 +118,6 @@ function Drinks() {
                 <p className="pageTitle col-12">BOTTLED BEVERAGE</p>
                 <Col lg={7} className="productName2 drinkName">
                     <p><span>Sanpellegrino</span>
-                        <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
-                    </p>
-                    <p><span>Aranciata</span>
-                        <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
-                    </p>
-                    <p><span>Limonata</span>
                         <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
                     <p><span>Orangina</span>
