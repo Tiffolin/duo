@@ -31,7 +31,7 @@ window.removeEventListener("scroll");
 render() {
 return(
 
-<Navbar collapseOnSelect expand="xl" bg="light" variant="light" className={this.state.scrolled ? "nav scrolled" : "nav"}>
+<Navbar collapseOnSelect expand="xlp" bg="light" variant="light" className={this.state.scrolled ? "nav scrolled" : "nav"}>
   <Navbar.Brand href="#"><NavLink to = "/" className="navbar-brand"><img id="logo2" alt="logo2" src={logo2}></img></NavLink></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav" >
