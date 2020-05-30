@@ -2,10 +2,8 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import Order from "../Order";
 import Back from "../Back";
-import caffeineFree from "./caffeineFree.webp";
-// import wholeblackforest from "./wholeblackforest.webp";
+import caffeineFree from "./caffeineFree.png";
 
 function Drinks() {
     return (

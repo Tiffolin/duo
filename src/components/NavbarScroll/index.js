@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav} from 'react-bootstrap';
 import {NavLink} from "react-router-dom";
-import logo2 from "./logo1.webp";
+import logo2 from "./logo1.png";
 import '../style.css';
 import'../mobileStyle.css';
 

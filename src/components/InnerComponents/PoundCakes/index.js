@@ -3,20 +3,20 @@ import React from "react";
 import Order from "../Order";
 import Back from "../Back";
 //product Image
-import peacan from "./poundCakeImg/peacan.webp";
-import rasp from "./poundCakeImg/rasp.webp";
-import citrus from "./poundCakeImg/citrus.webp";
-import choco from "./poundCakeImg/choco.webp";
-import apple from "./poundCakeImg/apple.webp";
-import matcha from "./poundCakeImg/matcha.webp";
-import chestnut from "./poundCakeImg/chestnut.webp";
-import fruit from "./poundCakeImg/fruit.webp";
+import peacan from "./poundCakeImg/peacan.png";
+import rasp from "./poundCakeImg/rasp.png";
+import citrus from "./poundCakeImg/citrus.png";
+import choco from "./poundCakeImg/choco.png";
+import apple from "./poundCakeImg/apple.png";
+import matcha from "./poundCakeImg/matcha.png";
+import chestnut from "./poundCakeImg/chestnut.png";
+import fruit from "./poundCakeImg/fruit.png";
 // allergens
-import dairy from "../Allergens/dairy.webp";
-import wheat from "../Allergens/wheat.webp";
-import egg from "../Allergens/egg.webp";
-import nuts from "../Allergens/nuts.webp";
-import alcohol from "../Allergens/alcohol.webp";
+import dairy from "../Allergens/dairy.png";
+import wheat from "../Allergens/wheat.png";
+import egg from "../Allergens/egg.png";
+import nuts from "../Allergens/nuts.png";
+import alcohol from "../Allergens/alcohol.png";
 
 function PoundCake() {
     return (

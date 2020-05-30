@@ -2,13 +2,13 @@ import React from 'react';
 import '../style.css';
 import'../mobileStyle.css';
 import {NavLink} from "react-router-dom";
-import whole from "./wholeblackforest.webp";
-import single from "./blackforest.webp";
-import viennoiseries from "./almondcroissant.webp";
-import drink from "./drinks.webp";
-import poundcake from "./rasp.webp";
-import retail from "./retail.webp";
-import bonbons from "./bonbons.webp";
+import whole from "./wholeblackforest.png";
+import single from "./blackforest.png";
+import viennoiseries from "./almondcroissant.png";
+import drink from "./drinks.png";
+import poundcake from "./rasp.png";
+import retail from "./retail.png";
+import bonbons from "./bonbons.png";
 
 
 function Main() {

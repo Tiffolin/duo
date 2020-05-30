@@ -6,11 +6,11 @@ import {NavLink} from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import About from "../InnerComponents/About";
-import logo2 from "./logo1.webp";
-import slide1 from "./1.webp";
-import slide2 from "./2.webp";
-import slide3 from "./3.webp";
-import slide4 from "./4.webp";
+import logo2 from "./logo1.png";
+import slide1 from "./1.png";
+import slide2 from "./2.png";
+import slide3 from "./3.png";
+import slide4 from "./4.png";
 
 
 class Splash extends Component { 
