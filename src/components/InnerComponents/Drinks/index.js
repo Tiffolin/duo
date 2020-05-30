@@ -72,7 +72,7 @@ function Drinks() {
                     <p>Hot</p>
                     <p>Hot</p>
                     <p>Hot</p>
-                    <p>Hot</p>
+
                 </Col>
             </Row>
         </div>
@@ -128,8 +128,6 @@ function Drinks() {
                     </p>
                 </Col>
                 <Col lg={5} className="temp">
-                    <p>Ice</p>
-                    <p>Ice</p>
                     <p>Ice</p>
                     <p>Ice</p>
                     <p>Ice</p>
