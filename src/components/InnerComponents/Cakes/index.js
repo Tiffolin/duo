@@ -2,8 +2,8 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Order from "../Order";
 import Back from "../Back";
-import blackforest from "./blackforest.webp";
-import wholeblackforest from "./wholeblackforest1.webp";
+import blackforest from "./blackforest.png";
+import wholeblackforest from "./wholeblackforest1.png";
 
 function Cakes() {
     return (
