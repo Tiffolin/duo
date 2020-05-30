@@ -4,29 +4,29 @@ import Order from "../Order";
 import Allergens from "../Allergens";
 import Back from "../Back";
 // cakes images
-import avery from "./singleImage/avery.png";
-import baba from "./singleImage/baba.png";
-import blackforest from "./singleImage/blackforest.png";
-import c4 from "./singleImage/c4.png";
-import creme from "./singleImage/cream.png";
-import fei from "./singleImage/fei.png";
-import hazel from "./singleImage/hazel.png";
-import lemontart from "./singleImage/lemontart.png";
-import montblanc from "./singleImage/mb.png";
-import mixberries from "./singleImage/mixberries.png";
-import nova from "./singleImage/nova.png";
-import pearl from "./singleImage/pearl.png";
-import pistache from "./singleImage/pistache.png";
-import sthonore from "./singleImage/sthonore.png";
-import tatin from "./singleImage/tatin.png";
-import virgo from "./singleImage/virgo.png";
-import yuco from "./singleImage/yuco.png";
+import avery from "./singleImage/avery.webp";
+import baba from "./singleImage/baba.webp";
+import blackforest from "./singleImage/blackforest.webp";
+import c4 from "./singleImage/c4.webp";
+import creme from "./singleImage/cream.webp";
+import fei from "./singleImage/fei.webp";
+import hazel from "./singleImage/hazel.webp";
+import lemontart from "./singleImage/lemontart.webp";
+import montblanc from "./singleImage/mb.webp";
+import mixberries from "./singleImage/mixberries.webp";
+import nova from "./singleImage/nova.webp";
+import pearl from "./singleImage/pearl.webp";
+import pistache from "./singleImage/pistache.webp";
+import sthonore from "./singleImage/sthonore.webp";
+import tatin from "./singleImage/tatin.webp";
+import virgo from "./singleImage/virgo.webp";
+import yuco from "./singleImage/yuco.webp";
 // allergens
-import dairy from "../Allergens/dairy.png";
-import wheat from "../Allergens/wheat.png";
-import egg from "../Allergens/egg.png";
-import nuts from "../Allergens/nuts.png";
-// import alcohol from "../Allergens/alcohol.PNG";
+import dairy from "../Allergens/dairy.webp";
+import wheat from "../Allergens/wheat.webp";
+import egg from "../Allergens/egg.webp";
+import nuts from "../Allergens/nuts.webp";
+// import alcohol from "../Allergens/alcohol.webp";
 
 
 function Single() {

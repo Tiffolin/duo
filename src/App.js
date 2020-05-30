@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {BrowserRouter, Route} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop"; 
 import Splash from "./components/Splash";
-import Navbar from "./components/Navbar";
+import NavbarScroll from "./components/NavbarScroll";
 import About from "./components/InnerComponents/About"
 import Main from "./components/Main";
 import Cakes from "./components/InnerComponents/Cakes";
@@ -27,7 +27,7 @@ class App extends Component {
       <BrowserRouter>        
           <div className="justify-content-md-center">
             <Route exact path="/" component={Splash} />
-            <Navbar />
+            <NavbarScroll />
             <ScrollToTop>
             <Route exact path="/About" component={About} />
             <Route exact path="/Main" component={Main} />

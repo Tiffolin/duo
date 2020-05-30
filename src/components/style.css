@@ -181,7 +181,7 @@ div{
     text-align: center;
     font-family:font1;
     font-size: 14px;
-    height: 60px;
+    height: 80px;
 
 }
 .navbar{
@@ -194,6 +194,7 @@ div{
 .navlinks{ /*navigation link texts*/
     color:grey;
     padding-right:20px;
+    white-space: nowrap; 
 }
 .navbar li { 
     white-space: nowrap; 
@@ -204,11 +205,10 @@ div{
 }
 .nav-link{ /*navigation link texts in Hamburger bar (responsive)*/
     text-align:justify;
-    margin-left:5%;
 }
 .navbar-brand{
     margin-left:10%;
-    margin-right:20%;
+    margin-right:10%;
 }
 #logo2{ /*logo on navigation bar*/
     height:50px;

@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import storeFront from "./storeFront.png";
+import storeFront from "./storeFront.webp";
 
 function About() {
     return (         

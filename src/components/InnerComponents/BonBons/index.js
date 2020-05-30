@@ -2,7 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Bonbon from "./bonbon.png";
+import Bonbon from "./bonbon.webp";
 import Order from "../Order";
 import Back from "../Back";
 

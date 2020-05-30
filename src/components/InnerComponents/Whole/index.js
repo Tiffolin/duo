@@ -4,24 +4,24 @@ import Order from "../Order";
 import Allergens from "../Allergens";
 import Back from "../Back";
 //product Image
-import garden from "./wholeImage/garden.png";
-import sicily from "./wholeImage/sicily.png";
-import c4 from "./wholeImage/c4.png";
-import blackforest from "./wholeImage/blackforest.png";
-import cadaeu from "./wholeImage/cadaeu.png";
-import yuco from "./wholeImage/yuco.png";
-import mixberries from "./wholeImage/mixberries.png";
-import soleil from "./wholeImage/soleil.png";
-import supernova from "./wholeImage/supernova.png";
-import mona from "./wholeImage/mona.png";
-import pistache from "./wholeImage/pistache.png";
-import fei from "./wholeImage/fei.png";
+import garden from "./wholeImage/garden.webp";
+import sicily from "./wholeImage/sicily.webp";
+import c4 from "./wholeImage/c4.webp";
+import blackforest from "./wholeImage/blackforest.webp";
+import cadaeu from "./wholeImage/cadaeu.webp";
+import yuco from "./wholeImage/yuco.webp";
+import mixberries from "./wholeImage/mixberries.webp";
+import soleil from "./wholeImage/soleil.webp";
+import supernova from "./wholeImage/supernova.webp";
+import mona from "./wholeImage/mona.webp";
+import pistache from "./wholeImage/pistache.webp";
+import fei from "./wholeImage/fei.webp";
 // allergens
-import dairy from "../Allergens/dairy.png";
-import wheat from "../Allergens/wheat.png";
-import egg from "../Allergens/egg.png";
-import nuts from "../Allergens/nuts.png";
-import alcohol from "../Allergens/alcohol.PNG";
+import dairy from "../Allergens/dairy.webp";
+import wheat from "../Allergens/wheat.webp";
+import egg from "../Allergens/egg.webp";
+import nuts from "../Allergens/nuts.webp";
+import alcohol from "../Allergens/alcohol.webp";
 
 function Whole() {
     return (

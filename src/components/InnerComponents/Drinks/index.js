@@ -4,8 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 // import Order from "../Order";
 import Back from "../Back";
-import caffeineFree from "./caffeineFree.PNG";
-// import wholeblackforest from "./wholeblackforest.png";
+import caffeineFree from "./caffeineFree.webp";
+// import wholeblackforest from "./wholeblackforest.webp";
 
 function Drinks() {
     return (

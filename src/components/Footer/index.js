@@ -3,11 +3,11 @@ import '../style.css';
 import'../mobileStyle.css';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import insta from "./ig.png";
-import fb from "./fb.png";
-import linkedIn from "./linkedIn.png";
-import email from "./email.png";
-import payment from "./payment.png";
+import insta from "./ig.webp";
+import fb from "./fb.webp";
+import linkedIn from "./linkedIn.webp";
+import email from "./email.webp";
+import payment from "./payment.webp";
 
 function Footer() {
     return (

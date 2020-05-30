@@ -1,10 +1,10 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import dairy from "./dairy.png";
-import wheat from "./wheat.png";
-import egg from "./egg.png";
-import nuts from "./nuts.png"
+import dairy from "./dairy.webp";
+import wheat from "./wheat.webp";
+import egg from "./egg.webp";
+import nuts from "./nuts.webp"
 
 function Allergens() {
     return (
