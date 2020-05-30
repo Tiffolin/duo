@@ -28,7 +28,7 @@ render() {
         <div >
         <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
             <span className="alert">Due to the COVID-19 outbreak, Duo has implemented a "Take-out only" model</span><br></br>
-            <span className="alert">Operational hours will be reduced to comply with social distancing (please see Locations & hours page for details)</span><br></br>
+            <span className="alert">Operational hours will be reduced to comply with social distancing (please see Location/Hours page for details)</span><br></br>
         </Alert>
         <div id="splashpage" class="justify-content-center container-fluid">
      
@@ -46,7 +46,7 @@ render() {
                 <li><NavLink to = "/BonBons" className={"navlinks nav-link "}>BON BONS </NavLink></li>
                 <li><NavLink to = "/Drinks" className={"navlinks nav-link "}>DRINKS </NavLink></li>
                 <li><NavLink to = "/Retail" className={"navlinks nav-link "}>RETAIL </NavLink></li>
-                <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATIONS/HOURS </NavLink></li>
+                <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATION/HOURS </NavLink></li>
                 <li><NavLink to = "/About" className={"navlinks nav-link "} >ABOUT </NavLink></li>    
                 </ul>
             </div>  
