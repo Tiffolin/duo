@@ -21,7 +21,7 @@ function Main() {
             <NavLink to = "/Whole" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">WHOLE CAKE</p>
-                <img src={whole} className="cakeImg img-fluid" alt="..."></img>
+                <img src={whole} className="menuImg img-fluid" alt="..."></img>
                 <div className="menuHover">
 
                 </div>
@@ -32,7 +32,7 @@ function Main() {
             <NavLink to = "/Single" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">SINGLE CAKE</p>
-                <img src={single} className="cakeImg img-fluid" alt="..."></img>
+                <img src={single} className="menuImg img-fluid" alt="..."></img>
                 <div className="menuHover">
 
                 </div>
@@ -43,7 +43,7 @@ function Main() {
             <NavLink to = "/Viennoiseries" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">VIENNOISERIES</p>
-                <img src={viennoiseries} className="cakeImg img-fluid" alt="..."></img>
+                <img src={viennoiseries} className="menuImg img-fluid" alt="..."></img>
                 <div className="menuHover">
 
                 </div>
@@ -54,7 +54,7 @@ function Main() {
             <NavLink to = "/Drinks" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">Drinks</p>
-                <img src={drink} className="cakeImg img-fluid" alt="..."></img>
+                <img src={drink} className="menuImg img-fluid" alt="..."></img>
                 <div className="menuHover">
 
                 </div>
@@ -65,7 +65,7 @@ function Main() {
             <NavLink to = "/PoundCakes" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">TRAVEL CAKES</p>
-                <img src={poundcake} className="cakeImg img-fluid" alt="..."></img>
+                <img src={poundcake} className="menuImg img-fluid" alt="..."></img>
                 <div className="menuHover">
 
                 </div>
@@ -76,7 +76,7 @@ function Main() {
             <NavLink to = "/BonBons" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">Bon Bons</p>
-                <img src={bonbons} className="cakeImg img-fluid" alt="..."></img>
+                <img src={bonbons} className="menuImg img-fluid" alt="..."></img>
                 <div className="menuHover">
 
                 </div>
@@ -87,7 +87,7 @@ function Main() {
             <NavLink to = "/Retail" className={"navlinks"}> 
             <div className="menuContainer">
             <p className="menuName">Retails</p>
-                <img src={retail} className="cakeImg img-fluid" alt="..."></img>
+                <img src={retail} className="menuImg img-fluid" alt="..."></img>
                 <div className="menuHover">
 
                 </div>

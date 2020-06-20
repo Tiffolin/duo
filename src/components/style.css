@@ -432,11 +432,11 @@ iframe{
     width: 100%;
     height: 100%;
     border:1px solid #F9F0EC;
-    transition: transform 3s; /* Animation */
+    transition: transform 3s; 
 }
 .menuImg:hover{
-    transform: scale(1.2);
-    opacity:0.2;
+    transform: scale(1.03);
+    opacity:0.3;
 }
 .menuHover{ /*the div under the img, which will show when img turns opaque (on:hover). Wraps around proudctName, cakeDescription & allergy*/
     position:relative;
@@ -501,7 +501,7 @@ iframe{
     transition: transform 3s; /* Animation */
 }
 .cakeImg:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
     opacity:0.2;
 }
 .cakeHover{ /*the div under the img, which will show when img turns opaque (on:hover). Wraps around proudctName, cakeDescription & allergy*/
@@ -611,7 +611,7 @@ iframe{
     /* box-shadow:  0 0 5px  grey; */
 }
 .pastryImg:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
     opacity:0.2;
 }
 .pastryHover{
@@ -627,7 +627,7 @@ iframe{
     transition: transform 3s; /* Animation */
 }
 .pastryHover:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
     z-index:5;
     opacity:0.8;
 }
