@@ -46,7 +46,7 @@ function Footer() {
                         <div id="footerAddress">
                             <p className="footerAddressSub">ADDRESS</p>
                             <p className="footerAddressSub">230 Commerce Valley Dr E #4 Thornhill</p>
-                            <p className="footerAddressSub">L3T 7Y3T，Ontario, Canada</p>
+                            <p className="footerAddressSub">L3T 7Y3，Ontario, Canada</p>
                         </div>
                     </Col>
                     <Col lg={1}md={1} sm={0}></Col>
