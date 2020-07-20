@@ -234,9 +234,10 @@ function Whole() {
                         <p className="cakeSize">4 serving | 6 serving</p>  
                     </div> 
                     <div className="cakeDescription">
-                        <p>Chantilly cream</p>
-                        <p>Raspberry jam</p>
-                        <p>Chocolate cake</p>
+                        <p>Fresh raspberry filled with Raspberry jam</p>
+                        <p>Pistachio cream</p>
+                        <p>Raspberry jelly</p>
+                        <p>Almond shortbread crust</p>
                     </div>
                     <div className="allergy">
                         <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
