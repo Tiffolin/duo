@@ -209,7 +209,7 @@ function Whole() {
                 <div className="cakeHover row">
                     <div className="productName">
                         <p>FEI</p>
-                        <p className="cakeSize">4 serving | 8 serving</p>  
+                        <p className="cakeSize">4 serving</p>  
                     </div> 
                     <div className="cakeDescription">
                         <p>Raspberry cream</p>
@@ -231,7 +231,7 @@ function Whole() {
                 <div className="cakeHover row">
                     <div className="productName">
                         <p>PISTACHE</p>
-                        <p className="cakeSize">4 serving | 8 serving</p>  
+                        <p className="cakeSize">4 serving | 6 serving</p>  
                     </div> 
                     <div className="cakeDescription">
                         <p>Chantilly cream</p>
@@ -251,7 +251,7 @@ function Whole() {
                 <div className="cakeHover row">
                 <div className="productName">
                         <p>SICILY</p>
-                        <p className="cakeSize">4 serving | 8 serving</p>  
+                        <p className="cakeSize">4 serving | 6 serving</p>  
                     </div> 
                     <div className="cakeDescription">
                         <p>Almond cream</p>
@@ -272,7 +272,7 @@ function Whole() {
                 <div className="cakeHover row">
                     <div className="productName">
                         <p>Mixed berries</p>
-                        <p className="cakeSize">4 serving | 8 serving</p>  
+                        <p className="cakeSize">4 serving</p>  
                     </div> 
                     <div className="cakeDescription">
                         <p>Vanilla cream</p>
