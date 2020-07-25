@@ -11,7 +11,7 @@ function BonBons() {
         <div>        
             <div id="bonBon" className="row sections justify-content-sm-center">       
             <p className="pageTitle col-12">Bon Bons</p>           
-            <p className="bonBonDesctiption col-12">Labore velit labore cillum ad deserunt officia cillum exercitation adipisicing do qui nisi officia cillum exercitation adipisicing do qui nisi.</p>    
+            <p className="bonBonDesctiption col-12"></p>    
             <div className="sectionContainer row linedown">
                     <div className="retailProducts container-fluid col-10">
                       <img src={Bonbon} className="img-fluid" alt="bonbon"></img>
