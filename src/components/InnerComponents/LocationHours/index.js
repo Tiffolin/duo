@@ -31,11 +31,11 @@ function LocationHours() {
                 <Col lg={6} className="hours">
                     <p>Closed</p>
                     <p>Closed</p>
-                    <p>10am - 3pm</p>
-                    <p>10am - 3pm</p>
-                    <p>10am - 3pm</p>
-                    <p>10am - 3pm</p>
-                    <p>11am -  3pm</p> 
+                    <p>10am - 7pm</p>
+                    <p>10am - 7pm</p>
+                    <p>10am - 7pm</p>
+                    <p>10am - 6pm</p>
+                    <p>11am -  6pm</p> 
                 </Col>
             </Row>
         </div></Col>
