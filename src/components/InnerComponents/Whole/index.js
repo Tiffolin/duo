@@ -16,6 +16,7 @@ import supernova from "./wholeImage/supernova.png";
 import mona from "./wholeImage/mona.png";
 import pistache from "./wholeImage/pistache.png";
 import fei from "./wholeImage/fei.png";
+import pavlova from "./wholeImage/pavlova.png";
 // allergens
 import dairy from "../Allergens/dairy.png";
 import wheat from "../Allergens/wheat.png";
@@ -286,6 +287,28 @@ function Whole() {
                         <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
                         <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                         <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
+                    </div> 
+                </div>
+            </div>
+            <div className="cakeContainer">
+                <img src={pavlova} className="cakeImg img-fluid" alt="..."></img>
+                <div className="cakeHover row">
+                    <div className="productName">
+                        <p>Pavlova </p>
+                        <p className="cakeSize">6 serving</p>  
+                    </div> 
+                    <div className="cakeDescription">
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                    </div>
+                    <div className="allergy">
+                        To be added later
+                        {/* <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span> */}
                     </div> 
                 </div>
             </div>
