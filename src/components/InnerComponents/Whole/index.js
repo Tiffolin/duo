@@ -298,13 +298,14 @@ function Whole() {
                         <p className="cakeSize">6 serving</p>  
                     </div> 
                     <div className="cakeDescription">
-                        <p>...</p>
-                        <p>...</p>
-                        <p>...</p>
-                        <p>...</p>
+                        <p>Coconut meringue</p>
+                        <p>Lime infused cream</p>
+                        <p>Pineapple cubes</p>
+                        <p>Lemon cream</p>
+                        <p>Mango mousse</p>
                     </div>
                     <div className="allergy">
-                        To be added later
+                    <span className="cakeSize col-1">Please call store for allergen details</span>
                         {/* <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
                         <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
                         <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
