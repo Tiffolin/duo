@@ -1,3 +1,4 @@
+import alcohol from "../Allergens/alcohol.png";
 import React from "react";
 // other components
 import Order from "../Order";
@@ -16,13 +17,13 @@ import supernova from "./wholeImage/supernova.png";
 import mona from "./wholeImage/mona.png";
 import pistache from "./wholeImage/pistache.png";
 import fei from "./wholeImage/fei.png";
-import pavlova from "./wholeImage/pavlova.png";
+// import pavlova from "./wholeImage/pavlova.png";
 // allergens
 import dairy from "../Allergens/dairy.png";
 import wheat from "../Allergens/wheat.png";
 import egg from "../Allergens/egg.png";
 import nuts from "../Allergens/nuts.png";
-import alcohol from "../Allergens/alcohol.png";
+
 
 function Whole() {
     return (
@@ -290,7 +291,7 @@ function Whole() {
                     </div> 
                 </div>
             </div>
-            <div className="cakeContainer">
+            {/* <div className="cakeContainer">
                 <img src={pavlova} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
                     <div className="productName">
@@ -309,7 +310,7 @@ function Whole() {
                         <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                     </div> 
                 </div>
-            </div>
+            </div> */}
         </div>
         <Back />
 </div>
