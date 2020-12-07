@@ -18,6 +18,8 @@ import mona from "./wholeImage/mona.png";
 import pistache from "./wholeImage/pistache.png";
 import fei from "./wholeImage/fei.png";
 import xmas from "./wholeImage/xmas.png";
+import xmas2 from "./wholeImage/dor.png";
+import xmas3 from "./wholeImage/rouge.png";
 // import pavlova from "./wholeImage/pavlova.png";
 // allergens
 import dairy from "../Allergens/dairy.png";
@@ -34,6 +36,73 @@ function Whole() {
         <div id="whole" className=" row justify-content-md-center">
         <p className="pageTitle">WHOLE CAKES</p>
         <Allergens />
+                    <div className="cakeContainer">
+                <img src={xmas3} className="cakeImg img-fluid" alt="..."></img>
+                <div className="cakeHover row">
+                    <div className="productName">
+                        <p>Rouge </p>
+                        <p className="cakeSize">6 serving</p>  
+                    </div> 
+                    <div className="cakeDescription">
+                        <p>Earl Grey Mousse</p>
+                        <p>Rose Cheesecake</p>
+                        <p>Raspberry Gelée</p>
+                        <p>Almond Sponge Perfumed with Strawberry Soaking</p>
+                        <p>Raspberry Mousse</p>
+                    </div>
+                    <div className="allergy">
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
+                    </div> 
+                </div>
+            </div>
+                        <div className="cakeContainer">
+                <img src={xmas2} className="cakeImg img-fluid" alt="..."></img>
+                <div className="cakeHover row">
+                    <div className="productName">
+                        <p>D'or </p>
+                        <p className="cakeSize">6 serving</p>  
+                    </div> 
+                    <div className="cakeDescription">
+                        <p>Dark Chocolate Mousse</p>
+                        <p>Honey Mousse</p>
+                        <p>Caramel Mascarpone Cream</p>
+                        <p>Caramelized Apples</p>
+                        <p>Walnut Dacquoise</p>
+                        <p>Chocolate Sablé</p>
+                    </div>
+                    <div className="allergy">
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
+                    </div> 
+                </div>
+            </div>
+            <div className="cakeContainer">
+                <img src={xmas} className="cakeImg img-fluid" alt="..."></img>
+                <div className="cakeHover row">
+                    <div className="productName">
+                        <p>Blanc </p>
+                        <p className="cakeSize">6 serving</p>  
+                    </div> 
+                    <div className="cakeDescription">
+                        <p>Coconut Sorbet</p>
+                        <p>Yuzu and Orange Sorbet</p>
+                        <p>Lemon Cream Cheese Ice Cream</p>
+                        <p>Coconut Dacquoise</p>
+                        <p>Vanilla Sablé</p>
+                    </div>
+                    <div className="allergy">
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
+                    </div> 
+                </div>
+            </div>
         <div className="cakeContainer">
                 <img src={garden} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
@@ -292,26 +361,7 @@ function Whole() {
                     </div> 
                 </div>
             </div>
-            <div className="cakeContainer">
-                <img src={xmas} className="cakeImg img-fluid" alt="..."></img>
-                <div className="cakeHover row">
-                    <div className="productName">
-                        <p>Blanc </p>
-                        <p className="cakeSize">6 serving</p>  
-                    </div> 
-                    <div className="cakeDescription">
-                        <p>Coconut Sorbet</p>
-                        <p>Yuzu and Orange Sorbet</p>
-                        <p>Lemon Cream Cheese Ice Cream</p>
-                        <p>Coconut Dacquoise</p>
-                        <p>Vanilla Sablé</p>
-                    </div>
-                    <div className="allergy">
-                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
-                    </div> 
-                </div>
-            </div>
+
         </div>
         <Back />
 </div>
