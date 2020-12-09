@@ -16,10 +16,9 @@ function Retail() {
                         <img src={retail} className="img-fluid" alt="retail"></img>
                     </div>
                     <p className="productTitle col-12">Chocolate Bars</p>          
-                        <div className="retailProducts">   
-                            <p>Taïnori 64% Chocolate Bar</p>
+                        <div className="retailProducts">            
                             <p>Fraise Chocolate Bar</p>
-                            <p>Z-Caramel 43%</p>   
+                            <p>Xmas Chocolate bar (seasonal)</p>   
                         </div>
                     <p className="productTitle col-12">Tea Bottles</p>          
                         <div className="retailProducts">   
@@ -34,7 +33,6 @@ function Retail() {
                             <p>Madeleine</p>
                             <p>Chocolate Financier</p>
                             <p>Pistachio Financiers</p>
-                            <p>Pineapple Cake</p>
                             <p>Salted Butter Financier</p>
                             <p>Florentine</p>
                             <p>Chocolate Sable</p>
@@ -42,7 +40,6 @@ function Retail() {
                             <p>Langues De Chat</p>
                             <p>Galette </p>
                             <p>Curry Allumette </p>
-                            <p>Candied Orange</p>
                             <p>Chocolate Mendiants</p>
                             <p>Pecan Breton</p>
                             <p>Raspberry Rose Twirl</p>
@@ -56,7 +53,7 @@ function Retail() {
 
                         <p className="productTitle col-12">Jam Bottles</p>       
                         <div className="retailProducts"> 
-                            <p>Raspberry Jam</p>
+                            <p>Raspberry Lychee Jam</p>
                             <p>Tea infused Blueberry Jam</p>
                             <p>Kiwi Orange Jam</p>
                             <p>Strawberry Oolong Jam</p>

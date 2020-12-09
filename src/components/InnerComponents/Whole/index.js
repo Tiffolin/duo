@@ -169,7 +169,7 @@ function Whole() {
                 <img src={blackforest} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
                     <div className="productName">
-                        <p>BLACK FOREST</p>
+                        <p>BLACK FOREST (seasonal)</p>
                         <p className="cakeSize">4 serving</p>  
                     </div> 
                     <div className="cakeDescription">
