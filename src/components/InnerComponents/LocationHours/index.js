@@ -37,6 +37,27 @@ function LocationHours() {
                     <p>10am - 6pm</p>
                     <p>11am -  6pm</p> 
                 </Col>
+
+            <Col lg={12}><p class="pageTitle col-12">------</p></Col>
+            <Col lg={12}><p class="pageTitle col-12">HOLIDAY HOURS</p></Col>
+                <Col lg={6} className="days">
+                    <p>Dec 24th</p>
+                    <p>Dec 25th</p>
+                    <p>Dec 26th</p>
+                    <p>----------</p>
+                    <p>Dec 31st</p>
+                    <p>Jan 1st</p>
+                </Col>
+                <Col lg={6} className="hours">
+                    <p>10am - 6pm</p>
+                    <p>10am - 4pm</p>
+                    <p>10am - 6pm</p>
+                    <p>-------------</p>
+                    <p>10am - 4pm</p>
+                    <p>10am - 4pm</p>
+                </Col>
+
+
             </Row>
         </div></Col>
         <Col lg={6} sm={12}>

@@ -28,8 +28,9 @@ render() {
     return (
         <div >
         <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
-            <span className="alert">Due to the COVID-19 outbreak, Duo has implemented a "Take-out only" model</span><br></br>
-            <span className="alert">Operational hours will be reduced to comply with social distancing (please see Location/Hours page for details)</span><br></br>
+            <span className="alert">In compliance to York Region's COVID-19 regulations, Duo has implemented a "Take-out only" model</span><br></br>
+            <span className="alert">Washrooms will be closed to the public & facemasks are mandatory indoors</span><br></br>
+            <span className="alert">Please see our Location/Hours page for current Oprational hours</span><br></br>
         </Alert>
         <div id="splashpage" class="justify-content-center container-fluid">
      
@@ -102,6 +103,36 @@ render() {
                 </div>
             </div>
         </div>
+
+
+<div id="location" className="col-12  justify-content-md-center sections">
+    <Row>
+    <Col lg={3}></Col>
+        <Col lg={7} sm={12}>        
+        <div className="hoursMapWrapper justify-content-md-center">
+            <Row>     
+            <Col lg={12}><p class="pageTitle col-12">HOLIDAY HOURS</p></Col>
+                <Col lg={6} className="days">
+                    <p>Dec 24th</p>
+                    <p>Dec 25th</p>
+                    <p>Dec 26th</p>
+                    <p>----------</p>
+                    <p>Dec 31st</p>
+                    <p>Jan 1st</p>
+                </Col>
+                <Col lg={6} className="hours">
+                    <p>10am - 6pm</p>
+                    <p>10am - 4pm</p>
+                    <p>10am - 6pm</p>
+                    <p> ------------</p>
+                    <p>10am - 4pm</p>
+                    <p>10am - 4pm</p>
+                </Col>
+            </Row>
+        </div></Col>
+    </Row>
+</div>
+
 
         <About/>
         
