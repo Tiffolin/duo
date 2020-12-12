@@ -123,7 +123,7 @@ render() {
                 <Col lg={6} className="hours">
                     <p>10am - 6pm</p>
                     <p>10am - 4pm</p>
-                    <p>10am - 6pm</p>
+                    <p>10am - 4pm</p>
                     <p> ------------</p>
                     <p>10am - 4pm</p>
                     <p>10am - 4pm</p>
