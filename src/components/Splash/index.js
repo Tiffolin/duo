@@ -9,9 +9,9 @@ import About from "../InnerComponents/About";
 import logo2 from "./logo1.png";
 import slide1 from "./1.png";
 import slide2 from "./2.png";
-// import slide3 from "./3.png";
+import slide3 from "./3.png";
 import slide4 from "./4.png";
-import xmas from "./xmas.png";
+// import xmas from "./xmas.png";
 
 
 class Splash extends Component { 
@@ -78,13 +78,13 @@ render() {
                     </NavLink>
 
                     <div className="carousel-item active">
-                        <img src={xmas} className="slides" alt="slide1"></img>
+                        <img src={slide1} className="slides" alt="slide1"></img>
                     </div>                   
                     <div className="carousel-item">
-                        <img src={slide1} className="slides" alt="slide3"></img>
+                        <img src={slide2} className="slides" alt="slide3"></img>
                     </div>                 
                     <div className="carousel-item">
-                        <img src={slide2} className="slides" alt="slide3"></img>
+                        <img src={slide3} className="slides" alt="slide3"></img>
                     </div>                  
                     <div className="carousel-item">
                         <img src={slide4} className="slides" alt="slide3"></img>
@@ -107,6 +107,9 @@ render() {
 
 <div id="location" className="col-12  justify-content-md-center sections">
     <Row>
+    <Col lg={12} className="hours">
+        <p>*We are no longer accepting new pre-orders for Xmas Eve (Thurs, December 24th). Thank you to everyone who ordered!</p>
+    </Col>
     <Col lg={3}></Col>
         <Col lg={7} sm={12}>        
         <div className="hoursMapWrapper justify-content-md-center">
@@ -128,6 +131,7 @@ render() {
                     <p>10am - 4pm</p>
                     <p>10am - 4pm</p>
                 </Col>
+
             </Row>
         </div></Col>
     </Row>
