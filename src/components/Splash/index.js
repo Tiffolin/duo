@@ -107,9 +107,7 @@ render() {
 
 <div id="location" className="col-12  justify-content-md-center sections">
     <Row>
-    <Col lg={12} className="hours">
-        <p>*We are no longer accepting new pre-orders for Xmas Eve (Thurs, December 24th). Thank you to everyone who ordered!</p>
-    </Col>
+
     <Col lg={3}></Col>
         <Col lg={7} sm={12}>        
         <div className="hoursMapWrapper justify-content-md-center">
@@ -133,6 +131,14 @@ render() {
                 </Col>
 
             </Row>
+    <Col lg={12} className="maxOrder">
+        <p>//We have reached our max order capacity and are no longer accepting new pre-orders for</p>
+        <p>December 22nd, 23rd, 24th, 25th. Thank you to everyone who ordered!//</p>
+        <p></p>
+            
+             
+            
+    </Col>
         </div></Col>
     </Row>
 </div>

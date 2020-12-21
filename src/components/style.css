@@ -30,6 +30,13 @@ a:hover {
 }
 /*SPLASH PAGE
 /////////////////////////////////////////////////////////*/
+/* orderMaxNotice */
+.maxOrder{
+    margin:0;
+    text-align:center;
+    color:grey;
+}
+
 .alert{
     font-size:14px;
     z-index:20;
