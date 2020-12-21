@@ -114,7 +114,7 @@ render() {
         <Col lg={12} className="maxOrder">    
         <p>____________________________________________________________________________________________________________</p>    
         <p>Thank you to everyone that placed their orders early for the holidays! Unfortunately we have reached our</p>
-        <p>maximum order capacity and will no longer be taking anew orders for December 22nd, 23rd, 24th & 25th.</p>
+        <p>maximum order capacity and will no longer be taking new orders for December 22nd, 23rd, 24th & 25th.</p>
         <p>____________________________________________________________________________________________________________</p>  
         <br></br>     
         </Col>
