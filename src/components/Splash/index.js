@@ -111,6 +111,14 @@ render() {
     <Col lg={3}></Col>
         <Col lg={7} sm={12}>        
         <div className="hoursMapWrapper justify-content-md-center">
+        <Col lg={12} className="maxOrder">    
+        <p>____________________________________________________________________________________________________________</p>    
+        <p>Thank you to everyone that placed their orders early for the holidays! Unfortunately we have reached our</p>
+        <p>maximum order capacity and will no longer be taking anew orders for December 22nd, 23rd, 24th & 25th.</p>
+        <p>____________________________________________________________________________________________________________</p>  
+        <br></br>     
+        </Col>
+        <br></br>
             <Row>     
             <Col lg={12}><p class="pageTitle col-12">HOLIDAY HOURS</p></Col>
                 <Col lg={6} className="days">
@@ -131,14 +139,7 @@ render() {
                 </Col>
 
             </Row>
-    <Col lg={12} className="maxOrder">
-        <p>//We have reached our max order capacity and are no longer accepting new pre-orders for</p>
-        <p>December 22nd, 23rd, 24th, 25th. Thank you to everyone who ordered!//</p>
-        <p></p>
-            
-             
-            
-    </Col>
+
         </div></Col>
     </Row>
 </div>
