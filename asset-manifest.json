@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f11d14c.chunk.css",
-    "main.js": "/static/js/main.5dea50d8.chunk.js",
-    "main.js.map": "/static/js/main.5dea50d8.chunk.js.map",
+    "main.css": "/static/css/main.d51899ee.chunk.css",
+    "main.js": "/static/js/main.3b257c13.chunk.js",
+    "main.js.map": "/static/js/main.3b257c13.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d6455a2.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d6455a2.js.map",
-    "static/js/2.a484a1e2.chunk.js": "/static/js/2.a484a1e2.chunk.js",
-    "static/js/2.a484a1e2.chunk.js.map": "/static/js/2.a484a1e2.chunk.js.map",
+    "static/js/2.b2d205ea.chunk.js": "/static/js/2.b2d205ea.chunk.js",
+    "static/js/2.b2d205ea.chunk.js.map": "/static/js/2.b2d205ea.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0face1bd29aee66f7f16b905a37f09e4.js": "/precache-manifest.0face1bd29aee66f7f16b905a37f09e4.js",
+    "precache-manifest.d1f1b9dfe924f681a781e02d9b3a1b5b.js": "/precache-manifest.d1f1b9dfe924f681a781e02d9b3a1b5b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4f11d14c.chunk.css.map": "/static/css/main.4f11d14c.chunk.css.map",
-    "static/js/2.a484a1e2.chunk.js.LICENSE.txt": "/static/js/2.a484a1e2.chunk.js.LICENSE.txt",
+    "static/css/main.d51899ee.chunk.css.map": "/static/css/main.d51899ee.chunk.css.map",
+    "static/js/2.b2d205ea.chunk.js.LICENSE.txt": "/static/js/2.b2d205ea.chunk.js.LICENSE.txt",
     "static/media/1.png": "/static/media/1.0b15fc4e.png",
     "static/media/2.png": "/static/media/2.3865179e.png",
     "static/media/3.png": "/static/media/3.09c330b6.png",
@@ -77,7 +77,6 @@
     "static/media/raspberryrose.png": "/static/media/raspberryrose.7ff6d25b.png",
     "static/media/retail.png": "/static/media/retail.78afd17c.png",
     "static/media/roastbeef.png": "/static/media/roastbeef.28bcfc07.png",
-    "static/media/rouge.png": "/static/media/rouge.a42d078f.png",
     "static/media/salamiandcheese.png": "/static/media/salamiandcheese.56fdba58.png",
     "static/media/sicily.png": "/static/media/sicily.ad782b13.png",
     "static/media/soleil.png": "/static/media/soleil.0e207dd8.png",
@@ -94,8 +93,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9d6455a2.js",
-    "static/js/2.a484a1e2.chunk.js",
-    "static/css/main.4f11d14c.chunk.css",
-    "static/js/main.5dea50d8.chunk.js"
+    "static/js/2.b2d205ea.chunk.js",
+    "static/css/main.d51899ee.chunk.css",
+    "static/js/main.3b257c13.chunk.js"
   ]
 }
