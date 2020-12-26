@@ -28,8 +28,8 @@ render() {
     return (
         <div >
         <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
-            <span className="alert">Please Note: Duo will be closed the week of January 4th, 2020 </span><br></br>
-            <span className="alert">We will re-open on Tuesday, January 12th, 2020</span><br></br>
+            <span className="alert ">Please Note: Duo will be closed the week of <b>January 4th, 2020</b>. We will re-open on Tuesday, <b>January 12th, 2020</b></span><br></br>
+            <span className="alert "></span><br></br> 
             
         </Alert>
         <div id="splashpage" class="justify-content-center container-fluid">
@@ -113,9 +113,9 @@ render() {
         <div className="hoursMapWrapper justify-content-md-center">
         <Col lg={12} className="maxOrder">    
         <p>____________________________________________________________________________________________________________</p>    
-            <span className="alert">In compliance to York Region's COVID-19 regulations, Duo has implemented a "Take-out only" model</span><br></br>
-            <span className="alert">Washrooms will be closed to the public & facemasks are mandatory indoors</span><br></br>
-            <span className="alert">Please see our Location/Hours page for current Operational hours</span><br></br>
+            <span >In compliance to York Region's COVID-19 regulations, Duo has implemented a "Take-out only" model</span><br></br>
+            <span >Washrooms will be closed to the public & facemasks are mandatory indoors</span><br></br>
+            <span >Please see our Location/Hours page for current Operational hours</span><br></br>
         <p>____________________________________________________________________________________________________________</p>  
         <br></br>     
         </Col>
