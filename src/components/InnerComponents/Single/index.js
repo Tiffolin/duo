@@ -46,7 +46,7 @@ function Single() {
                 <div className="cakeDescription">
                     <p>Banana Chiboust cream</p>
                     <p>Orange marmalade</p>
-                    <p>Orange cremeux</p>
+                    <p>Orange crémeux</p>
                     <p>Caramelized banana</p>
                     <p>Short crust</p>
                 </div>     
