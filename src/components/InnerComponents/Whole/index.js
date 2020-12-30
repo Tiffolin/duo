@@ -1,4 +1,3 @@
-import alcohol from "../Allergens/alcohol.png";
 import React from "react";
 // other components
 import Order from "../Order";
@@ -17,16 +16,19 @@ import supernova from "./wholeImage/supernova.png";
 import mona from "./wholeImage/mona.png";
 import pistache from "./wholeImage/pistache.png";
 import fei from "./wholeImage/fei.png";
-// import xmas from "./wholeImage/xmas.png";
-import xmas2 from "./wholeImage/dor.png";
-// import xmas3 from "./wholeImage/rouge.png";
 // import pavlova from "./wholeImage/pavlova.png";
+////////////XMAS Cakes 2020///////////////////
+// import xmas from "./wholeImage/xmas.png";
+// import xmas2 from "./wholeImage/dor.png";
+// import xmas3 from "./wholeImage/rouge.png";
+//////////////////////////////////////////////
+
 // allergens
 import dairy from "../Allergens/dairy.png";
 import wheat from "../Allergens/wheat.png";
 import egg from "../Allergens/egg.png";
 import nuts from "../Allergens/nuts.png";
-
+import alcohol from "../Allergens/alcohol.png";
 
 function Whole() {
     return (
@@ -36,30 +38,6 @@ function Whole() {
         <div id="whole" className=" row justify-content-md-center">
         <p className="pageTitle">WHOLE CAKES</p>
         <Allergens />
-
-                        <div className="cakeContainer">
-                <img src={xmas2} className="cakeImg img-fluid" alt="..."></img>
-                <div className="cakeHover row">
-                    <div className="productName">
-                        <p>D'or </p>
-                        <p className="cakeSize">6 serving</p>  
-                    </div> 
-                    <div className="cakeDescription">
-                        <p>Dark Chocolate Mousse</p>
-                        <p>Honey Mousse</p>
-                        <p>Caramel Mascarpone Cream</p>
-                        <p>Caramelized Apples</p>
-                        <p>Walnut Dacquoise</p>
-                        <p>Chocolate Sablé</p>
-                    </div>
-                    <div className="allergy">
-                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
-                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
-                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
-                    </div> 
-                </div>
-            </div>
 
         <div className="cakeContainer">
                 <img src={garden} className="cakeImg img-fluid" alt="..."></img>
@@ -142,6 +120,7 @@ function Whole() {
                         <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
                         <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                         <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={alcohol} alt="alcohol"></img></span>                        
                     </div> 
                 </div>
             </div>
@@ -253,6 +232,7 @@ function Whole() {
                         <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
                         <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
                         <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
+                        <span> <img className="allergen col-2" src={alcohol} alt="alcohol"></img></span> 
                     </div> 
                 </div>
             </div>

@@ -5,6 +5,7 @@ import dairy from "./dairy.png";
 import wheat from "./wheat.png";
 import egg from "./egg.png";
 import nuts from "./nuts.png"
+import alcohol from "./alcohol.png"
 
 function Allergens() {
     return (
@@ -20,6 +21,8 @@ function Allergens() {
                 <span><img src={egg} className="allergens img-fluid"alt="egg"></img></span>
                 <span>Nuts</span>
                 <span><img src={nuts} className="allergens img-fluid"alt="nuts"></img></span>
+                <span>Alcohol</span>
+                <span><img src={alcohol} className="allergens img-fluid"alt="alcohol"></img></span>
             </Col>
 
             </Row>

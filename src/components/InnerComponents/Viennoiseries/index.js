@@ -40,7 +40,7 @@ import blacksesamebrioche2 from "./viennoiseriesImage/blacksesamebrioche.png";
 import briocheloaf2 from "./viennoiseriesImage/briocheloaf.png";
 import briochetete2 from "./viennoiseriesImage/briochetete.png";
 import canele2 from "./viennoiseriesImage/canele.png";
-import cheddargreyure2 from "./viennoiseriesImage/cheddargreyure.png";
+// import cheddargreyure2 from "./viennoiseriesImage/cheddargreyure.png";
 import chestnut2 from "./viennoiseriesImage/chestnut.png";
 import chocoalmond2 from "./viennoiseriesImage/chocoalmond.png";
 import chocobook2 from "./viennoiseriesImage/chocobook.png";
@@ -61,6 +61,7 @@ import roastbeef2 from "./viennoiseriesImage/roastbeef.png";
 import salamiandcheese2 from "./viennoiseriesImage/salamiandcheese.png";
 import tropezienne2 from "./viennoiseriesImage/tropezienne.png";
 import vanillacustard2 from "./viennoiseriesImage/vanillacustard.png";
+import turkeyB from "./viennoiseriesImage/turkeyB.png";
 
 function Viennoiseries() {
     return (
@@ -69,6 +70,13 @@ function Viennoiseries() {
         <div id="viennoiseries" className="row justify-content-center">
         <p class="pageTitle col-12">VIENNOISERIES</p>
 
+            <div className="pastryContainer">
+                <img src={turkeyB} className="pastryImg img-fluid" alt="..."></img>
+                <div className="pastryHover">
+                     <span className="pastryName ">Turkey Bechamel</span><br></br>
+                     <span className="pastryDescription col-5">mushroom white sauce & smoke turkey</span>
+                </div>
+            </div>
             <div className="pastryContainer">
                 <img src={plaincroissant} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
@@ -180,13 +188,6 @@ function Viennoiseries() {
                 <div className="pastryHover">
                      <span className="productName ">Pistachio Brioche</span><br></br>
                      <span className="pastryDescription ">pistachio</span>
-                </div>
-            </div>
-            <div className="pastryContainer">
-                <img src={cheddargreyure} className="pastryImg img-fluid" alt="..."></img>
-                <div className="pastryHover">
-                     <span className="productName ">Gruyère & Cheddar Brioche</span><br></br>
-                     <span className="pastryDescription "></span>
                 </div>
             </div>
             <div className="pastryContainer">
