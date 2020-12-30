@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd4ae69a96fde10743829f91dfa46d1c",
+    "revision": "84b08dc888a476a3e52e1c25b0cfc3d4",
     "url": "/index.html"
   },
   {
-    "revision": "e9d511a0cabd591e8d85",
-    "url": "/static/css/main.9c15b434.chunk.css"
+    "revision": "825d8cf676815f46e44b",
+    "url": "/static/css/main.90afd2c5.chunk.css"
   },
   {
-    "revision": "e4daaf3412688f39ea76",
-    "url": "/static/js/2.b2d205ea.chunk.js"
+    "revision": "bc88ef6fcdf0268767a9",
+    "url": "/static/js/2.2b57ef9f.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/static/js/2.b2d205ea.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2b57ef9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9d511a0cabd591e8d85",
-    "url": "/static/js/main.3266e91e.chunk.js"
+    "revision": "825d8cf676815f46e44b",
+    "url": "/static/js/main.7652354b.chunk.js"
   },
   {
     "revision": "021a01c22d676943a1ae",
@@ -132,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/canele.5287f93f.png"
   },
   {
+    "revision": "7576d75575daad95f322f62a1bb44d6f",
+    "url": "/static/media/cb.7576d755.png"
+  },
+  {
     "revision": "11750a72a02d67c1bc961419223c293f",
     "url": "/static/media/cheddargreyure.11750a72.png"
   },
@@ -170,10 +174,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5b913fc9d57f67c7e98e7145e71c24bb",
     "url": "/static/media/cream.5b913fc9.png"
-  },
-  {
-    "revision": "99d666756e8b35e08bf73c128f3965f8",
-    "url": "/static/media/dor.99d66675.png"
   },
   {
     "revision": "8166224b6c531017b9a55ae4b1cf67cc",
@@ -362,6 +362,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "95b97c4005d1f7046219f17f3b258130",
     "url": "/static/media/tropezienne.95b97c40.png"
+  },
+  {
+    "revision": "fb427005012e515d6911a1e59f07cb19",
+    "url": "/static/media/turkeyB.fb427005.png"
   },
   {
     "revision": "a4908291149c4ab2177faccc4fb2a326",
