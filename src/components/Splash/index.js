@@ -120,18 +120,7 @@ render() {
         <br></br>     
         </Col>
         <br></br>
-            <Row>     
-            <Col lg={12}><p class="pageTitle col-12">HOLIDAY HOURS</p></Col>
-                <Col lg={6} className="days">
-                    <p>Dec 31st</p>
-                    <p>Jan 1st</p>
-                </Col>
-                <Col lg={6} className="hours">
-                    <p>10am - 4pm</p>
-                    <p>10am - 4pm</p>
-                </Col>
 
-            </Row>
 
         </div></Col>
     </Row>

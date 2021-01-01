@@ -223,7 +223,7 @@ function Single() {
             <div className="cakeHover row">
                 <div className="productName">
                     <p>ST HONORE</p>
-                    <p className="cakeSize">Available as a whole cake</p>  
+                    <p className="cakeSize">Only available on Saturdays</p>  
                 </div> 
                 <div className="cakeDescription">
                     <p>Hazelnut mousseline</p>

@@ -62,6 +62,13 @@ import salamiandcheese2 from "./viennoiseriesImage/salamiandcheese.png";
 import tropezienne2 from "./viennoiseriesImage/tropezienne.png";
 import vanillacustard2 from "./viennoiseriesImage/vanillacustard.png";
 import turkeyB from "./viennoiseriesImage/turkeyB.png";
+// import hazelnutBanana from "./viennoiseriesImage/hazelnutBanana.png";
+// import appleturnover from "./viennoiseriesImage/appleturnover.png";
+// import plum from "./viennoiseriesImage/plum.png";
+// import pear from "./viennoiseriesImage/pear.png";
+
+
+
 
 function Viennoiseries() {
     return (
@@ -271,7 +278,7 @@ function Viennoiseries() {
                 <img src={quiche} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
                      <span className="productName">Daily Quiche</span><br></br>
-                     <span className="pastryDescription ">Lorranie, Eggplant, Salmon, Shepherd's</span>
+                     <span className="pastryDescription ">Salmon, Shepherd's</span>
                 </div>
             </div>
 

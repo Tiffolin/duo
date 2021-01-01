@@ -30,6 +30,7 @@ function Drinks() {
                     <p><span>Café au lait </span>
                         <span className="drinkDescript"></span>
                     </p>
+                    <p>Double Coconut</p>
                 </Col>
                 <Col lg={5} className="temp">
                     <p>Hot</p>
@@ -41,6 +42,7 @@ function Drinks() {
                     <p>Hot/Ice</p>
                     <p>Hot/Ice</p>
                     <p>Hot</p>
+                    <p>Hot/Ice</p>
                 </Col>
                 <p className="pageTitle col-12">TEA</p>
                 <Col lg={7} className="productName2 drinkName">
@@ -95,9 +97,6 @@ function Drinks() {
                     <p><span>Black Sesame Latte</span>
                     <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
-                    <p><span>Hazelnut Latte </span>
-                        <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
-                    </p>
                     <p><span>Ginger Lemonade </span>
                         <span><img src={caffeineFree} className="caffeineFree" alt="..."></img></span>
                     </p>
@@ -110,7 +109,6 @@ function Drinks() {
                     <p>Hot</p>
                     <p>Hot/Ice</p>
                     <p>Hot/Ice</p>
-                    <p>Hot</p>
                     <p>Hot</p>
                     <p>Hot/Ice</p>
                     <p>Hot/Ice</p>
@@ -140,7 +138,7 @@ function Drinks() {
                     <p><span>1 Scoop of Honey</span></p>
                     <p><span>1 Tea bag</span> </p>
                     <p><span>Steamed milk</span> </p>
-                    <p><span>Dairy choices & alternatives: Whole | Skim | Lactose | Soy </span></p>
+                    <p><span>Dairy choices & alternatives: Whole | Oat | Soy </span></p>
                 </Col>
 
             </Row>

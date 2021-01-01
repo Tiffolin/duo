@@ -33,7 +33,6 @@ function Retail() {
                             <p>Madeleine</p>
                             <p>Chocolate Financier</p>
                             <p>Pistachio Financiers</p>
-                            <p>Salted Butter Financier</p>
                             <p>Florentine</p>
                             <p>Chocolate Sable</p>
                             <p>Butter Sand</p>
@@ -48,7 +47,8 @@ function Retail() {
                             <p>Strawberry Coconut Meringue</p>
                             <p>Pecan Chocolate</p>
                             <p>Margherita</p>
-                            <p>Multi-Grain</p>
+                            <p>Chocolate Cigar</p>
+
                         </div>
 
                         <p className="productTitle col-12">Jam Bottles</p>       
