@@ -28,7 +28,7 @@ render() {
     return (
         <div >
         <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
-            <span className="alert ">Please Note: Duo will be closed the week of <b>January 4th, 2021</b>. We will re-open on Tuesday, <b>January 12th, 2020</b></span><br></br>
+            <span className="alert ">Please Note: Duo will be closed the week of <b>January 4th, 2021</b>. We will re-open on Tuesday, <b>January 12th, 2021</b></span><br></br>
             <span className="alert "></span><br></br> 
             
         </Alert>
