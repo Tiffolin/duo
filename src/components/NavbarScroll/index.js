@@ -42,7 +42,7 @@ return(
       <Nav.Link href="#"><NavLink to = "/BonBons" className={"navlinks nav-link"}>BON BONS </NavLink></Nav.Link>
       <Nav.Link href="#"><NavLink to = "/Drinks" className={"navlinks nav-link"} >DRINKS </NavLink></Nav.Link>
       <Nav.Link href="#"><NavLink to = "/Retail" className={"navlinks nav-link"}>RETAIL </NavLink></Nav.Link>
-      <Nav.Link href="#"><NavLink to = "/LocationHours" className={"navlinks nav-link"} >LOCATION/HOURS </NavLink></Nav.Link>
+      <Nav.Link href="#"><NavLink to = "/LocationHours" className={"navlinks nav-link"} >CONTACT US </NavLink></Nav.Link>
       <Nav.Link href="#"><NavLink to = "/About" className={"navlinks nav-link"}>ABOUT </NavLink></Nav.Link>
     </Nav>
   </Navbar.Collapse>

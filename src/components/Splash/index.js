@@ -27,11 +27,11 @@ class Splash extends Component {
 render() {
     return (
         <div >
-        <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
+        {/* <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
             <span className="alert ">Please Note: Duo will be closed the week of <b>January 4th, 2021</b>. We will re-open on Tuesday, <b>January 12th, 2021</b></span><br></br>
             <span className="alert "></span><br></br> 
             
-        </Alert>
+        </Alert> */}
         <div id="splashpage" class="justify-content-center container-fluid">
      
         <div className="desktopView navbar navbar-expand-lg navbar-light bg-light justify-content-center contain-fluid">
@@ -48,7 +48,7 @@ render() {
                 <li><NavLink to = "/BonBons" className={"navlinks nav-link "}>BON BONS </NavLink></li>
                 <li><NavLink to = "/Drinks" className={"navlinks nav-link "}>DRINKS </NavLink></li>
                 <li><NavLink to = "/Retail" className={"navlinks nav-link "}>RETAIL </NavLink></li>
-                <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>LOCATION/HOURS </NavLink></li>
+                <li><NavLink to = "/LocationHours" className={"navlinks nav-link "}>CONTACT US </NavLink></li>
                 <li><NavLink to = "/About" className={"navlinks nav-link "} >ABOUT </NavLink></li>    
                 </ul>
             </div>  
@@ -115,7 +115,7 @@ render() {
         <p>____________________________________________________________________________________________________________</p>    
             <span >In compliance to York Region's COVID-19 regulations, Duo has implemented a "Take-out only" model</span><br></br>
             <span >Washrooms will be closed to the public & facemasks are mandatory indoors</span><br></br>
-            <span >Please see our Location/Hours page for current Operational hours</span><br></br>
+            <span >Please see the "Contact us" page for current Operational hours</span><br></br>
         <p>____________________________________________________________________________________________________________</p>  
         <br></br>     
         </Col>

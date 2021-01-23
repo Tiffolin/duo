@@ -31,6 +31,7 @@ function Footer() {
                     </Col>
                     <Col lg={2}md={2} sm={0}></Col>
                     <Col lg={4} md={4} sm={12} className="footerDivider">
+                    
                         <p className="pageTitle">FOLLOW US ON:</p>
                         <div id="snsContainer">
                             <a href="https://www.instagram.com/duo_patisserie/">
@@ -42,11 +43,14 @@ function Footer() {
                             {/* <a href="https://www.linkedin.com/company/duopatisserie/">
                                 <span id="linkedIn"><img src={linkedIn} className="snsImg img-fluid" alt="..."></img></span>
                             </a> */}
-                        </div>            
+                        </div>  
+                                
                         <div id="footerAddress">
+                        <p className="footerAddressSub">TEL: <a href="tel:+19057632232">(905) 763-2232</a> </p>  
+                        <br></br>
                             <p className="footerAddressSub">ADDRESS</p>
-                            <p className="footerAddressSub">230 Commerce Valley Dr E #4 Thornhill</p>
-                            <p className="footerAddressSub">L3T 7Y3，Ontario, Canada</p>
+                            <a href="https://goo.gl/maps/YhJ9RKqDEXbY6aJGA"><p className="footerAddressSub">230 Commerce Valley Dr E #4 Thornhill</p>
+                            <p className="footerAddressSub">L3T 7Y3，Ontario, Canada</p></a>
                         </div>
                     </Col>
                     <Col lg={1}md={1} sm={0}></Col>

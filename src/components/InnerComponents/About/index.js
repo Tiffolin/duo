@@ -18,8 +18,8 @@ function About() {
                             <p>Duo pâtisserie is a French inspired café with a Japanese flare that specializes in viennoiseries, cakes and chocolates.</p>
                             <br></br>
                             <p>The business aims to serve decadent French classics to satisfy your sweet cravings.</p>
-       
- 
+                            <br></br>
+                            
                            <div className="quotes">
                             <p>
                                 "They're not French, but their obsession with the craft has raised the bar for croissants." - Suresh Doss, CBC Canada

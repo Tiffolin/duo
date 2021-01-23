@@ -1,20 +1,38 @@
 import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Order from "../Order";
 
 
 function LocationHours() {
     return (
 <div id="location" className="col-12  justify-content-md-center sections">
 
-    <p class="pageTitle col-12">LOCATION & HOURS</p>
-    <div className="notice col-12  justify-content-md-center">
-        Due to COVID-19, we are faced with the challenge of both shortage of supplies and staff.  
-        As a result, our store hours, products, and availability may change at anytime.  
-        We advise customers to call us in advance to place your order (1 business day required), 
-        check product availability and confirm store hours.  
-        We apologize in advance for any inconvenience we may have caused, and we are trying our best to serve you better.
-    </div>
+    <p class="pageTitle col-12">Contact Us</p>
+        <Order />
+
+    <div id="location" className="col-12  justify-content-md-center sections">
+    <Row>
+
+    <Col lg={3}></Col>
+        <Col lg={7} sm={12}>        
+        <div className="hoursMapWrapper justify-content-md-center">
+        <Col lg={12} className="maxOrder">    
+        <p>____________________________________________________________________________________________________________</p>    
+            <span >Due to COVID-19, we are faced with the challenge of both shortage of supplies and staff.</span><br></br>
+            <span >As a result, our store hours, products, and availability may change at anytime.</span><br></br>
+            <span >We advise customers to call us in advance to place your order (1 business day required),</span><br></br>
+            <span >check product availability and confirm store hours.</span><br></br>
+            <span >We apologize in advance for any inconvenience we may have caused, and we are trying our best to serve you better.</span><br></br>
+        <p>____________________________________________________________________________________________________________</p>  
+        <br></br>     
+        </Col>
+        <br></br>
+
+
+        </div></Col>
+    </Row>
+</div>
     <Row>
         <Col lg={6} sm={12}>        
         <div className="hoursMapWrapper justify-content-md-center">
