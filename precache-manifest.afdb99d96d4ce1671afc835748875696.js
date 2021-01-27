@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "570c237ffde30f571cf4b7a676dbacce",
+    "revision": "5c4674d8285bec568d63baacbce85b34",
     "url": "/index.html"
   },
   {
-    "revision": "597afb4a5b3dbc835147",
+    "revision": "082b31c4b82e2818737e",
     "url": "/static/css/main.90afd2c5.chunk.css"
   },
   {
-    "revision": "4b5f3e4004bd992d1f9e",
-    "url": "/static/js/2.7d75a11e.chunk.js"
+    "revision": "bbfcc4c107acfd621fc7",
+    "url": "/static/js/2.943d8337.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/static/js/2.7d75a11e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.943d8337.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "597afb4a5b3dbc835147",
-    "url": "/static/js/main.f57ce399.chunk.js"
+    "revision": "082b31c4b82e2818737e",
+    "url": "/static/js/main.38917075.chunk.js"
   },
   {
     "revision": "021a01c22d676943a1ae",
@@ -30,14 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3865179e0610479cf48151ce62918325",
     "url": "/static/media/2.3865179e.png"
-  },
-  {
-    "revision": "09c330b6e393ff6f4a46dcb0dba85fe4",
-    "url": "/static/media/3.09c330b6.png"
-  },
-  {
-    "revision": "50bb12cbdea30e0ff5ac72f1e0d0a8b5",
-    "url": "/static/media/4.50bb12cb.png"
   },
   {
     "revision": "2ff92d9dce4c2e2a6e6798889f6872b6",
@@ -264,12 +256,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mona.a96b57cd.png"
   },
   {
+    "revision": "34b768e272933ec75204dd4df648d2d3",
+    "url": "/static/media/monet.34b768e2.png"
+  },
+  {
+    "revision": "a97bf05e20730cf3377faa33fddc4bac",
+    "url": "/static/media/monet.a97bf05e.png"
+  },
+  {
     "revision": "56f1923d9d80896f682bc09ec249229c",
     "url": "/static/media/nova.56f1923d.png"
   },
   {
     "revision": "a8d31507780aa8bfee0c6fd3d359b5cb",
     "url": "/static/media/panauchocolat.a8d31507.png"
+  },
+  {
+    "revision": "859f1972dcea1cc89a57442b5b2dbaf2",
+    "url": "/static/media/parfait.859f1972.png"
   },
   {
     "revision": "d86de28603b0e0967ccf22eb0611df2f",
