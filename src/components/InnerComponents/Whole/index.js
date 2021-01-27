@@ -16,6 +16,7 @@ import supernova from "./wholeImage/supernova.png";
 import mona from "./wholeImage/mona.png";
 import pistache from "./wholeImage/pistache.png";
 import fei from "./wholeImage/fei.png";
+import monet from "./wholeImage/monet.png";
 // import pavlova from "./wholeImage/pavlova.png";
 ////////////XMAS Cakes 2020///////////////////
 // import xmas from "./wholeImage/xmas.png";
@@ -38,7 +39,28 @@ function Whole() {
         <div id="whole" className=" row justify-content-md-center">
         <p className="pageTitle">WHOLE CAKES</p>
         <Allergens />
-
+        <div className="cakeContainer">
+                <img src={monet} className="cakeImg img-fluid" alt="..."></img>
+                <div className="cakeHover row">
+                    <div className="productName">
+                        <p>MONET</p>
+                        <p className="cakeSize">(Valentine Special)</p>  
+                        <p className="cakeSize">4 -6 serving</p>  
+                    </div>
+                    <div className="cakeDescription">
+                        <p>Chocolate Ice Cream</p>
+                        <p>Yuzu Orange Sorbet</p>
+                        <p>Almond Dacquoise </p>
+                        <p>Hazelnut Praline Crispy</p>
+                    </div>
+                    <div className="allergy">
+                        <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                        <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                        <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
+                    </div> 
+                </div>
+            </div>
         <div className="cakeContainer">
                 <img src={garden} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
@@ -105,7 +127,8 @@ function Whole() {
                 <img src={blackforest} className="cakeImg img-fluid" alt="..."></img>
                 <div className="cakeHover row">
                     <div className="productName">
-                        <p>BLACK FOREST (seasonal)</p>
+                        <p>BLACK FOREST</p>
+                        <p className="cakeSize">(seasonal)</p>  
                         <p className="cakeSize">4 serving</p>  
                     </div> 
                     <div className="cakeDescription">
