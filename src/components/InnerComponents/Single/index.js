@@ -5,7 +5,7 @@ import Allergens from "../Allergens";
 import Back from "../Back";
 // cakes images
 import avery from "./singleImage/avery.png";
-import baba from "./singleImage/baba.png";
+// import baba from "./singleImage/baba.png";
 import blackforest from "./singleImage/blackforest.png";
 import c4 from "./singleImage/c4.png";
 import creme from "./singleImage/cream.png";
@@ -21,7 +21,7 @@ import sthonore from "./singleImage/sthonore.png";
 import tatin from "./singleImage/tatin.png";
 import virgo from "./singleImage/virgo.png";
 import yuco from "./singleImage/yuco.png";
-import chiboust from "./singleImage/cb.png";
+// import chiboust from "./singleImage/cb.png";
 // allergens
 import dairy from "../Allergens/dairy.png";
 import wheat from "../Allergens/wheat.png";
@@ -39,25 +39,7 @@ function Single() {
          
         <p className="pageTitle col-12">INDIVIDUAL CAKES</p>
     <Allergens />
-        <div className="cakeContainer">
-            <img src={chiboust} className="cakeImg img-fluid" alt="..."></img>
-            <div className="cakeHover row">
-                <p className="productName">CHIBOUST</p>
-                <div className="cakeDescription">
-                    <p>Banana Chiboust cream</p>
-                    <p>Orange marmalade</p>
-                    <p>Orange crémeux</p>
-                    <p>Caramelized banana</p>
-                    <p>Short crust</p>
-                </div>     
-                <div className="allergy">
-                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergen col-2" src={alcohol} alt="alcohol"></img></span>
-                </div>
-            </div>
-        </div>
+
         <div className="cakeContainer">
             <img src={montblanc} className="cakeImg img-fluid" alt="..."></img>
             <div className="cakeHover row">
@@ -374,30 +356,7 @@ function Single() {
                 </div>                 
             </div>
         </div>
-        <div className="cakeContainer">
-            <img src={baba} className="cakeImg img-fluid" alt="..."></img>
-            <div className="cakeHover row">
-                <p className="productName ">BABA</p>
-                <div className="cakeDescription ">
-                    <p>Congnac crème brûlée</p>
-                    <p>Pouched pear</p>
-                    <p>Vanilla cream</p>
-                    <p>Rhum Baba</p>
-                    <p>Almond crumble</p>
-                </div>
-                <div className="allergy ">
-                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
-                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
-                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
-                    <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
-                    <span> <img className="allergen col-2" src={alcohol} alt="alcohol"></img></span>                    
-                </div> 
-
-            </div>
-        </div>
-        
-        
-        
+    
         </div>
         <Back />
 </div>
