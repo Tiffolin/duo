@@ -277,8 +277,11 @@ function Viennoiseries() {
             <div className="pastryContainer">
                 <img src={quiche} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
-                     <span className="productName">Daily Quiche</span><br></br>
+                     <span className="productName">Quiche</span><br></br>
                      <span className="pastryDescription ">Salmon, Shepherd's</span>
+                     <br></br>
+                     <span className="pastryDescription ">(Friday, Saturday, Sunday)</span>
+                     
                 </div>
             </div>
 
