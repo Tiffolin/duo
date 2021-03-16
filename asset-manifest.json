@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.90afd2c5.chunk.css",
-    "main.js": "/static/js/main.a638d221.chunk.js",
-    "main.js.map": "/static/js/main.a638d221.chunk.js.map",
+    "main.css": "/static/css/main.5bd58f88.chunk.css",
+    "main.js": "/static/js/main.d4e0c9dd.chunk.js",
+    "main.js.map": "/static/js/main.d4e0c9dd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d6455a2.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d6455a2.js.map",
-    "static/js/2.66e3f996.chunk.js": "/static/js/2.66e3f996.chunk.js",
-    "static/js/2.66e3f996.chunk.js.map": "/static/js/2.66e3f996.chunk.js.map",
+    "static/js/2.a666de71.chunk.js": "/static/js/2.a666de71.chunk.js",
+    "static/js/2.a666de71.chunk.js.map": "/static/js/2.a666de71.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b38b458d0c068174bca65010590bf936.js": "/precache-manifest.b38b458d0c068174bca65010590bf936.js",
+    "precache-manifest.f46e7f8574efeac6ab9e9b5c86b80960.js": "/precache-manifest.f46e7f8574efeac6ab9e9b5c86b80960.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.90afd2c5.chunk.css.map": "/static/css/main.90afd2c5.chunk.css.map",
-    "static/js/2.66e3f996.chunk.js.LICENSE.txt": "/static/js/2.66e3f996.chunk.js.LICENSE.txt",
+    "static/css/main.5bd58f88.chunk.css.map": "/static/css/main.5bd58f88.chunk.css.map",
+    "static/js/2.a666de71.chunk.js.LICENSE.txt": "/static/js/2.a666de71.chunk.js.LICENSE.txt",
     "static/media/1.png": "/static/media/1.0b15fc4e.png",
     "static/media/2.png": "/static/media/2.3865179e.png",
     "static/media/3.png": "/static/media/3.09c330b6.png",
@@ -21,6 +21,7 @@
     "static/media/apple.png": "/static/media/apple.eae352a2.png",
     "static/media/applecroissant.png": "/static/media/applecroissant.ae49a8d3.png",
     "static/media/avery.png": "/static/media/avery.8417f49f.png",
+    "static/media/baba.png": "/static/media/baba.28e5f019.png",
     "static/media/banane.png": "/static/media/banane.dd81a91a.png",
     "static/media/bichon.png": "/static/media/bichon.f070dc4e.png",
     "static/media/blackforest.png": "/static/media/blackforest.abd4c3ab.png",
@@ -65,6 +66,8 @@
     "static/media/panauchocolat.png": "/static/media/panauchocolat.a8d31507.png",
     "static/media/payment.png": "/static/media/payment.d86de286.png",
     "static/media/peacan.png": "/static/media/peacan.a5ac01fb.png",
+    "static/media/peach.png": "/static/media/peach.8de55284.png",
+    "static/media/pear.png": "/static/media/pear.0896cfd6.png",
     "static/media/pearl.png": "/static/media/pearl.aef89569.png",
     "static/media/pistache.png": "/static/media/pistache.ffec7818.png",
     "static/media/pistachiobrioche.png": "/static/media/pistachiobrioche.64504deb.png",
@@ -92,8 +95,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9d6455a2.js",
-    "static/js/2.66e3f996.chunk.js",
-    "static/css/main.90afd2c5.chunk.css",
-    "static/js/main.a638d221.chunk.js"
+    "static/js/2.a666de71.chunk.js",
+    "static/css/main.5bd58f88.chunk.css",
+    "static/js/main.d4e0c9dd.chunk.js"
   ]
 }
