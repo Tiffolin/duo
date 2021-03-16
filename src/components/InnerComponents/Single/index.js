@@ -5,7 +5,7 @@ import Allergens from "../Allergens";
 import Back from "../Back";
 // cakes images
 import avery from "./singleImage/avery.png";
-// import baba from "./singleImage/baba.png";
+import baba from "./singleImage/baba.png";
 import blackforest from "./singleImage/blackforest.png";
 import c4 from "./singleImage/c4.png";
 import creme from "./singleImage/cream.png";
@@ -356,7 +356,28 @@ function Single() {
                 </div>                 
             </div>
         </div>
-    
+            <div className="cakeContainer">
+            <img src={baba} className="cakeImg img-fluid" alt="..."></img>
+            <div className="cakeHover row">
+                <p className="productName ">BABA</p>
+                <div className="cakeDescription ">
+                    <p>Mandarin Yuzu, Crémeux</p>
+                    <p>Mulled Wine</p>
+                    <p>Soaked Brioche</p>
+                    <p>Segemented Orange</p>
+                    <p>Vanilla Pastry & Cream</p>
+                    <p>Pipette</p>
+        
+                </div> 
+                <div className="allergy ">
+                    <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
+                    <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
+                    <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
+                    <span> <img className="allergen col-2" src={alcohol} alt="nuts"></img></span>
+                </div>                 
+            </div>
+        </div>
+
         </div>
         <Back />
 </div>

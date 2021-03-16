@@ -64,8 +64,8 @@ import vanillacustard2 from "./viennoiseriesImage/vanillacustard.png";
 import turkeyB from "./viennoiseriesImage/turkeyB.png";
 // import hazelnutBanana from "./viennoiseriesImage/hazelnutBanana.png";
 // import appleturnover from "./viennoiseriesImage/appleturnover.png";
-// import plum from "./viennoiseriesImage/plum.png";
-// import pear from "./viennoiseriesImage/pear.png";
+import peach from "./viennoiseriesImage/peach.png";
+import pear from "./viennoiseriesImage/pear.png";
 
 
 
@@ -76,7 +76,19 @@ function Viennoiseries() {
     <Order />
         <div id="viennoiseries" className="row justify-content-center">
         <p class="pageTitle col-12">VIENNOISERIES</p>
-
+            <div className="pastryContainer">
+                <img src={pear} className="pastryImg img-fluid" alt="..."></img>
+                <div className="pastryHover">
+                     <span className="pastryName ">Pear Danish</span><br></br>
+                     <span className="pastryDescription col-5">pear & caramel pastry cream</span>
+                </div>
+            </div>
+                        <div className="pastryContainer">
+                <img src={peach} className="pastryImg img-fluid" alt="..."></img>
+                <div className="pastryHover">
+                     <span className="pastryName ">Peach</span><br></br>
+                </div>
+            </div>
             <div className="pastryContainer">
                 <img src={turkeyB} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
