@@ -14,7 +14,7 @@ function Order() {
             <br></br>
             <br></br> */}
 
-            <p className="placeOrder">For all orders, a minimum of 1 business day is required. Please call us at <a href="tel:+19057632232">(905) 763-2232</a> during our regular business hours.</p>
+            <p className="placeOrder">For orders, cancellations & rescheules, a minimum of 1 business day is required. Please call us at <a href="tel:+19057632232">(905) 763-2232</a> during our regular business hours.</p>
             <p className="orderSub">Full payment is required for over the phone orders over $50 or more</p>
         </div>   
 

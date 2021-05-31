@@ -17,7 +17,7 @@ import mixberries from "./singleImage/mixberries.png";
 import nova from "./singleImage/nova.png";
 import pearl from "./singleImage/pearl.png";
 import pistache from "./singleImage/pistache.png";
-import sthonore from "./singleImage/sthonore.png";
+// import sthonore from "./singleImage/sthonore.png";
 import tatin from "./singleImage/tatin.png";
 import virgo from "./singleImage/virgo.png";
 import yuco from "./singleImage/yuco.png";
@@ -200,7 +200,7 @@ function Single() {
                 </div> 
             </div>
         </div>
-        <div className="cakeContainer">
+        {/* <div className="cakeContainer">
             <img src={sthonore} className="cakeImg img-fluid" alt="..."></img>
             <div className="cakeHover row">
                 <div className="productName">
@@ -221,7 +221,7 @@ function Single() {
                     <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                 </div> 
             </div>
-        </div>
+        </div> */}
         <div className="cakeContainer">
             <img src={avery} className="cakeImg img-fluid" alt="..."></img>
             <div className="cakeHover row">
