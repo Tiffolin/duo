@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.5bd58f88.chunk.css",
-    "main.js": "/static/js/main.d4e0c9dd.chunk.js",
-    "main.js.map": "/static/js/main.d4e0c9dd.chunk.js.map",
+    "main.js": "/static/js/main.f902c6f1.chunk.js",
+    "main.js.map": "/static/js/main.f902c6f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d6455a2.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d6455a2.js.map",
-    "static/js/2.a666de71.chunk.js": "/static/js/2.a666de71.chunk.js",
-    "static/js/2.a666de71.chunk.js.map": "/static/js/2.a666de71.chunk.js.map",
+    "static/js/2.8eab78b8.chunk.js": "/static/js/2.8eab78b8.chunk.js",
+    "static/js/2.8eab78b8.chunk.js.map": "/static/js/2.8eab78b8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f46e7f8574efeac6ab9e9b5c86b80960.js": "/precache-manifest.f46e7f8574efeac6ab9e9b5c86b80960.js",
+    "precache-manifest.d1a9989713bfddfd0bdd00dbe12c4e5d.js": "/precache-manifest.d1a9989713bfddfd0bdd00dbe12c4e5d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5bd58f88.chunk.css.map": "/static/css/main.5bd58f88.chunk.css.map",
-    "static/js/2.a666de71.chunk.js.LICENSE.txt": "/static/js/2.a666de71.chunk.js.LICENSE.txt",
+    "static/js/2.8eab78b8.chunk.js.LICENSE.txt": "/static/js/2.8eab78b8.chunk.js.LICENSE.txt",
     "static/media/1.png": "/static/media/1.0b15fc4e.png",
     "static/media/2.png": "/static/media/2.3865179e.png",
     "static/media/3.png": "/static/media/3.09c330b6.png",
@@ -81,7 +81,6 @@
     "static/media/salamiandcheese.png": "/static/media/salamiandcheese.56fdba58.png",
     "static/media/sicily.png": "/static/media/sicily.ad782b13.png",
     "static/media/soleil.png": "/static/media/soleil.0e207dd8.png",
-    "static/media/sthonore.png": "/static/media/sthonore.4e882360.png",
     "static/media/storeFront.png": "/static/media/storeFront.036efc5a.png",
     "static/media/supernova.png": "/static/media/supernova.92447a40.png",
     "static/media/tatin.png": "/static/media/tatin.97201483.png",
@@ -95,8 +94,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9d6455a2.js",
-    "static/js/2.a666de71.chunk.js",
+    "static/js/2.8eab78b8.chunk.js",
     "static/css/main.5bd58f88.chunk.css",
-    "static/js/main.d4e0c9dd.chunk.js"
+    "static/js/main.f902c6f1.chunk.js"
   ]
 }
