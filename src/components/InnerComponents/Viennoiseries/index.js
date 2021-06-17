@@ -66,6 +66,8 @@ import turkeyB from "./viennoiseriesImage/turkeyB.png";
 // import appleturnover from "./viennoiseriesImage/appleturnover.png";
 import peach from "./viennoiseriesImage/peach.png";
 import pear from "./viennoiseriesImage/pear.png";
+import appleTurnover from "./viennoiseriesImage/appleTurnover.png";
+import chestnutTart from "./viennoiseriesImage/chestnutTart.png";
 
 
 
@@ -76,6 +78,21 @@ function Viennoiseries() {
     <Order />
         <div id="viennoiseries" className="row justify-content-center">
         <p class="pageTitle col-12">VIENNOISERIES</p>
+
+            <div className="pastryContainer">
+                <img src={chestnutTart} className="pastryImg img-fluid" alt="..."></img>
+                <div className="pastryHover">
+                     <span className="pastryName ">Chestnut Tart</span><br></br>
+                     <span className="pastryDescription col-5">chestnut pastry cream, rum</span>
+                </div>
+            </div>
+            <div className="pastryContainer">
+                <img src={appleTurnover} className="pastryImg img-fluid" alt="..."></img>
+                <div className="pastryHover">
+                     <span className="pastryName ">Apple Turnover</span><br></br>
+                     <span className="pastryDescription col-5"> </span>
+                </div>
+            </div>
             <div className="pastryContainer">
                 <img src={pear} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
@@ -83,7 +100,7 @@ function Viennoiseries() {
                      <span className="pastryDescription col-5">pear & caramel pastry cream</span>
                 </div>
             </div>
-                        <div className="pastryContainer">
+            <div className="pastryContainer">
                 <img src={peach} className="pastryImg img-fluid" alt="..."></img>
                 <div className="pastryHover">
                      <span className="pastryName ">Peach</span><br></br>
@@ -296,6 +313,7 @@ function Viennoiseries() {
                      
                 </div>
             </div>
+
 
         </div>
         <Back />
