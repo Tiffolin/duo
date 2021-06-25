@@ -232,7 +232,6 @@ function Whole() {
                         <span> <img className="allergen col-2" src={wheat} alt="wheat"></img></span>
                         <span> <img className="allergen col-2" src={dairy} alt="dairy"></img></span>
                         <span> <img className="allergen col-2" src={egg} alt="egg"></img></span>
-                        <span> <img className="allergen col-2" src={nuts} alt="nuts"></img></span>
                         <span> <img className="allergen col-2" src={alcohol} alt="alcohol"></img></span> 
                     </div> 
                 </div>
