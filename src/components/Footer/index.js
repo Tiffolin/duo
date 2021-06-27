@@ -24,7 +24,7 @@ function Footer() {
                       
                         <p className="orderSub nosolicitations">*No orders or solicitations please</p>
                         <div id="email" className="justify-content-center">
-                            <a href="mailto:Info@duo-patisserie.com?cc=cjclgd@gmail.com&subject=Job%20Candidate:%20[position%20]&body=I'm%20interested%20in%20joining%20the%0A%0Aa)%20Front%20Team%20(Barista)%0A%0Ab)%20Back%20Team%20(Kitchen)%0A%0AI%20can%20work%20the%20following%20days:%0A%0AI%20can%20start%20on:%0A%0AThe%20best%20times%20to%20reach%20me%20are:%0A%0APlease%20briefly%20introduce%20yourself%20and%20attach%20your%20resume%0A%0AOnly%20selected%20candidates%20will%20be%20contacted%0A%0AThank%20you%20for%20your%20interested%20in%20Duo%20Patisserie%20&%20Cafe%0A%0A">
+                            <a href="mailto:Info@duo-patisserie.com?cc=cjclgd@gmail.com, duopatisserie230@gmail.com&subject=Job%20Candidate:%20[position%20]&body=I'm%20interested%20in%20joining%20the%0A%0Aa)%20Front%20Team%20(Barista)%0A%0Ab)%20Back%20Team%20(Kitchen)%0A%0AI%20can%20work%20the%20following%20days:%0A%0AI%20can%20start%20on:%0A%0AThe%20best%20times%20to%20reach%20me%20are:%0A%0APlease%20briefly%20introduce%20yourself%20and%20attach%20your%20resume%0A%0AOnly%20selected%20candidates%20will%20be%20contacted%0A%0AThank%20you%20for%20your%20interested%20in%20Duo%20Patisserie%20&%20Cafe%0A%0A">
                             <img src={email} className="emailImg img-fluid" alt="..."></img> 
                             </a>
                         </div>
@@ -44,14 +44,28 @@ function Footer() {
                                 <span id="linkedIn"><img src={linkedIn} className="snsImg img-fluid" alt="..."></img></span>
                             </a> */}
                         </div>  
-                                
-                        <div id="footerAddress">
-                        <p className="footerAddressSub">TEL: <a href="tel:+19057632232">(905) 763-2232</a> </p>  
-                        <br></br>
-                            <p className="footerAddressSub">ADDRESS</p>
-                            <a href="https://goo.gl/maps/YhJ9RKqDEXbY6aJGA"><p className="footerAddressSub">230 Commerce Valley Dr E #4 Thornhill</p>
-                            <p className="footerAddressSub">L3T 7Y3，Ontario, Canada</p></a>
-                        </div>
+                    <Row>
+                        
+                        <Col lg={6}md={6} sm={12}>
+                            <div id="footerAddress">
+                            <p className="footerAddressTitle">DUO PÂTISSERIE:</p>
+                                <p className="footerAddressSub">230 Commerce Valley Dr East</p>
+                                <p className="footerAddressSub">Thornhill, ON</p>
+                                <p className="footerAddressSub">L3T 7Y3, Canada</p>
+                                <p><a href="tel:+19057632232">(905) 763-2232</a></p>
+                            </div>
+                        </Col>
+                        
+                        <Col lg={6}md={6} sm={12}>
+                            <div id="footerAddress">
+                                <p className="footerAddressTitle">DUO CAFÉ:</p>
+                                <p className="footerAddressSub">9206 Leslie Street</p>
+                                <p className="footerAddressSub">Richmond Hill, ON</p>
+                                <p className="footerAddressSub">L4B 2N8, Canada</p> 
+                                <p><a href="tel:+19057632232">(905) 763-2234</a></p>
+                            </div>
+                        </Col>
+                    </Row>
                     </Col>
                     <Col lg={1}md={1} sm={0}></Col>
                     <Col lg={12}className="container-fluid">
