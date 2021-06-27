@@ -39,7 +39,7 @@ function LocationHours() {
             <br></br><b>Duo Pâtisserie</b>
             <Row>     
                 <Col lg={6} className="days">
-                <p><u>Canada Day (Tues)</u></p><br></br>
+                <p><u>Canada Day</u></p><br></br>
                     <p>Monday</p>
                     <p>Tuesday</p>
                     <p>Wednesday</p>
@@ -84,7 +84,7 @@ function LocationHours() {
         <br></br><b>Duo Café</b><br></br>(Products may vary from Duo Pâtisserie)
             <Row>     
                 <Col lg={6} className="days">
-                <p><u>Canada Day (Tues)</u></p><br></br>
+                <p><u>Canada Day</u></p><br></br>
                     <p>Monday</p>
                     <p>Tuesday</p>
                     <p>Wednesday</p>
