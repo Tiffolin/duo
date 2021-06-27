@@ -81,7 +81,7 @@ function LocationHours() {
  <Row>
         <Col lg={6} sm={12}>        
         <div className="hoursMapWrapper justify-content-md-center">
-        <br></br><b>Duo Café</b>
+        <br></br><b>Duo Café</b><br></br>(Products may vary from Duo Pâtisserie)
             <Row>     
                 <Col lg={6} className="days">
                 <p><u>Canada Day (Tues)</u></p><br></br>
