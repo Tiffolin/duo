@@ -36,8 +36,10 @@ function LocationHours() {
     <Row>
         <Col lg={6} sm={12}>        
         <div className="hoursMapWrapper justify-content-md-center">
+            <br></br><b>Duo Pâtisserie</b>
             <Row>     
                 <Col lg={6} className="days">
+                <p><u>Canada Day (Tues)</u></p><br></br>
                     <p>Monday</p>
                     <p>Tuesday</p>
                     <p>Wednesday</p>
@@ -47,6 +49,7 @@ function LocationHours() {
                     <p>Sunday</p>
                 </Col>
                 <Col lg={6} className="hours">
+                <p><u>10am - 3pm</u></p><br></br>
                     <p>Closed</p>
                     <p>10am - 6pm</p>
                     <p>10am - 6pm</p>
@@ -72,6 +75,52 @@ function LocationHours() {
             </div>
         </Col>
     </Row>
+
+<br></br><br></br>
+
+ <Row>
+        <Col lg={6} sm={12}>        
+        <div className="hoursMapWrapper justify-content-md-center">
+        <br></br><b>Duo Café</b>
+            <Row>     
+                <Col lg={6} className="days">
+                <p><u>Canada Day (Tues)</u></p><br></br>
+                    <p>Monday</p>
+                    <p>Tuesday</p>
+                    <p>Wednesday</p>
+                    <p>Thursday</p>
+                    <p>Friday</p>
+                    <p>Saturday</p>
+                    <p>Sunday</p>
+                </Col>
+                <Col lg={6} className="hours">
+                <p><u>8am - 3pm</u></p><br></br>
+                    <p>Closed</p>
+                    <p>Closed</p>
+                    <p>8am - sell out</p>
+                    <p>8am - sell out</p>
+                    <p>8am - sell out</p>
+                    <p>9am - sell out</p>
+                    <p>9am - sell out</p> 
+                </Col>
+
+
+            </Row>
+        </div></Col>
+        <Col lg={6} sm={12}>
+            <div className=" hoursMapWrapper mapWrapper">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11508.649690366257!2d-79.39121851334099!3d43.85246206583749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2b96b0c30a9b%3A0x92663ae4d55da022!2zRHVvIENhZsOp!5e0!3m2!1sen!2sca!4v1624807312028!5m2!1sen!2sca" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    aria-hidden="false" 
+                    tabindex="0"
+                    title="...">
+                </iframe>
+            </div>
+        </Col>
+    </Row>
+
 
 </div>
     )
