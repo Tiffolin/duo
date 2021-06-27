@@ -30,11 +30,11 @@ class Splash extends Component {
 render() {
     return (
         <div >
-        {/* <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
+        <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
             <span className="alert "><b>Canada Day hrs (July 1st, 2021)</b><br></br>Duo Pâtisserie: 10am - 3pm <br></br>Duo Café: 8am - 3pm </span><br></br>
             <span className="alert "></span><br></br> 
             
-        </Alert> */}
+        </Alert>
         <div id="splashpage" class="justify-content-center container-fluid">
      
         <div className="desktopView navbar navbar-expand-lg navbar-light bg-light justify-content-center contain-fluid">
