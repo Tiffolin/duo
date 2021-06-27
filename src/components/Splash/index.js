@@ -31,7 +31,7 @@ render() {
     return (
         <div >
         <Alert color="warning" isOpen={this.state.visible} toggle={this.toggle.bind(this)}  className="alertBox container-fluid">
-            <span className="alert "><b>July 1st, 2021 Cadanda Day Hours</b><br></br>Duo Pâtisserie: 10am - 3pm <br></br>Duo Café: 8am - 3pm </span><br></br>
+            <span className="alert "><b>Canada Day hrs (July 1st, 2021)</b><br></br>Duo Pâtisserie: 10am - 3pm <br></br>Duo Café: 8am - 3pm </span><br></br>
             <span className="alert "></span><br></br> 
             
         </Alert>
