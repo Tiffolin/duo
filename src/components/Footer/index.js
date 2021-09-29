@@ -34,7 +34,7 @@ function Footer() {
                     
                         <p className="pageTitle">FOLLOW US ON:</p>
                         <div id="snsContainer">
-                            <a href="https://www.instagram.com/duo_patisserie/">
+                            <a href="https://www.instagram.com/duo.patisserie/">
                                 <span id="instagram"><img src={insta} className="snsImg img-fluid" alt="..."></img></span>
                             </a>
                             <a href="https://www.facebook.com/duopattiseriecafe/">
