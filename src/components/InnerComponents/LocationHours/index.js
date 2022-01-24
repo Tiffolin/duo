@@ -51,7 +51,7 @@ function LocationHours() {
                 <Col lg={6} className="hours">
 
                     <p>Closed</p>
-                    <p>10am - 6pm</p>
+                    <p>Closed</p>
                     <p>10am - 6pm</p>
                     <p>10am - 6pm</p>
                     <p>10am - 6pm</p>
